@@ -76,6 +76,6 @@ function renderReport(objReport){
 //Set report title/subtitles
 function renderRptHeader(reportElemID, reportTitle, reportSubTitle){
 	d3.select(reportElemID).select(".elname").text(reportTitle);
-	d3.select(reportElemID).select(".elsubtitle").text(reportTitle);
+	d3.select(reportElemID).select(".elsubtitle").text(reportSubTitle);
 }
 
