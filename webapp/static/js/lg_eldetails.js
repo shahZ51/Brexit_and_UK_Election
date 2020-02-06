@@ -1,5 +1,5 @@
-function renderSummary(reportElemID, reportData){
-    console.log("Render Summary " + reportElemID);
+function renderDetails(reportElemID, reportData){
+    console.log("Render Details " + reportElemID);
     /*
     console.log(reportElemID);
     console.log(reportData);
