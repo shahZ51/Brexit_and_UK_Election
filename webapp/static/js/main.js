@@ -2,8 +2,10 @@
 //variables to hold the data
 var dataRegions = [];  
 var dataConstituencies = [];
-var dataNatlElecResults = [];  
-var dataBrexitResults = [];
+var dataNatlElecResultsByConst = [];  
+var dataBrexitResultsByConst = [];
+var dataNatlElecResultsByRegion = [];  
+var dataBrexitResultsByRegion = [];
 
 var brexitElecReport = {
 	reportId: 1,
@@ -33,23 +35,45 @@ function initDashboard(){
 			dataConstituencies = data;
 			console.log(dataConstituencies);
 			
-			//Get UK National Election Results
-			d3.csv("./static/data/ukelectionresults.csv").then(function(data){
-				dataNatlElecResults = data;
-				console.log(dataNatlElecResults);	
+			//Get UK National Election Results By Const
+			d3.csv("./static/data/ukelectionresults_byconst.csv").then(function(data){
+				dataNatlElecResultsByConst = data;
+				console.log(dataNatlElecResultsByConst);	
 				
-				//Get UK Brexit Results
-				d3.csv("./static/data/ukbrexitresults.csv").then(function(data){
-					dataBrexitResults = data;
-					console.log(dataBrexitResults);		
+				//Get UK Brexit Results By Const
+				d3.csv("./static/data/ukbrexitresults_byconst.csv").then(function(data){
 
-					brexitElecReport.reportData = dataBrexitResults;
-					natlElecReport.reportData = dataNatlElecResults;
-				
-					//Initialize Report
-					renderReport(brexitElecReport);
-					renderReport(natlElecReport);
-					renderComparison(brexitElecReport,natlElecReport);
+					dataBrexitResultsByConst = data;
+					console.log(dataBrexitResultsByConst);		
+
+					//Get UK National Results By Region
+					d3.csv("./static/data/ukelectionresults_byregion.csv").then(function(data){
+						dataNatlElecResultsByRegion = data;
+						console.log(dataNatlElecResultsByRegion);	
+
+						//Get UK Brexit Results By Region
+						d3.csv("./static/data/ukbrexitresults_byregion.csv").then(function(data){
+
+							dataBrexitResultsByRegion = data;
+							console.log(dataBrexitResultsByRegion);	
+
+							//By Default 
+
+							brexitElecReport.reportData = dataNatlElecResultsByRegion;
+							natlElecReport.reportData = dataBrexitResultsByRegion;
+						
+							//Initialize Report
+							renderReport(brexitElecReport);
+							renderReport(natlElecReport);
+							renderComparison(brexitElecReport,natlElecReport);
+
+						}).catch(function(error) {
+							console.log(error); 
+						});
+
+					}).catch(function(error) {
+						console.log(error); 
+					});
 
 				}).catch(function(error) {
 					console.log(error); 
