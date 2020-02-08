@@ -4,6 +4,7 @@ function renderComparison2(objReportData1, objReportData2){
    //console.log(objNatlElec);
    console.log(objReportData1);
    console.log(objReportData2);
+   console.log("Hello");
    
 }
 
