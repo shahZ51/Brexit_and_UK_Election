@@ -6,4 +6,6 @@ function renderSummary(objReportData){
     //console.log(dataRegions);
     //console.log(dataConstituencies);
     
+    
+    //console.log(dataConstituencies);
 }
