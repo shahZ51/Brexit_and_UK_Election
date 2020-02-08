@@ -49,16 +49,22 @@ function initDashboard(){
 						d3.csv("./static/data/ukbrexitresults_byregion.csv").then(function(data){
 							
 							console.log("Initialize Report");
-							dataBrexitResultsByRegion = data;							
-
+							dataBrexitResultsByRegion = data;					
+							
+							//latest National Election Results
+							var latestNatlElecResultsByRegion = dataNatlElecResultsByRegion.filter(function(d){return d.year == 2019;});
+			
 							//By Default 
 							brexitElecReport.reportData = dataBrexitResultsByRegion;
-							natlElecReport.reportData = dataNatlElecResultsByRegion ;
+							natlElecReport.reportData = latestNatlElecResultsByRegion ;
 						
 							//Initialize Report
 							renderReport(brexitElecReport);
-							renderReport(natlElecReport);
+							renderReport(natlElecReport);							
 							renderComparison(brexitElecReport,natlElecReport);
+
+							natlElecReport.reportData = dataNatlElecResultsByRegion ;
+							renderComparison2(brexitElecReport,natlElecReport);
 
 						}).catch(function(error) {
 							console.log(error); 
@@ -86,9 +92,7 @@ function initDashboard(){
 function renderReport(objReportData){
 	renderRptHeader(objReportData);
 	renderSummary(objReportData);
-	renderMap(objReportData);
 	renderDetails(objReportData);
-	//renderComparison(objReportData);
 }
 
 //Set report title/subtitles
