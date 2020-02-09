@@ -65,10 +65,12 @@ function initDashboard(){
 
 								let overallNalElecResults = filterElection(3, natlElecReport, dataRegions, dataConstituencies, dataParties );
 
+								console.log("National Election Stats");
 								console.log(overallNalElecResults);
 
 								let overallBrexitResults = filterBrexit(brexitElecReport,  dataRegions, dataConstituencies);
 
+								console.log("Brexit Stats");
 								console.log(overallBrexitResults);
 
 								//By Default select ALL REgion
