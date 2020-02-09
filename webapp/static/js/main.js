@@ -11,9 +11,9 @@ var dataParties = [];
 var brexitElecReport = {
 	reportId: 1,
 	reportElemID: "#election_1",
-	reportName: "2016 Brexit",
-	//reportSubtitle: "National",
-	reportData: []
+	reportName: "2016 Brexit",	
+	reportDataRegional: [], 
+	reportDataConst:[]
 };
 
 var natlElecReport = {
@@ -56,7 +56,9 @@ function initDashboard(){
 
 								dataParties = data;
 								//By Default 
-								brexitElecReport.reportData = dataBrexitResultsByRegion;
+								brexitElecReport.reportDataRegional = dataBrexitResultsByRegion;
+								brexitElecReport.reportDataConst = dataBrexitResultsByConst;
+
 								natlElecReport.reportDataRegional = dataNatlElecResultsByRegion ;
 								natlElecReport.reportDataConst = dataNatlElecResultsByConst;
 								
@@ -65,10 +67,15 @@ function initDashboard(){
 
 								console.log(overallNalElecResults);
 
+								let overallBrexitResults = filterBrexit(brexitElecReport,  dataRegions, dataConstituencies);
+
+								console.log(overallBrexitResults);
+
 								//By Default select ALL REgion
 								filterRegion = {region_code:"ALL",
 										region_name:"ALL REGIONS"
 									}; 
+
 								d3.select('#sel_region')
 								.on('change', function() {	
 									
@@ -78,22 +85,14 @@ function initDashboard(){
 										region_name : region_name
 									} ;
 
-									renderReport(overallNalElecResults, filterRegion);										
+									renderReport(overallBrexitResults, overallNalElecResults, filterRegion);										
 								});
 
-								renderReport(overallNalElecResults, filterRegion);	
+								renderReport(overallBrexitResults, overallNalElecResults, filterRegion);	
 
 							}).catch(function(error) {
 								console.log(error); 
 							});
-							
-							//Initialize Report
-							/*
-							renderReport(brexitElecReport);
-							renderReport(natlElecReport);							
-							renderComparison(brexitElecReport,natlElecReport);
-							renderComparison2(brexitElecReport,natlElecReport);
-							*/
 
 						}).catch(function(error) {
 							//console.log(error); 
@@ -118,66 +117,25 @@ function initDashboard(){
 }
 
 //Render the report by election
-function renderReport(objReportNatlElec, filterRegion){
-	renderRptHeader(objReportNatlElec, filterRegion);
-	//renderSummary(objReportNatlElec);
-	//renderDetails(objReportNatlElec);
-	//renderSample(objReportNatlElec,"ALL");
-	renderSample(objReportNatlElec,filterRegion);
-	
+function renderReport(objReportBrexit, objReportNatlElec, filterRegion){
 
+	renderSample(objReportBrexit, objReportNatlElec,filterRegion);
+	renderRptHeader(objReportBrexit, objReportNatlElec, filterRegion);
+	renderSummary(objReportBrexit, objReportNatlElec, filterRegion);
+	renderDetails(objReportBrexit, objReportNatlElec, filterRegion);
+	renderComparison(objReportBrexit, objReportNatlElec, filterRegion);
+	renderComparison2(objReportBrexit, objReportNatlElec, filterRegion);
 }
 
 //Set report title/subtitles
-function renderRptHeader(objReportNatlElec,filterRegion){		
+function renderRptHeader(overallBrexitResults, objReportNatlElec,filterRegion){	
+	//BREXIT
+	d3.select("#election_1").select(".elname").text(overallBrexitResults.title);
+	d3.select("#election_1").select(".elsubtitle").text(filterRegion.region_name);
+
+	//NATIONAL ELECTION	
 	d3.select("#election_2").select(".elname").text(objReportNatlElec[0].title);
-
 	d3.select("#election_2").select(".elsubtitle").text(filterRegion.region_name);
-}
-
-function renderSample(objReportNatlElec, filterRegion){
-
-
-	 var arrTrace = [];
-	
-	// objReportNatlElec.top	
-	
-		objReportNatlElec[0].top_parties.parties.forEach(function(party, indx){
-
-			var xValues = [];
-			var yValues = [];
-			
-			if(filterRegion.region_code == "ALL"){
-				xValues = objReportNatlElec[0].regional_votes.region_names;
-				yValues = getElectionPercent(objReportNatlElec[0].regional_votes.region_percent, indx);
-			}else{
-				var constData = objReportNatlElec[0].regional_constituencies.filter(item => item.region_code == filterRegion.region_code)[0];
-				console.log(constData);
-				xValues = constData.constituency_votes.const_names;
-				yValues = getElectionPercent(constData.constituency_votes.const_percent, indx)
-			}
-
-			var trace = {
-				x: xValues,
-				y: yValues,				
-				name: party,
-				type: 'bar'
-			};
-	
-			arrTrace.push(trace);
-		});
-
-	
-
-		
-	
-	
-		  
-	var data = arrTrace;
-	
-	var layout = {barmode: 'stack'};
-	
-	Plotly.newPlot('elsample_2', data, layout);
 
 }
 
@@ -189,14 +147,12 @@ function getElectionPercent(arrPercent, indx){
 	return arr;
 }
 
-
-
 function filterElection(topWhat, regionalElecData,  regions, constituencies, ukparties){	
 
 	
 		reportDataRgn = regionalElecData.reportDataRegional;
 		reportDataConst = regionalElecData.reportDataConst;
-		console.log("Report Data");
+		//console.log("Report Data");
 		
 		//Get Unique Year in the report
 		let arrYear = [...new Set(reportDataRgn.map(item => item.year))];
@@ -418,8 +374,79 @@ function filterElection(topWhat, regionalElecData,  regions, constituencies, ukp
 
 }
 
+
 function filterBrexit(regionalBrxData,  regions, constituencies){
 
+	reportDataRgn = regionalBrxData.reportDataRegional;
+	reportDataConst = regionalBrxData.reportDataConst;
+	
+
+	var brexitResult = {
+		year: 2016,
+		title: "2016 Brexit Result",
+		total_votes: 0,
+		total_pct_leave: 0.0,
+		total_pct_remain: 0.0,
+		regional_votes:{},
+		regional_constituencies:[]
+	};
+
+
+	//Populate regional votes
+	brexitResult.regional_votes.region_codes = regions.map(item => item.region_code);
+	brexitResult.regional_votes.region_names = regions.map(item => item.region_name);
+
+	brexitResult.regional_votes.brexit_replies = ["LEAVE","REMAIN"];
+	brexitResult.regional_votes.region_percent = [];
+
+
+	var total_leave_votes =  reportDataRgn.map(item => parseFloat(item.vote_leave))
+		.reduce((sum, current) => sum + current, 0);
+	
+	var total_remain_votes = reportDataRgn.map(item => parseFloat(item.vote_remain))
+	.reduce((sum, current) => sum + current, 0);
+
+	var total_votes = total_leave_votes + total_remain_votes;
+
+	brexitResult.total_votes = total_votes;
+	brexitResult.total_pct_leave = total_leave_votes/total_votes;
+	brexitResult.total_pct_remain = total_remain_votes/total_votes;	
+
+	brexitResult.regional_votes.region_codes.forEach(function(region_code){
+		var arrVotes = [];
+		
+		arrVotes.push(parseFloat(reportDataRgn.filter(item => item.region_code == region_code)[0].percent_leave));
+		arrVotes.push(parseFloat(reportDataRgn.filter(item => item.region_code == region_code)[0].percent_remain));
+		brexitResult.regional_votes.region_percent.push(arrVotes);
+		brexitResult.regional_constituencies.push({
+			region_code: region_code,		
+			region_name: regions.filter(item => item.region_code == region_code)[0].region_name,
+			constituency_votes: {}
+		})
+		
+	});
+
+	//set constituency votes
+	brexitResult.regional_constituencies.forEach(function(constituency){
+		var arrConstCodes = [];
+		var arrConstNames = [];
+		arrConstCodes = constituencies.filter(item => item.region_code == constituency.region_code).map(item => item.const_code);
+		arrConstNames = constituencies.filter(item => item.region_code == constituency.region_code).map(item => item.const_name);
+		constituency.constituency_votes.const_codes = arrConstCodes;
+		constituency.constituency_votes.const_names = arrConstNames;	
+		constituency.constituency_votes.brexit_replies = ["LEAVE","REMAIN"];
+		constituency.constituency_votes.const_percent = []
+		
+		arrConstCodes.forEach(function(const_code){
+			var arrConstPercent = []
+			arrConstPercent.push(parseFloat(reportDataConst.filter(item => item.const_code == const_code)[0].percent_leave));
+			arrConstPercent.push(parseFloat(reportDataConst.filter(item => item.const_code == const_code)[0].percent_remain));
+			constituency.constituency_votes.const_percent.push(arrConstPercent);
+		});
+
+	});
+
+	return brexitResult;
 
 }
 
