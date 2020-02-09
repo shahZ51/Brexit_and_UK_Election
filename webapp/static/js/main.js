@@ -65,6 +65,24 @@ function initDashboard(){
 
 								console.log(overallNalElecResults);
 
+								//By Default select ALL REgion
+								filterRegion = {region_code:"ALL",
+										region_name:"ALL REGIONS"
+									}; 
+								d3.select('#sel_region')
+								.on('change', function() {	
+									
+									var region_name = this.value == "ALL"? "ALL REGIONS":dataRegions.filter(item => item.region_code == this.value)[0].region_name;
+									filterRegion = {
+										region_code : this.value,
+										region_name : region_name
+									} ;
+
+									renderReport(overallNalElecResults, filterRegion);										
+								});
+
+								renderReport(overallNalElecResults, filterRegion);	
+
 							}).catch(function(error) {
 								console.log(error); 
 							});
@@ -100,17 +118,77 @@ function initDashboard(){
 }
 
 //Render the report by election
-function renderReport(objReportData){
-	renderRptHeader(objReportData);
-	renderSummary(objReportData);
-	renderDetails(objReportData);
+function renderReport(objReportNatlElec, filterRegion){
+	renderRptHeader(objReportNatlElec, filterRegion);
+	//renderSummary(objReportNatlElec);
+	//renderDetails(objReportNatlElec);
+	//renderSample(objReportNatlElec,"ALL");
+	renderSample(objReportNatlElec,filterRegion);
+	
+
 }
 
 //Set report title/subtitles
-function renderRptHeader(objReportData){		
-	d3.select(objReportData.reportElemID).select(".elname").text(objReportData.reportName);
-	d3.select(objReportData.reportElemID).select(".elsubtitle").text(objReportData.reportSubtitle);
+function renderRptHeader(objReportNatlElec,filterRegion){		
+	d3.select("#election_2").select(".elname").text(objReportNatlElec[0].title);
+
+	d3.select("#election_2").select(".elsubtitle").text(filterRegion.region_name);
 }
+
+function renderSample(objReportNatlElec, filterRegion){
+
+
+	 var arrTrace = [];
+	
+	// objReportNatlElec.top	
+	
+		objReportNatlElec[0].top_parties.parties.forEach(function(party, indx){
+
+			var xValues = [];
+			var yValues = [];
+			
+			if(filterRegion.region_code == "ALL"){
+				xValues = objReportNatlElec[0].regional_votes.region_names;
+				yValues = getElectionPercent(objReportNatlElec[0].regional_votes.region_percent, indx);
+			}else{
+				var constData = objReportNatlElec[0].regional_constituencies.filter(item => item.region_code == filterRegion.region_code)[0];
+				console.log(constData);
+				xValues = constData.constituency_votes.const_names;
+				yValues = getElectionPercent(constData.constituency_votes.const_percent, indx)
+			}
+
+			var trace = {
+				x: xValues,
+				y: yValues,				
+				name: party,
+				type: 'bar'
+			};
+	
+			arrTrace.push(trace);
+		});
+
+	
+
+		
+	
+	
+		  
+	var data = arrTrace;
+	
+	var layout = {barmode: 'stack'};
+	
+	Plotly.newPlot('elsample_2', data, layout);
+
+}
+
+function getElectionPercent(arrPercent, indx){	
+	var arr = []
+	arrPercent.forEach(function(pct) {		
+		arr.push(pct[indx] * 100);
+	});	
+	return arr;
+}
+
 
 
 function filterElection(topWhat, regionalElecData,  regions, constituencies, ukparties){	
@@ -241,7 +319,7 @@ function filterElection(topWhat, regionalElecData,  regions, constituencies, ukp
 							const_data = reportDataConst.filter(item => item.party_code == party.party_code && item.year == ypVotes.year && item.const_code == constituency.const_code)[0];
 							if(const_data != undefined){
 								party_votes.party_percent = parseFloat(const_data.party_percent);	
-								const_top_party_percent = const_top_party_percent + parseFloat(region_data.party_percent);
+								const_top_party_percent = const_top_party_percent + parseFloat(const_data.party_percent);
 							}
 						}
 
@@ -275,14 +353,14 @@ function filterElection(topWhat, regionalElecData,  regions, constituencies, ukp
 				regional_votes: {
 					region_codes: elecData.regional_votes.map(item => item.region_code) ,
 					region_names: elecData.regional_votes.map(item => item.region_name),
-					region_parties: [], 
-					region_percent:[]
+					region_parties: [], 					
+					region_percent:[]			
 				},
 
 				regional_constituencies:[]
 				
 			};
-
+		
 			var arrRgnlPartiesCodes = [];
 			var arrRgnlPartiesPercent = [];
 			var arrRgnlConst = []; //array of regional constituencies
@@ -340,8 +418,8 @@ function filterElection(topWhat, regionalElecData,  regions, constituencies, ukp
 
 }
 
-function filterBrexit(regionalElecData,  regions, constituencies){
-	
+function filterBrexit(regionalBrxData,  regions, constituencies){
+
 
 }
 
