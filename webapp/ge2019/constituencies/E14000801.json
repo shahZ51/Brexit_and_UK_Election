@@ -1,0 +1,119 @@
+{
+	"id": "E14000801",
+	"title": "Luton South",
+	"demographics": {
+		"2015UKIP": 12.15,
+		"age18-29": 23.09,
+		"EUminus": 19.65,
+		"leave": 55.44,
+		"withdegree": 15.42,
+		"religion": {
+			"christian": 46.6,
+			"jewish": 0.13,
+			"muslim": 25.3
+		},
+		"race": {
+			"Arab": 1.02,
+			"Bangladeshi": 7.67,
+			"Black": 8.42,
+			"Chinese": 0.89,
+			"Indian": 4.44,
+			"Mixed": 3.62,
+			"Other": 0.73,
+			"Other Asian": 2.55,
+			"Pakistani": 13.98,
+			"White": 56.7
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 69338,
+			"candidates": [{
+				"id": 1602,
+				"name": "Ben Foley",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54b85fd27089b96b50247a38.png"
+			},{
+				"id": 2805,
+				"name": "Gavin Shuker",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2805-94ada20b-06b7-40c0-9bb9-fe6f5c695473.png"
+			},{
+				"id": 61101,
+				"name": "John Rodney French",
+				"party": { "code": "", "title": "The Best For Luton Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/61101-d736d864-bfc6-4365-a5db-23e517cfc98a.png"
+			},{
+				"id": 61155,
+				"name": "Mohammed Ashraf",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": ""
+			},{
+				"id": 61165,
+				"name": "Rachel Hopkins",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/61165.png"
+			},{
+				"id": 72332,
+				"name": "Parvez Akhtar",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": ""
+			},{
+				"id": 72333,
+				"name": "Garry Warren",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72333-356d7725-05f4-45a7-b5c2-f2bb338a4a65.png"
+			}],
+			"incumbent": {
+				"mp": "Gavin Shuker",
+				"party": { "code": "Ind", "title": "Independent" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Gavin Shuker",
+			"party": { "code": "Lab" },
+			"electorate": 67188,
+			"turnout": { "pc": 68.8, "value": 46233 },
+			"valid": 46133,
+			"invalid": 100,
+			"majority": 13925,
+			"candidates": [{
+				"name": "Gavin Shuker",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 28804
+			},{
+				"name": "Dean Russell",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14879
+			},{
+				"name": "Andrew Strange",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1056
+			},{
+				"name": "Ujjawal Bhardwhaj",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 795
+			},{
+				"name": "Marc Scheimann",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 439
+			},{
+				"name": "Abid Ali",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 160
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Gavin Shuker",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
+			"electorate": 67741,
+			"turnout": { "pc":63.0, "value": 42647 },
+			"valid": 42216,
+			"invalid": 431,
+			"majority": 5711
+		}
+	}
+}

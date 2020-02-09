@@ -1,0 +1,96 @@
+{
+	"id": "S14000048",
+	"title": "North Ayrshire and Arran",
+	"demographics": {
+		"2015UKIP": 2.41,
+		"age18-29": 12.97,
+		"EUminus": 2.16,
+		"leave": 42.29,
+		"religion": {
+			"christian": 59.67,
+			"jewish": 0.04,
+			"muslim": 0.12
+		},
+		"race": {
+			"Arab": 0.04,
+			"Bangladeshi": 0.02,
+			"Black": null,
+			"Chinese": 0.18,
+			"Indian": 0.15,
+			"Mixed": 0,
+			"Other": 0.02,
+			"Other Asian": 0.11,
+			"Pakistani": 0.07,
+			"White": 99.05
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 73534,
+			"candidates": [{
+				"id": 2706,
+				"name": "Patricia Gibson",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fde7721ccf185f0d8cc4bb.png"
+			},{
+				"id": 9213,
+				"name": "Louise Young",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9213-ede20b87-75d4-4f8d-8abe-9ebe262e4ef7.png"
+			},{
+				"id": 34651,
+				"name": "David Rocks",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": ""
+			},{
+				"id": 72591,
+				"name": "Cameron Craig Gilmore",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72591-40246048-d001-4eb6-8dc8-a6d671916cbd.png"
+			},{
+				"id": 72592,
+				"name": "David John Nairn",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72592-a051029a-57a0-4cce-866f-703ccd5840c4.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Patricia Gibson",
+			"party": { "code": "SNP" },
+			"electorate": 73176,
+			"turnout": { "pc": 64.9, "value": 47515 },
+			"valid": 47433,
+			"invalid": 82,
+			"majority": 3633,
+			"candidates": [{
+				"name": "Patricia Gibson",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 18451
+			},{
+				"name": "David Rocks",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14818
+			},{
+				"name": "Christopher Rimicans",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13040
+			},{
+				"name": "Mark  Dickson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1124
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Patricia Gibson",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
+			"electorate": 75791,
+			"turnout": { "pc":71.2, "value": 53955 },
+			"valid": 53869,
+			"invalid": 86,
+			"majority": 13573
+		}
+	}
+}

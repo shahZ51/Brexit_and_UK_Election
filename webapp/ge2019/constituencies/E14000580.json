@@ -1,0 +1,92 @@
+{
+	"id": "E14000580",
+	"title": "Bolton West",
+	"demographics": {
+		"2015UKIP": 15.29,
+		"age18-29": 13.74,
+		"EUminus": 2.7,
+		"leave": 55.54,
+		"withdegree": 15.85,
+		"religion": {
+			"christian": 71.67,
+			"jewish": 0.05,
+			"muslim": 2.6
+		},
+		"race": {
+			"Arab": 0.1,
+			"Bangladeshi": 0.03,
+			"Black": 0.68,
+			"Chinese": 0.34,
+			"Indian": 2.62,
+			"Mixed": 1.36,
+			"Other": 0.15,
+			"Other Asian": 0.41,
+			"Pakistani": 1.16,
+			"White": 93.14
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 73191,
+			"candidates": [{
+				"id": 663,
+				"name": "Julie Hilling",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f7ddb247335574a42e38.png"
+			},{
+				"id": 4164,
+				"name": "Chris Green",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4164.png"
+			},{
+				"id": 34653,
+				"name": "Rebecca Forrest",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34653.png"
+			},{
+				"id": 72069,
+				"name": "Paris Hayes",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72069.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Chris Green",
+			"party": { "code": "Con" },
+			"electorate": 72797,
+			"turnout": { "pc": 70.2, "value": 51135 },
+			"valid": 51054,
+			"invalid": 81,
+			"majority": 936,
+			"candidates": [{
+				"name": "Chris Green",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24459
+			},{
+				"name": "Julie Hilling",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 23523
+			},{
+				"name": "Martin Tighe",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1587
+			},{
+				"name": "Rebecca Forrest",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1485
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Chris Green",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 72719,
+			"turnout": { "pc":67.1, "value": 48789 },
+			"valid": 48592,
+			"invalid": 197,
+			"majority": 801
+		}
+	}
+}

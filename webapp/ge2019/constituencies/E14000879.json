@@ -1,0 +1,96 @@
+{
+	"id": "E14000879",
+	"title": "Plymouth, Moor View",
+	"demographics": {
+		"2015UKIP": 21.48,
+		"age18-29": 14.95,
+		"EUminus": 4.11,
+		"leave": 66.44,
+		"withdegree": 6.88,
+		"religion": {
+			"christian": 60.41,
+			"jewish": 0.03,
+			"muslim": 0.49
+		},
+		"race": {
+			"Arab": 0.09,
+			"Bangladeshi": 0.06,
+			"Black": 0.38,
+			"Chinese": 0.2,
+			"Indian": 0.3,
+			"Mixed": 0.88,
+			"Other": 0.12,
+			"Other Asian": 0.43,
+			"Pakistani": 0.06,
+			"White": 97.49
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 69430,
+			"candidates": [{
+				"id": 4223,
+				"name": "Johnny Mercer",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4223.png"
+			},{
+				"id": 71582,
+				"name": "Charlotte Holloway",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71582.png"
+			},{
+				"id": 71584,
+				"name": "Sarah Martin",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71584-dc9bc92e-e668-4764-9ce4-e01ef3c18947.png"
+			},{
+				"id": 71988,
+				"name": "Ewan Melling Flavell",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71988-4ad31316-c4b5-4260-af99-c58edf3d9780.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Johnny Mercer",
+			"party": { "code": "Con" },
+			"electorate": 69342,
+			"turnout": { "pc": 65.6, "value": 45487 },
+			"valid": 45417,
+			"invalid": 70,
+			"majority": 5019,
+			"candidates": [{
+				"name": "Johnny Mercer",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23567
+			},{
+				"name": "Sue Dann",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18548
+			},{
+				"name": "Wendy Noble",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1849
+			},{
+				"name": "Graham Reed",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 917
+			},{
+				"name": "Joshua Pope",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 536
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Johnny Mercer",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 68246,
+			"turnout": { "pc":62.6, "value": 42691 },
+			"valid": 42606,
+			"invalid": 85,
+			"majority": 1026
+		}
+	}
+}

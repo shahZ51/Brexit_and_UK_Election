@@ -1,0 +1,82 @@
+{
+	"id": "E14000627",
+	"title": "Cheadle",
+	"demographics": {
+		"2015UKIP": 8.33,
+		"age18-29": 11.19,
+		"EUminus": 3.68,
+		"leave": 42.65,
+		"withdegree": 23.5,
+		"religion": {
+			"christian": 64.04,
+			"jewish": 1.24,
+			"muslim": 5.44
+		},
+		"race": {
+			"Arab": 0.44,
+			"Bangladeshi": 0.36,
+			"Black": 0.6,
+			"Chinese": 0.72,
+			"Indian": 1.79,
+			"Mixed": 1.76,
+			"Other": 0.54,
+			"Other Asian": 0.9,
+			"Pakistani": 3.96,
+			"White": 88.93
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 4175,
+				"name": "Mary Robinson",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4175.png"
+			},{
+				"id": 8884,
+				"name": "Zahid Chauhan",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8884.png"
+			},{
+				"id": 34655,
+				"name": "Tom Morrison",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34655.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Mary Robinson",
+			"party": { "code": "Con" },
+			"electorate": 73406,
+			"turnout": { "pc": 74.5, "value": 54689 },
+			"valid": 54572,
+			"invalid": 117,
+			"majority": 4507,
+			"candidates": [{
+				"name": "Mary Robinson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24331
+			},{
+				"name": "Mark Hunter",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 19824
+			},{
+				"name": "Martin Miller",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10417
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Mary Robinson",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 73239,
+			"turnout": { "pc":72.7, "value": 53264 },
+			"valid": 53095,
+			"invalid": 169,
+			"majority": 6453
+		}
+	}
+}

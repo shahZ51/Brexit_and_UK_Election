@@ -1,0 +1,115 @@
+{
+	"id": "E14000711",
+	"title": "Gillingham and Rainham",
+	"demographics": {
+		"2015UKIP": 19.54,
+		"age18-29": 16.72,
+		"EUminus": 6.73,
+		"leave": 63.58,
+		"withdegree": 9.51,
+		"religion": {
+			"christian": 57.83,
+			"jewish": 0.06,
+			"muslim": 2.17
+		},
+		"race": {
+			"Arab": 0.2,
+			"Bangladeshi": 0.33,
+			"Black": 2.23,
+			"Chinese": 0.37,
+			"Indian": 2.76,
+			"Mixed": 1.93,
+			"Other": 0.6,
+			"Other Asian": 1.1,
+			"Pakistani": 0.88,
+			"White": 89.61
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 73631,
+			"candidates": [{
+				"id": 1337,
+				"name": "Alan Bullion",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e94fb150e238702c0655.png"
+			},{
+				"id": 2225,
+				"name": "Rehman Chishti",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55357370367dc5383f552cd6.png"
+			},{
+				"id": 7398,
+				"name": "Roger James Peacock",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548ab09e2efb2432db96522.png"
+			},{
+				"id": 34472,
+				"name": "Andy Stamp",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34472.png"
+			},{
+				"id": 35610,
+				"name": "Rob McCulloch Martin",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
+				"img": ""
+			},{
+				"id": 41656,
+				"name": "George Salomon",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41656-c3795ecf-868e-40a6-8219-336db0ca7545.png"
+			},{
+				"id": 72527,
+				"name": "Peter Cook",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72527-16a26ef3-8f66-4832-8eb8-60500ce669db.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Rehman Chishti",
+			"party": { "code": "Con" },
+			"electorate": 72903,
+			"turnout": { "pc": 67.2, "value": 48958 },
+			"valid": 48868,
+			"invalid": 90,
+			"majority": 9430,
+			"candidates": [{
+				"name": "Rehman Chishti",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27091
+			},{
+				"name": "Andy Stamp",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17661
+			},{
+				"name": "Martin Anthony Cook",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2097
+			},{
+				"name": "Paul Chaplin",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1372
+			},{
+				"name": "Clive Bryn Malcolm Gregory",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 520
+			},{
+				"name": "Roger James Peacock",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 127
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Rehman Chishti",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 70984,
+			"turnout": { "pc":66.6, "value": 47272 },
+			"valid": 47078,
+			"invalid": 194,
+			"majority": 10530
+		}
+	}
+}

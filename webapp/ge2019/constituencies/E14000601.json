@@ -1,0 +1,105 @@
+{
+	"id": "E14000601",
+	"title": "Bristol South",
+	"demographics": {
+		"2015UKIP": 16.48,
+		"age18-29": 18.41,
+		"EUminus": 7.59,
+		"leave": 47.95,
+		"withdegree": 17.27,
+		"religion": {
+			"christian": 48.96,
+			"jewish": 0.1,
+			"muslim": 1.58
+		},
+		"race": {
+			"Arab": 0.15,
+			"Bangladeshi": 0.15,
+			"Black": 1.83,
+			"Chinese": 0.33,
+			"Indian": 0.55,
+			"Mixed": 2.77,
+			"Other": 0.26,
+			"Other Asian": 0.61,
+			"Pakistani": 0.79,
+			"White": 92.56
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 84079,
+			"candidates": [{
+				"id": 4280,
+				"name": "Karin Smyth",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4280.png"
+			},{
+				"id": 5408,
+				"name": "Tony Dyer",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34438.png"
+			},{
+				"id": 7887,
+				"name": "Andrew Charles Brown",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7887.png"
+			},{
+				"id": 35437,
+				"name": "Richard Morgan",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35437-f52d669a-5507-4930-8845-95c2e5c57046.png"
+			},{
+				"id": 71662,
+				"name": "Robert de Vito Boutin",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71662.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Karin Smyth",
+			"party": { "code": "Lab" },
+			"electorate": 83012,
+			"turnout": { "pc": 65.6, "value": 54494 },
+			"valid": 54382,
+			"invalid": 112,
+			"majority": 15987,
+			"candidates": [{
+				"name": "Karin Smyth",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 32666
+			},{
+				"name": "Mark Weston",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16679
+			},{
+				"name": "Benjamin Nutland",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1821
+			},{
+				"name": "Ian Kealey",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1672
+			},{
+				"name": "Tony Dyer",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1428
+			},{
+				"name": "John Langley",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 116
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Karin Smyth",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 81496,
+			"turnout": { "pc":62.6, "value": 51006 },
+			"valid": 50842,
+			"invalid": 164,
+			"majority": 7128
+		}
+	}
+}

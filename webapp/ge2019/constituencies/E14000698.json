@@ -1,0 +1,110 @@
+{
+	"id": "E14000698",
+	"title": "Exeter",
+	"demographics": {
+		"2015UKIP": 9.4,
+		"age18-29": 25.93,
+		"EUminus": 7.97,
+		"leave": 44.71,
+		"withdegree": 19.41,
+		"religion": {
+			"christian": 52.85,
+			"jewish": 0.13,
+			"muslim": 1.65
+		},
+		"race": {
+			"Arab": 0.59,
+			"Bangladeshi": 0.21,
+			"Black": 0.58,
+			"Chinese": 1.82,
+			"Indian": 0.85,
+			"Mixed": 1.7,
+			"Other": 0.29,
+			"Other Asian": 1.15,
+			"Pakistani": 0.14,
+			"White": 92.67
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 82047,
+			"candidates": [{
+				"id": 4027,
+				"name": "Ben Bradshaw",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5503125ae70496a1139f93f8.png"
+			},{
+				"id": 6744,
+				"name": "Duncan Odgers",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/552693a059bbc5c063445bcb.png"
+			},{
+				"id": 11475,
+				"name": "Joe Levy",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11475.png"
+			},{
+				"id": 48655,
+				"name": "Daniel Jon Page",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48655-c70f47b6-54a9-4abe-9089-8c7c55caf603.png"
+			},{
+				"id": 72288,
+				"name": "John Nicholas Gray",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": ""
+			},{
+				"id": 72289,
+				"name": "Leslie David Willis",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72289-ea7e0ff3-e825-45c2-86a4-aefabe1d0404.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Ben Bradshaw",
+			"party": { "code": "Lab" },
+			"electorate": 77330,
+			"turnout": { "pc": 71.8, "value": 55554 },
+			"valid": 55423,
+			"invalid": 131,
+			"majority": 16117,
+			"candidates": [{
+				"name": "Ben Bradshaw",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 34336
+			},{
+				"name": "James Taghdissian",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18219
+			},{
+				"name": "Vanessa Newcombe",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1562
+			},{
+				"name": "Joe Levy",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1027
+			},{
+				"name": "Jonathan West",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 212
+			},{
+				"name": "Jonathan Bishop",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 67
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Ben Bradshaw",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 76968,
+			"turnout": { "pc":70.4, "value": 54218 },
+			"valid": 54018,
+			"invalid": 200,
+			"majority": 7183
+		}
+	}
+}

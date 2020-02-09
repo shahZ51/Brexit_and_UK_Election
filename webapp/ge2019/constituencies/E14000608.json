@@ -1,0 +1,105 @@
+{
+	"id": "E14000608",
+	"title": "Buckingham",
+	"demographics": {
+		"2015UKIP": 21.74,
+		"age18-29": 10.49,
+		"EUminus": 4.68,
+		"leave": 48.65,
+		"withdegree": 22.67,
+		"religion": {
+			"christian": 66.14,
+			"jewish": 0.22,
+			"muslim": 0.83
+		},
+		"race": {
+			"Arab": 0.14,
+			"Bangladeshi": 0.09,
+			"Black": 0.84,
+			"Chinese": 0.31,
+			"Indian": 0.49,
+			"Mixed": 1.44,
+			"Other": 0.14,
+			"Other Asian": 0.49,
+			"Pakistani": 0.37,
+			"White": 95.7
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 16,
+				"name": "Stephen Dorrell",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16.png"
+			},{
+				"id": 34503,
+				"name": "Greg Smith",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34503.png"
+			},{
+				"id": 71338,
+				"name": "Andrew Bell",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71338.png"
+			},{
+				"id": 71933,
+				"name": "David Morgan",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71933-8597a253-65e2-4f02-9e77-bd8edfeee542.png"
+			},{
+				"id": 72283,
+				"name": "Ned Stephen Thompson",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72283-702c1988-d600-44e1-9cd4-722fae940de4.png"
+			},{
+				"id": 72284,
+				"name": "Antonio Daniel Vitiello",
+				"party": { "code": "", "title": "English Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72284-cd5c34c5-fa29-4295-9a3a-fe043711de35.png"
+			}],
+			"incumbent": {
+				"mp": "John Bercow",
+				"party": { "code": "", "title": "" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "John Bercow",
+			"party": { "code": "Spk" },
+			"electorate": 79615,
+			"turnout": { "pc": 68.6, "value": 54646 },
+			"valid": 52679,
+			"invalid": 1967,
+			"majority": 25725,
+			"candidates": [{
+				"name": "John Bercow",
+				"party": { "code": "Spk", "title": "Speaker" },
+				"votes": 34299
+			},{
+				"name": "Michael Sheppard",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 8574
+			},{
+				"name": "Scott Raven ",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 5638
+			},{
+				"name": "Brian Mapletoft",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 4168
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "John Bercow",
+			"party": { "code": "Spk", "title": "Speaker" },
+			"electorate": 77425,
+			"turnout": { "pc":71.0, "value": 54981 },
+			"valid": 53692,
+			"invalid": 1289,
+			"majority": 22942
+		}
+	}
+}

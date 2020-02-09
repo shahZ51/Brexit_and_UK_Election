@@ -1,0 +1,100 @@
+{
+	"id": "E14001033",
+	"title": "West Lancashire",
+	"demographics": {
+		"2015UKIP": 12.2,
+		"age18-29": 15.29,
+		"EUminus": 4.39,
+		"leave": 54.94,
+		"withdegree": 13.95,
+		"religion": {
+			"christian": 75.81,
+			"jewish": 0.05,
+			"muslim": 0.26
+		},
+		"race": {
+			"Arab": 0.06,
+			"Bangladeshi": 0.01,
+			"Black": 0.17,
+			"Chinese": 0.18,
+			"Indian": 0.4,
+			"Mixed": 0.81,
+			"Other": 0.05,
+			"Other Asian": 0.2,
+			"Pakistani": 0.08,
+			"White": 98.06
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 4066,
+				"name": "Rosie Cooper",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5519b5ffba7512a07da4793d.png"
+			},{
+				"id": 14707,
+				"name": "Simon Thomson",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/54653.png"
+			},{
+				"id": 54859,
+				"name": "Jack Gilmore",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/54859.png"
+			},{
+				"id": 54945,
+				"name": "John Richard Puddifer",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/54945-edeb54d2-796e-4ca4-8439-486eb52450dc.png"
+			},{
+				"id": 72263,
+				"name": "Marc Stanton",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Rosie Cooper",
+			"party": { "code": "Lab" },
+			"electorate": 73257,
+			"turnout": { "pc": 74.4, "value": 54503 },
+			"valid": 54389,
+			"invalid": 114,
+			"majority": 11689,
+			"candidates": [{
+				"name": "Rosie Cooper",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 32030
+			},{
+				"name": "Sam Currie",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 20341
+			},{
+				"name": "Jo Barton",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1069
+			},{
+				"name": "Nate Higgins",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 680
+			},{
+				"name": "David Braid",
+				"party": { "code": "War Veteran's Pro-Traditional Family Party", "title": "War Veteran's Pro-Traditional Family Party" },
+				"votes": 269
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Rosie Cooper",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 70906,
+			"turnout": { "pc":70.2, "value": 49793 },
+			"valid": 49676,
+			"invalid": 117,
+			"majority": 8360
+		}
+	}
+}

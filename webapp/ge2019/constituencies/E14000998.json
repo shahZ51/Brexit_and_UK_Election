@@ -1,0 +1,106 @@
+{
+	"id": "E14000998",
+	"title": "Tooting",
+	"demographics": {
+		"2015UKIP": 2.87,
+		"age18-29": 23.92,
+		"EUminus": 19.3,
+		"leave": 25.32,
+		"withdegree": 44.09,
+		"religion": {
+			"christian": 49.46,
+			"jewish": 0.47,
+			"muslim": 10.73
+		},
+		"race": {
+			"Arab": 0.61,
+			"Bangladeshi": 0.73,
+			"Black": 11.97,
+			"Chinese": 1.13,
+			"Indian": 4.56,
+			"Mixed": 5.06,
+			"Other": 1.18,
+			"Other Asian": 4.08,
+			"Pakistani": 4.77,
+			"White": 65.9
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 76933,
+			"candidates": [{
+				"id": 34186,
+				"name": "Rosena Allin-Khan",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34186.png"
+			},{
+				"id": 43606,
+				"name": "Glyn Goodwin",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43606.png"
+			},{
+				"id": 44859,
+				"name": "Olly Glover",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44859.png"
+			},{
+				"id": 71695,
+				"name": "Kerry Briscoe",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71695.png"
+			},{
+				"id": 72251,
+				"name": "Adam Shakir",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72251-536ee0f1-bb95-473f-bfc3-457c0a47647e.png"
+			},{
+				"id": 72396,
+				"name": "Roz Hubley",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72396-6ef2aa20-c421-46f9-a053-d087da39f9de.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Rosena Allin-Khan",
+			"party": { "code": "Lab" },
+			"electorate": 77971,
+			"turnout": { "pc": 74.8, "value": 58304 },
+			"valid": 58171,
+			"invalid": 133,
+			"majority": 15458,
+			"candidates": [{
+				"name": "Rosena Allin-Khan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 34694
+			},{
+				"name": "Dan Watkins",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19236
+			},{
+				"name": "Alexander Glassbrook",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3057
+			},{
+				"name": "Esther Obiri-Darko",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 845
+			},{
+				"name": "Ryan Coshall",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 339
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Sadiq Khan",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 76782,
+			"turnout": { "pc":70.0, "value": 53741 },
+			"valid": 53529,
+			"invalid": 212,
+			"majority": 2842
+		}
+	}
+}

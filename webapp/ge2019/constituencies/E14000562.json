@@ -1,0 +1,102 @@
+{
+	"id": "E14000562",
+	"title": "Birmingham, Hall Green",
+	"demographics": {
+		"2015UKIP": 4.53,
+		"age18-29": 19.25,
+		"EUminus": 6.21,
+		"leave": 33.57,
+		"withdegree": 20.42,
+		"religion": {
+			"christian": 26.62,
+			"jewish": 0.29,
+			"muslim": 46.58
+		},
+		"race": {
+			"Arab": 3.74,
+			"Bangladeshi": 4.14,
+			"Black": 6.09,
+			"Chinese": 0.74,
+			"Indian": 7.95,
+			"Mixed": 3.85,
+			"Other": 1.29,
+			"Other Asian": 4.19,
+			"Pakistani": 32.49,
+			"White": 35.53
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 80283,
+			"candidates": [{
+				"id": 3955,
+				"name": "Roger Godsiff",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c9bf242c427035c8db3ec.png"
+			},{
+				"id": 9904,
+				"name": "Patrick Cox",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9904_TkEIoVl.png"
+			},{
+				"id": 9962,
+				"name": "Tahir Ali",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9962-af040ffb-52b4-42e0-aded-105e0674b686.png"
+			},{
+				"id": 40866,
+				"name": "Izzy Knowles",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40866_UN8W3Pp.png"
+			},{
+				"id": 72533,
+				"name": "Rosie Cuckston",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72533-5eea75d9-2838-49c0-ba8f-19b523dbca43.png"
+			},{
+				"id": 72534,
+				"name": "Penny-Anne O'Donnell",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72534-b0296e12-85cf-48c9-a8f6-124f2966246a.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Roger Godsiff",
+			"party": { "code": "Lab" },
+			"electorate": 78271,
+			"turnout": { "pc": 69.6, "value": 54497 },
+			"valid": 54310,
+			"invalid": 187,
+			"majority": 33944,
+			"candidates": [{
+				"name": "Roger Godsiff",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 42143
+			},{
+				"name": "Reena Ranger",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8199
+			},{
+				"name": "Jerry Evans",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3137
+			},{
+				"name": "Patrick Cox",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 831
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Roger Godsiff",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 76330,
+			"turnout": { "pc":62.0, "value": 47323 },
+			"valid": 47046,
+			"invalid": 277,
+			"majority": 19818
+		}
+	}
+}

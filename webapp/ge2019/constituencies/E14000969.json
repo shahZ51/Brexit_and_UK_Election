@@ -1,0 +1,104 @@
+{
+	"id": "E14000969",
+	"title": "Stockport",
+	"demographics": {
+		"2015UKIP": 13.13,
+		"age18-29": 15.55,
+		"EUminus": 4.6,
+		"leave": 46.79,
+		"withdegree": 18.34,
+		"religion": {
+			"christian": 58.76,
+			"jewish": 0.14,
+			"muslim": 3.99
+		},
+		"race": {
+			"Arab": 0.25,
+			"Bangladeshi": 0.31,
+			"Black": 0.94,
+			"Chinese": 0.69,
+			"Indian": 0.9,
+			"Mixed": 2.19,
+			"Other": 0.27,
+			"Other Asian": 0.85,
+			"Pakistani": 2.86,
+			"White": 90.74
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 11099,
+				"name": "Helena Julia Mellish",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11099.png"
+			},{
+				"id": 34462,
+				"name": "Navendu Mishra",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34462.png"
+			},{
+				"id": 55390,
+				"name": "Wendy Meikle",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55390-2d37b86f-62ab-47f6-b27d-b4c508cc42dd.png"
+			},{
+				"id": 64217,
+				"name": "Isy Imarni",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64217-e5a8de46-b4a1-4753-a2da-2ad7a921bf4e.png"
+			},{
+				"id": 72120,
+				"name": "Lee Thomas Montague-Trenchard",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": ""
+			}],
+			"incumbent": {
+				"mp": "Ann Coffey",
+				"party": { "code": "Ind", "title": "Independent" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Ann Coffey",
+			"party": { "code": "Lab" },
+			"electorate": 64236,
+			"turnout": { "pc": 64.8, "value": 41641 },
+			"valid": 41544,
+			"invalid": 97,
+			"majority": 14477,
+			"candidates": [{
+				"name": "Ann Coffey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26282
+			},{
+				"name": "Daniel Hamilton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11805
+			},{
+				"name": "Daniel Hawthorne",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1778
+			},{
+				"name": "John Kelly",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1088
+			},{
+				"name": "Gary Lawson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 591
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Ann Coffey",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 63931,
+			"turnout": { "pc":62.2, "value": 39784 },
+			"valid": 39649,
+			"invalid": 135,
+			"majority": 10061
+		}
+	}
+}

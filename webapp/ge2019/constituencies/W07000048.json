@@ -1,0 +1,109 @@
+{
+	"id": "W07000048",
+	"title": "Swansea East",
+	"demographics": {
+		"2015UKIP": 17.19,
+		"age18-29": 16.26,
+		"EUminus": 4.01,
+		"leave": 62.1,
+		"withdegree": 9.77,
+		"religion": {
+			"christian": 52.91,
+			"jewish": 0.04,
+			"muslim": 1.71
+		},
+		"race": {
+			"Arab": 0.35,
+			"Bangladeshi": 0.69,
+			"Black": 0.84,
+			"Chinese": 0.5,
+			"Indian": 0.62,
+			"Mixed": 0.8,
+			"Other": 0.18,
+			"Other Asian": 0.93,
+			"Pakistani": 0.22,
+			"White": 94.88
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 5787,
+				"name": "Carolyn Harris",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5787.png"
+			},{
+				"id": 16766,
+				"name": "Denise Howard",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": ""
+			},{
+				"id": 34699,
+				"name": "Chris Evans",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34699.png"
+			},{
+				"id": 71348,
+				"name": "Tony Willicombe",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71348.png"
+			},{
+				"id": 71798,
+				"name": "Chloe Hutchinson",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71798.png"
+			},{
+				"id": 71814,
+				"name": "Geraint Havard",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71814.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Carolyn Harris",
+			"party": { "code": "Lab" },
+			"electorate": 58521,
+			"turnout": { "pc": 60.2, "value": 35215 },
+			"valid": 35159,
+			"invalid": 56,
+			"majority": 13168,
+			"candidates": [{
+				"name": "Carolyn Harris",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22307
+			},{
+				"name": "Dan Boucher",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9139
+			},{
+				"name": "Steffan Phillips",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 1689
+			},{
+				"name": "Clifford Johnson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1040
+			},{
+				"name": "Charley Hasted",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 625
+			},{
+				"name": "Chris Evans",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 359
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Carolyn Harris",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 58011,
+			"turnout": { "pc":58.1, "value": 33725 },
+			"valid": 33618,
+			"invalid": 107,
+			"majority": 12028
+		}
+	}
+}

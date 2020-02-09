@@ -1,0 +1,80 @@
+{
+	"id": "N06000014",
+	"title": "South Antrim",
+	"demographics": {
+
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 71711,
+			"candidates": [{
+				"id": 4709,
+				"name": "Danny Kinahan",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551a6feee2ac8b7333e6a25e.png"
+			},{
+				"id": 4711,
+				"name": "Declan Kearney",
+				"party": { "code": "SF", "title": "Sinn Féin" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bae7eec0766d3759c0454.png"
+			},{
+				"id": 5390,
+				"name": "Roisin Lynch",
+				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bb1e1ec0766d3759c045b.png"
+			},{
+				"id": 13370,
+				"name": "Paul Girvan",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13370.png"
+			},{
+				"id": 71629,
+				"name": "John Blair",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71629.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Paul Girvan",
+			"party": { "code": "DUP" },
+			"electorate": 68244,
+			"turnout": { "pc": 63.4, "value": 43292 },
+			"valid": 43170,
+			"invalid": 122,
+			"majority": 3208,
+			"candidates": [{
+				"name": "Paul Girvan",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 16508
+			},{
+				"name": "Danny Kinahan",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 13300
+			},{
+				"name": "Declan Kearney",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 7797
+			},{
+				"name": "Neil Kelly",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 3203
+			},{
+				"name": "Roisin Lynch",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 2362
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Danny Kinahan",
+			"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+			"electorate": 67425,
+			"turnout": { "pc":54.5, "value": 36734 },
+			"valid": 36523,
+			"invalid": 211,
+			"majority": 949
+		}
+	}
+}

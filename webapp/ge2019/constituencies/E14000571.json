@@ -1,0 +1,105 @@
+{
+	"id": "E14000571",
+	"title": "Blackley and Broughton",
+	"demographics": {
+		"2015UKIP": 16.46,
+		"age18-29": 19.92,
+		"EUminus": 13.12,
+		"leave": 51.33,
+		"withdegree": 13.6,
+		"religion": {
+			"christian": 50.43,
+			"jewish": 7.22,
+			"muslim": 16.74
+		},
+		"race": {
+			"Arab": 1.62,
+			"Bangladeshi": 0.24,
+			"Black": 8.29,
+			"Chinese": 1.92,
+			"Indian": 1.71,
+			"Mixed": 3.73,
+			"Other": 1.3,
+			"Other Asian": 2.98,
+			"Pakistani": 10.19,
+			"White": 68.04
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 73372,
+			"candidates": [{
+				"id": 1179,
+				"name": "Graham Stringer",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1179.png"
+			},{
+				"id": 5750,
+				"name": "David Jones",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5516a968929f1bbe286be021.png"
+			},{
+				"id": 10252,
+				"name": "Iain Donaldson",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10252.png"
+			},{
+				"id": 72151,
+				"name": "James Edward Buckley",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72151-0848f6f9-67a7-45fc-88f4-7cfa10d51e1f.png"
+			},{
+				"id": 72153,
+				"name": "Alexander Victor Elias",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Graham Stringer",
+			"party": { "code": "Lab" },
+			"electorate": 71648,
+			"turnout": { "pc": 56.1, "value": 40214 },
+			"valid": 40113,
+			"invalid": 101,
+			"majority": 19601,
+			"candidates": [{
+				"name": "Graham Stringer",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 28258
+			},{
+				"name": "David Goss",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8657
+			},{
+				"name": "Martin Power",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1825
+			},{
+				"name": "Charles Gadsden",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 737
+			},{
+				"name": "David Jones",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 462
+			},{
+				"name": "Abi Ajoku",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 174
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Graham Stringer",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 71913,
+			"turnout": { "pc":51.9, "value": 37306 },
+			"valid": 37112,
+			"invalid": 194,
+			"majority": 16874
+		}
+	}
+}

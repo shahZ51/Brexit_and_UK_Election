@@ -1,0 +1,95 @@
+{
+	"id": "E14000946",
+	"title": "South Suffolk",
+	"demographics": {
+		"2015UKIP": 15.21,
+		"age18-29": 10.66,
+		"EUminus": 4.08,
+		"leave": 54.15,
+		"withdegree": 13.75,
+		"religion": {
+			"christian": 63.4,
+			"jewish": 0.13,
+			"muslim": 0.22
+		},
+		"race": {
+			"Arab": 0.01,
+			"Bangladeshi": 0.07,
+			"Black": 0.29,
+			"Chinese": 0.18,
+			"Indian": 0.2,
+			"Mixed": 0.91,
+			"Other": 0.14,
+			"Other Asian": 0.28,
+			"Pakistani": 0.01,
+			"White": 97.9
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 863,
+				"name": "Elizabeth Hughes",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/863_of6D5TZ.png"
+			},{
+				"id": 4229,
+				"name": "James Cartlidge",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4229.png"
+			},{
+				"id": 4648,
+				"name": "Robert Lindsay",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4648.png"
+			},{
+				"id": 31203,
+				"name": "David Beavan",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59127.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "James Cartlidge",
+			"party": { "code": "Con" },
+			"electorate": 75485,
+			"turnout": { "pc": 72.0, "value": 54351 },
+			"valid": 54235,
+			"invalid": 116,
+			"majority": 17749,
+			"candidates": [{
+				"name": "James Cartlidge",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32829
+			},{
+				"name": "Emma Bishton",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15080
+			},{
+				"name": "Andrew Aalders-Dunthorpe",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3154
+			},{
+				"name": "Robert Lindsay",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1723
+			},{
+				"name": "Aidan Powlesland",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1449
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "James Cartlidge",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 73836,
+			"turnout": { "pc":70.5, "value": 52086 },
+			"valid": 51907,
+			"invalid": 179,
+			"majority": 17545
+		}
+	}
+}

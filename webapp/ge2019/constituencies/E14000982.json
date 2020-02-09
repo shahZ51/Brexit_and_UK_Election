@@ -1,0 +1,109 @@
+{
+	"id": "E14000982",
+	"title": "Sunderland Central",
+	"demographics": {
+		"2015UKIP": 19.15,
+		"age18-29": 18.75,
+		"EUminus": 3.13,
+		"leave": 59.94,
+		"withdegree": 12.35,
+		"religion": {
+			"christian": 68.28,
+			"jewish": 0.05,
+			"muslim": 2.88
+		},
+		"race": {
+			"Arab": 0.21,
+			"Bangladeshi": 1.86,
+			"Black": 0.92,
+			"Chinese": 1.2,
+			"Indian": 1.17,
+			"Mixed": 0.85,
+			"Other": 0.38,
+			"Other Asian": 0.98,
+			"Pakistani": 0.47,
+			"White": 91.95
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 3985,
+				"name": "Julie Elliott",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c964d42c427035c8db3e1.png"
+			},{
+				"id": 6271,
+				"name": "Rachel Featherstone",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6271.png"
+			},{
+				"id": 11589,
+				"name": "Niall Hodson",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11589.png"
+			},{
+				"id": 31863,
+				"name": "Viral Parikh",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31863.png"
+			},{
+				"id": 72486,
+				"name": "Tom D'Silva",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": ""
+			},{
+				"id": 72487,
+				"name": "Dale McKenzie",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72487-428728c1-c0e1-4d09-90d5-9132d80189b8.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Julie Elliott",
+			"party": { "code": "Lab" },
+			"electorate": 72728,
+			"turnout": { "pc": 62.1, "value": 45187 },
+			"valid": 45111,
+			"invalid": 76,
+			"majority": 9997,
+			"candidates": [{
+				"name": "Julie Elliott",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25056
+			},{
+				"name": "Robert Oliver",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15059
+			},{
+				"name": "Gary Leighton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2209
+			},{
+				"name": "Niall Hodson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1777
+			},{
+				"name": "Rachel Featherstone",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 705
+			},{
+				"name": "Sean Cockburn",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 305
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Julie Elliott",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 72950,
+			"turnout": { "pc":57.5, "value": 41928 },
+			"valid": 41762,
+			"invalid": 166,
+			"majority": 11179
+		}
+	}
+}

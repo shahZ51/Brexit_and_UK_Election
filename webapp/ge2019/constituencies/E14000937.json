@@ -1,0 +1,88 @@
+{
+	"id": "E14000937",
+	"title": "South East Cambridgeshire",
+	"demographics": {
+		"2015UKIP": 11.08,
+		"age18-29": 13,
+		"EUminus": 8.68,
+		"leave": 44.99,
+		"withdegree": 23.14,
+		"religion": {
+			"christian": 60.5,
+			"jewish": 0.18,
+			"muslim": 0.77
+		},
+		"race": {
+			"Arab": 0.12,
+			"Bangladeshi": 0.14,
+			"Black": 0.83,
+			"Chinese": 0.66,
+			"Indian": 0.96,
+			"Mixed": 1.6,
+			"Other": 0.25,
+			"Other Asian": 0.82,
+			"Pakistani": 0.23,
+			"White": 94.39
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 86769,
+			"candidates": [{
+				"id": 4228,
+				"name": "Lucy Frazer",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71635.png"
+			},{
+				"id": 35793,
+				"name": "James Bull",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71753.png"
+			},{
+				"id": 37510,
+				"name": "Pippa Heylings",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/37510.png"
+			},{
+				"id": 70551,
+				"name": "Edmund John Fordham",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72207-12f84a62-b9dd-4543-8c2c-5828e67415de.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Lucy Frazer",
+			"party": { "code": "Con" },
+			"electorate": 86121,
+			"turnout": { "pc": 73.4, "value": 63228 },
+			"valid": 63002,
+			"invalid": 226,
+			"majority": 16158,
+			"candidates": [{
+				"name": "Lucy Frazer",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33601
+			},{
+				"name": "Huw Jones",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17443
+			},{
+				"name": "Lucy Nethsingha",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 11958
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Lucy Frazer",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 84570,
+			"turnout": { "pc":70.6, "value": 59709 },
+			"valid": 59506,
+			"invalid": 203,
+			"majority": 16837
+		}
+	}
+}

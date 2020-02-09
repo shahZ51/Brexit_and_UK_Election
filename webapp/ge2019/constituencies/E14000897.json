@@ -1,0 +1,105 @@
+{
+	"id": "E14000897",
+	"title": "Rochdale",
+	"demographics": {
+		"2015UKIP": 18.75,
+		"age18-29": 16.51,
+		"EUminus": 5.13,
+		"leave": 57.45,
+		"withdegree": 10.28,
+		"religion": {
+			"christian": 51.46,
+			"jewish": 0.09,
+			"muslim": 23.59
+		},
+		"race": {
+			"Arab": 0.16,
+			"Bangladeshi": 3.74,
+			"Black": 1.44,
+			"Chinese": 0.35,
+			"Indian": 0.65,
+			"Mixed": 1.89,
+			"Other": 0.32,
+			"Other Asian": 2.3,
+			"Pakistani": 17.66,
+			"White": 71.46
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 80168,
+			"candidates": [{
+				"id": 1852,
+				"name": "Tony Lloyd",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1852.png"
+			},{
+				"id": 4896,
+				"name": "Andy Kelly",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c9df3e22f98bc5d30fa6b.png"
+			},{
+				"id": 12479,
+				"name": "Sarah Croke",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/12479-39c1e392-2240-4949-9404-faadec182c20.png"
+			},{
+				"id": 72268,
+				"name": "Chris Green",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72268-2b39e429-8f28-4ca2-a95d-075ae225f650.png"
+			},{
+				"id": 72269,
+				"name": "Atifa Shah",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72269-1059b577-cc8e-4a46-9527-c35e15004dab.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Tony Lloyd",
+			"party": { "code": "Lab" },
+			"electorate": 78064,
+			"turnout": { "pc": 64.2, "value": 50147 },
+			"valid": 50044,
+			"invalid": 103,
+			"majority": 14819,
+			"candidates": [{
+				"name": "Tony Lloyd",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 29035
+			},{
+				"name": "Jane Howard",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14216
+			},{
+				"name": "Andy Kelly",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4027
+			},{
+				"name": "Christopher Baksa",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1641
+			},{
+				"name": "Simon Danczuk",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 883
+			},{
+				"name": "Andy  Littlewood",
+				"party": { "code": "Greater Manchester Homeless Voice", "title": "Greater Manchester Homeless Voice" },
+				"votes": 242
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Simon Danczuk",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 77248,
+			"turnout": { "pc":59.1, "value": 45670 },
+			"valid": 45430,
+			"invalid": 240,
+			"majority": 12442
+		}
+	}
+}

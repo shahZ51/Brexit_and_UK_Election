@@ -1,0 +1,95 @@
+{
+	"id": "S14000015",
+	"title": "Dundee East",
+	"demographics": {
+		"age18-29": 14.99,
+		"EUminus": 4.72,
+		"leave": 38.25,
+		"religion": {
+			"christian": 51.26,
+			"jewish": 0.02,
+			"muslim": 1.72
+		},
+		"race": {
+			"Arab": 0.26,
+			"Bangladeshi": 0.12,
+			"Black": null,
+			"Chinese": 0.47,
+			"Indian": 0.45,
+			"Mixed": 0,
+			"Other": 0.05,
+			"Other Asian": 0.28,
+			"Pakistani": 1.13,
+			"White": 96.47
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 66210,
+			"candidates": [{
+				"id": 1046,
+				"name": "Stewart Hosie",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54bf2ee95a9c3744778f9b80.png"
+			},{
+				"id": 9185,
+				"name": "Rosalind Garton",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9185.png"
+			},{
+				"id": 22075,
+				"name": "Philip Scott",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71991.png"
+			},{
+				"id": 71410,
+				"name": "Michael Crichton",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71410-8b691a32-d710-432f-a6b4-0d0ba01a831a.png"
+			},{
+				"id": 72124,
+				"name": "George Morton",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Stewart Hosie",
+			"party": { "code": "SNP" },
+			"electorate": 65854,
+			"turnout": { "pc": 65.3, "value": 42985 },
+			"valid": 42928,
+			"invalid": 57,
+			"majority": 6645,
+			"candidates": [{
+				"name": "Stewart Hosie",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 18391
+			},{
+				"name": "Eleanor Price",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11746
+			},{
+				"name": "Lesley Brennan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11176
+			},{
+				"name": "Christopher McIntyre",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1615
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Stewart Hosie",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
+			"electorate": 67822,
+			"turnout": { "pc":71.2, "value": 48258 },
+			"valid": 48185,
+			"invalid": 73,
+			"majority": 19162
+		}
+	}
+}

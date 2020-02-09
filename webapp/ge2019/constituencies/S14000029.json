@@ -1,0 +1,96 @@
+{
+	"id": "S14000029",
+	"title": "Glasgow Central",
+	"demographics": {
+		"2015UKIP": 2,
+		"age18-29": 34.5,
+		"EUminus": 11.73,
+		"leave": 28.75,
+		"religion": {
+			"christian": 42.87,
+			"jewish": 0.2,
+			"muslim": 12.9
+		},
+		"race": {
+			"Arab": 1.03,
+			"Bangladeshi": 0.12,
+			"Black": null,
+			"Chinese": 3.68,
+			"Indian": 3.47,
+			"Mixed": 0,
+			"Other": 0.33,
+			"Other Asian": 2.01,
+			"Pakistani": 9.51,
+			"White": 75.85
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 69230,
+			"candidates": [{
+				"id": 5784,
+				"name": "Alison Thewliss",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5784.png"
+			},{
+				"id": 6604,
+				"name": "Ewan Hoyle",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6604.png"
+			},{
+				"id": 21638,
+				"name": "Faten Hameed",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/21638.png"
+			},{
+				"id": 71800,
+				"name": "Elaine Gallagher",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71800.png"
+			},{
+				"id": 72243,
+				"name": "Flora Minerva Scarabello",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Alison Thewliss",
+			"party": { "code": "SNP" },
+			"electorate": 64346,
+			"turnout": { "pc": 56.1, "value": 36098 },
+			"valid": 35984,
+			"invalid": 114,
+			"majority": 2267,
+			"candidates": [{
+				"name": "Alison Thewliss",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 16096
+			},{
+				"name": "Faten Hameed",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13829
+			},{
+				"name": "Charlotte Fairbanks",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 5014
+			},{
+				"name": "Isabel Nelson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1045
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Alison Thewliss",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
+			"electorate": 70945,
+			"turnout": { "pc":55.5, "value": 39381 },
+			"valid": 39318,
+			"invalid": 63,
+			"majority": 7662
+		}
+	}
+}

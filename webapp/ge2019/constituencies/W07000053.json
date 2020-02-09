@@ -1,0 +1,105 @@
+{
+	"id": "W07000053",
+	"title": "Torfaen",
+	"demographics": {
+		"2015UKIP": 18.99,
+		"age18-29": 15.03,
+		"EUminus": 1.72,
+		"leave": 60.88,
+		"withdegree": 9.16,
+		"religion": {
+			"christian": 54.58,
+			"jewish": 0.02,
+			"muslim": 0.24
+		},
+		"race": {
+			"Arab": 0.01,
+			"Bangladeshi": 0.08,
+			"Black": 0.17,
+			"Chinese": 0.23,
+			"Indian": 0.19,
+			"Mixed": 0.65,
+			"Other": 0.1,
+			"Other Asian": 0.48,
+			"Pakistani": 0.07,
+			"White": 98.03
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 5859,
+				"name": "Graham Smith",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5547b2e2c96b7d3221f3519d.png"
+			},{
+				"id": 6689,
+				"name": "Nick Thomas-Symonds",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553aa56c34eff6a2551d69dd.png"
+			},{
+				"id": 32431,
+				"name": "Morgan Bowler-Brown",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/32431_bstNWhd.png"
+			},{
+				"id": 35593,
+				"name": "Andrew Heygate-Browne",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35593-bb8aed34-55a0-4cd7-b9cc-1c402d3cb9ed.png"
+			},{
+				"id": 71697,
+				"name": "David Thomas",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71697-8618991d-9ee7-429f-934c-e3e80ec89c52.png"
+			},{
+				"id": 71698,
+				"name": "John Miller",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71698-607c6012-d1f4-4e37-ad75-74ce457ab53e.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Nick Thomas-Symonds",
+			"party": { "code": "Lab" },
+			"electorate": 61839,
+			"turnout": { "pc": 62.2, "value": 38491 },
+			"valid": 38429,
+			"invalid": 62,
+			"majority": 10240,
+			"candidates": [{
+				"name": "Nick Thomas-Symonds",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22134
+			},{
+				"name": "Graham Smith",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11894
+			},{
+				"name": "Jeff Rees",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 2059
+			},{
+				"name": "Ian Williams",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1490
+			},{
+				"name": "Andrew Best",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 852
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Nick Thomas-Symonds",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 61896,
+			"turnout": { "pc":61.4, "value": 38005 },
+			"valid": 37937,
+			"invalid": 68,
+			"majority": 8169
+		}
+	}
+}

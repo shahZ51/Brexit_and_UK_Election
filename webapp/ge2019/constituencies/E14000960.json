@@ -1,0 +1,97 @@
+{
+	"id": "E14000960",
+	"title": "St Albans",
+	"demographics": {
+		"2015UKIP": 7.85,
+		"age18-29": 13.26,
+		"EUminus": 9.29,
+		"leave": 38.02,
+		"withdegree": 33.17,
+		"religion": {
+			"christian": 57.29,
+			"jewish": 1.47,
+			"muslim": 4.76
+		},
+		"race": {
+			"Arab": 0.41,
+			"Bangladeshi": 2.54,
+			"Black": 2.04,
+			"Chinese": 0.9,
+			"Indian": 1.87,
+			"Mixed": 3.14,
+			"Other": 0.43,
+			"Other Asian": 1.64,
+			"Pakistani": 1.03,
+			"White": 85.97
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 73721,
+			"candidates": [{
+				"id": 2549,
+				"name": "Anne Main",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5547b424da8374e520fa5d4f.png"
+			},{
+				"id": 6312,
+				"name": "Daisy Cooper",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517f8fe249b917507bee520.png"
+			},{
+				"id": 15858,
+				"name": "Simon Grover",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15858-d25979d1-7438-4a0e-a1c7-f0655018e57c.png"
+			},{
+				"id": 34315,
+				"name": "Rebecca Lury",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34315.png"
+			},{
+				"id": 72171,
+				"name": "Jules Anthony Sherrington",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Anne Main",
+			"party": { "code": "Con" },
+			"electorate": 72811,
+			"turnout": { "pc": 78.5, "value": 57140 },
+			"valid": 56998,
+			"invalid": 142,
+			"majority": 6109,
+			"candidates": [{
+				"name": "Anne Main",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24571
+			},{
+				"name": "Daisy Cooper",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 18462
+			},{
+				"name": "Kerry Pollard",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13137
+			},{
+				"name": "Jack Easton",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 828
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Anne Main",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 75825,
+			"turnout": { "pc":72.0, "value": 54589 },
+			"valid": 54433,
+			"invalid": 156,
+			"majority": 12732
+		}
+	}
+}

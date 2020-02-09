@@ -1,0 +1,94 @@
+{
+	"id": "N06000005",
+	"title": "East Antrim",
+	"demographics": {
+
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 64830,
+			"candidates": [{
+				"id": 1061,
+				"name": "Oliver McMullan",
+				"party": { "code": "SF", "title": "Sinn Féin" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5547b1b3dffdc1c81f668296.png"
+			},{
+				"id": 1364,
+				"name": "Sammy Wilson",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f702b247335574a42e34.png"
+			},{
+				"id": 5877,
+				"name": "Philip George Randle",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553be8dca8c0192f732ca8e7.png"
+			},{
+				"id": 8151,
+				"name": "Stephen Aiken",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8151.png"
+			},{
+				"id": 9805,
+				"name": "Danny Donnelly",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9805.png"
+			},{
+				"id": 69320,
+				"name": "Angela Mulholland",
+				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69320-cef52e2a-16d8-4555-9048-373acb3ead6f.png"
+			},{
+				"id": 72078,
+				"name": "Aaron Rankin",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72078-77a19e2c-8a4b-4896-89b9-70289f793b23.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Sammy Wilson",
+			"party": { "code": "DUP" },
+			"electorate": 62908,
+			"turnout": { "pc": 60.8, "value": 38269 },
+			"valid": 38143,
+			"invalid": 126,
+			"majority": 15923,
+			"candidates": [{
+				"name": "Sammy Wilson",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 21873
+			},{
+				"name": "Stewart Dickson",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 5950
+			},{
+				"name": "John Stewart",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 4524
+			},{
+				"name": "Oliver McMullan",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 3555
+			},{
+				"name": "Margaret McKillop",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 1278
+			},{
+				"name": "Mark Logan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 963
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Sammy Wilson",
+			"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+			"electorate": 62811,
+			"turnout": { "pc":53.6, "value": 33688 },
+			"valid": 33497,
+			"invalid": 191,
+			"majority": 5795
+		}
+	}
+}

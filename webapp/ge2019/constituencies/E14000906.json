@@ -1,0 +1,111 @@
+{
+	"id": "E14000906",
+	"title": "Ruislip, Northwood and Pinner",
+	"demographics": {
+		"2015UKIP": 10.93,
+		"age18-29": 12.64,
+		"EUminus": 10.28,
+		"leave": 49.02,
+		"withdegree": 27.25,
+		"religion": {
+			"christian": 52.22,
+			"jewish": 3.71,
+			"muslim": 5.62
+		},
+		"race": {
+			"Arab": 0.64,
+			"Bangladeshi": 0.29,
+			"Black": 2.84,
+			"Chinese": 1.04,
+			"Indian": 14.16,
+			"Mixed": 3.39,
+			"Other": 0.95,
+			"Other Asian": 4.59,
+			"Pakistani": 1.67,
+			"White": 70.43
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 73389,
+			"candidates": [{
+				"id": 34505,
+				"name": "Sarah Green",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34505.png"
+			},{
+				"id": 45782,
+				"name": "Jonathan Michael Banks",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45782.png"
+			},{
+				"id": 46809,
+				"name": "David Simmonds",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/46809.png"
+			},{
+				"id": 47257,
+				"name": "Peymana Assad",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47257-2d3efef7-4766-40e7-98ae-02951cf40cbd.png"
+			},{
+				"id": 72474,
+				"name": "Femy Amin",
+				"party": { "code": "", "title": "Animal Welfare Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72474-013f461b-d792-43c5-9f26-b51cd6bfb661.png"
+			},{
+				"id": 72475,
+				"name": "Tracy Blackwell",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72475-63de63df-31cf-467e-9a43-7625b2e2bbed.png"
+			},{
+				"id": 72476,
+				"name": "Julian John Fitzwilliam Wilson",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72476-a1fcbfb6-0bd8-47ef-b1ac-bec95f20c60c.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Nick Hurd",
+			"party": { "code": "Con" },
+			"electorate": 73427,
+			"turnout": { "pc": 72.9, "value": 53528 },
+			"valid": 53382,
+			"invalid": 146,
+			"majority": 13980,
+			"candidates": [{
+				"name": "Nick Hurd",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30555
+			},{
+				"name": "Rebecca Lury",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16575
+			},{
+				"name": "Alex Cunliffe",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3813
+			},{
+				"name": "Sarah Green",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1268
+			},{
+				"name": "Richard Braine",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1171
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Nick Hurd",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 73216,
+			"turnout": { "pc":70.2, "value": 51381 },
+			"valid": 51222,
+			"invalid": 159,
+			"majority": 20224
+		}
+	}
+}

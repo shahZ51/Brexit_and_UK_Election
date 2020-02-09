@@ -1,0 +1,85 @@
+{
+	"id": "N06000011",
+	"title": "Newry and Armagh",
+	"demographics": {
+
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 81226,
+			"candidates": [{
+				"id": 1872,
+				"name": "William George Irwin",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1872.png"
+			},{
+				"id": 4600,
+				"name": "Mickey Brady",
+				"party": { "code": "SF", "title": "Sinn Féin" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55356f79367dc5383f552cba.png"
+			},{
+				"id": 8158,
+				"name": "Sam Nicholson",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8158.png"
+			},{
+				"id": 19696,
+				"name": "Jackie Coade",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19696.png"
+			},{
+				"id": 49544,
+				"name": "Pete Byrne",
+				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49544.png"
+			},{
+				"id": 68335,
+				"name": "Martin Kelly",
+				"party": { "code": "", "title": "Aontú" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68335.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Mickey Brady",
+			"party": { "code": "SF" },
+			"electorate": 78266,
+			"turnout": { "pc": 68.9, "value": 53900 },
+			"valid": 53579,
+			"invalid": 321,
+			"majority": 12489,
+			"candidates": [{
+				"name": "Mickey Brady",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 25666
+			},{
+				"name": "William Irwin",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 13177
+			},{
+				"name": "Justin McNulty",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 9055
+			},{
+				"name": "Sam Nicholson",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 4425
+			},{
+				"name": "Jackie Coade",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 1256
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Mickey Brady",
+			"party": { "code": "SF", "title": "Sinn Fein" },
+			"electorate": 77633,
+			"turnout": { "pc":64.7, "value": 50263 },
+			"valid": 49877,
+			"invalid": 386,
+			"majority": 4176
+		}
+	}
+}

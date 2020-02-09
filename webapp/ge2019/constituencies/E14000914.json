@@ -1,0 +1,97 @@
+{
+	"id": "E14000914",
+	"title": "Scunthorpe",
+	"demographics": {
+		"2015UKIP": 17.13,
+		"age18-29": 15.8,
+		"EUminus": 10.62,
+		"leave": 69.09,
+		"withdegree": 7.86,
+		"religion": {
+			"christian": 62.76,
+			"jewish": 0.03,
+			"muslim": 3.13
+		},
+		"race": {
+			"Arab": 0.16,
+			"Bangladeshi": 1.57,
+			"Black": 0.44,
+			"Chinese": 0.39,
+			"Indian": 1.03,
+			"Mixed": 0.88,
+			"Other": 0.21,
+			"Other Asian": 0.52,
+			"Pakistani": 0.85,
+			"White": 93.95
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 61975,
+			"candidates": [{
+				"id": 3663,
+				"name": "Nicholas Dakin",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b9f9ea51642637514d626.png"
+			},{
+				"id": 6095,
+				"name": "Ryk Downes",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551ce58b209513973bc512ba.png"
+			},{
+				"id": 34479,
+				"name": "Holly Mumby-Croft",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34479.png"
+			},{
+				"id": 65231,
+				"name": "Peter Dennington",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65231-e49266d6-f531-4f7f-9b77-798915274c95.png"
+			},{
+				"id": 71615,
+				"name": "Jerry Gorman",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71615.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Nic Dakin",
+			"party": { "code": "Lab" },
+			"electorate": 61578,
+			"turnout": { "pc": 65.4, "value": 40274 },
+			"valid": 40202,
+			"invalid": 72,
+			"majority": 3431,
+			"candidates": [{
+				"name": "Nic Dakin",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20916
+			},{
+				"name": "Holly Mumby-Croft",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17485
+			},{
+				"name": "Andy Talliss",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1247
+			},{
+				"name": "Ryk Downes",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 554
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Nic Dakin",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 64025,
+			"turnout": { "pc":57.9, "value": 37074 },
+			"valid": 36941,
+			"invalid": 133,
+			"majority": 3134
+		}
+	}
+}

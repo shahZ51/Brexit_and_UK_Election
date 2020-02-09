@@ -1,0 +1,96 @@
+{
+	"id": "W07000058",
+	"title": "Aberconwy",
+	"demographics": {
+		"2015UKIP": 11.5,
+		"age18-29": 12.02,
+		"EUminus": 4.17,
+		"leave": 53.38,
+		"withdegree": 14.15,
+		"religion": {
+			"christian": 64.46,
+			"jewish": 0.06,
+			"muslim": 0.41
+		},
+		"race": {
+			"Arab": 0.15,
+			"Bangladeshi": 0.09,
+			"Black": 0.17,
+			"Chinese": 0.28,
+			"Indian": 0.2,
+			"Mixed": 0.84,
+			"Other": 0.12,
+			"Other Asian": 0.25,
+			"Pakistani": 0.06,
+			"White": 97.84
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 44699,
+			"candidates": [{
+				"id": 2283,
+				"name": "Robin John Millar",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2283.png"
+			},{
+				"id": 23474,
+				"name": "Emily Owen",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23474-c59a0134-b76e-425a-9002-0dd7867ea457.png"
+			},{
+				"id": 24757,
+				"name": "Jason Edwards",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24757-cd367fa8-8fa5-47f5-863d-06855c652fe5.png"
+			},{
+				"id": 71274,
+				"name": "Lisa Goodier",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71274.png"
+			}],
+			"incumbent": {
+				"mp": "Guto Bebb",
+				"party": { "code": "Ind", "title": "Independent" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Guto Bebb",
+			"party": { "code": "Con" },
+			"electorate": 45251,
+			"turnout": { "pc": 71.2, "value": 32228 },
+			"valid": 32150,
+			"invalid": 78,
+			"majority": 635,
+			"candidates": [{
+				"name": "Guto Bebb",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14337
+			},{
+				"name": "Emily Owen",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13702
+			},{
+				"name": "Wyn Jones",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 3170
+			},{
+				"name": "Sarah Lesiter-Burgess",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 941
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Guto Bebb",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 45525,
+			"turnout": { "pc":66.4, "value": 30207 },
+			"valid": 30148,
+			"invalid": 59,
+			"majority": 3999
+		}
+	}
+}

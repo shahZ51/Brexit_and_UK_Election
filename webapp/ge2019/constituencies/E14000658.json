@@ -1,0 +1,106 @@
+{
+	"id": "E14000658",
+	"title": "Darlington",
+	"demographics": {
+		"2015UKIP": 13.11,
+		"age18-29": 14.88,
+		"EUminus": 5.32,
+		"leave": 58.07,
+		"withdegree": 11.33,
+		"religion": {
+			"christian": 66.62,
+			"jewish": 0.05,
+			"muslim": 0.99
+		},
+		"race": {
+			"Arab": 0.11,
+			"Bangladeshi": 0.55,
+			"Black": 0.37,
+			"Chinese": 0.35,
+			"Indian": 0.74,
+			"Mixed": 1.12,
+			"Other": 0.14,
+			"Other Asian": 0.46,
+			"Pakistani": 0.15,
+			"White": 95.99
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 66395,
+			"candidates": [{
+				"id": 2001,
+				"name": "Jenny Chapman",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ca256e22f98bc5d30fa77.png"
+			},{
+				"id": 5854,
+				"name": "Anne-Marie Curry",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5547b1fddffdc1c81f668298.png"
+			},{
+				"id": 34517,
+				"name": "Peter Gibson",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34517.png"
+			},{
+				"id": 34984,
+				"name": "Monty Brack",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34984.png"
+			},{
+				"id": 34986,
+				"name": "Matthew Snedker",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34986.png"
+			},{
+				"id": 72447,
+				"name": "Dave Mawson",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72447-482c06e0-6534-473d-ac0e-e5dc067df230.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Jenny Chapman",
+			"party": { "code": "Lab" },
+			"electorate": 66341,
+			"turnout": { "pc": 67.7, "value": 44896 },
+			"valid": 44817,
+			"invalid": 79,
+			"majority": 3280,
+			"candidates": [{
+				"name": "Jenny Chapman",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22681
+			},{
+				"name": "Peter Cuthbertson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19401
+			},{
+				"name": "Kevin Brack",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1180
+			},{
+				"name": "Anne-Marie Curry",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1031
+			},{
+				"name": "Matthew  Snedker",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 524
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Jenny Chapman",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 65851,
+			"turnout": { "pc":62.7, "value": 41304 },
+			"valid": 41141,
+			"invalid": 163,
+			"majority": 3158
+		}
+	}
+}

@@ -1,0 +1,96 @@
+{
+	"id": "E14000802",
+	"title": "Macclesfield",
+	"demographics": {
+		"2015UKIP": 12.17,
+		"age18-29": 11.67,
+		"EUminus": 3.69,
+		"leave": 48.16,
+		"withdegree": 21.64,
+		"religion": {
+			"christian": 67.59,
+			"jewish": 0.12,
+			"muslim": 0.43
+		},
+		"race": {
+			"Arab": 0.05,
+			"Bangladeshi": 0.07,
+			"Black": 0.3,
+			"Chinese": 0.32,
+			"Indian": 0.8,
+			"Mixed": 0.91,
+			"Other": 0.12,
+			"Other Asian": 0.43,
+			"Pakistani": 0.17,
+			"White": 96.83
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 76216,
+			"candidates": [{
+				"id": 2806,
+				"name": "David Rutley",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553506cdb247335574a42e63.png"
+			},{
+				"id": 5632,
+				"name": "Neil Christian",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551ab76ce2ac8b7333e6a283.png"
+			},{
+				"id": 34380,
+				"name": "James Booth",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34380.png"
+			},{
+				"id": 34463,
+				"name": "Neil Puttick",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34463_jSIi0AC.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "David Rutley",
+			"party": { "code": "Con" },
+			"electorate": 75228,
+			"turnout": { "pc": 72.4, "value": 54444 },
+			"valid": 54307,
+			"invalid": 137,
+			"majority": 8608,
+			"candidates": [{
+				"name": "David Rutley",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28595
+			},{
+				"name": "Neil Puttick",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19987
+			},{
+				"name": "Richard Flowers",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3350
+			},{
+				"name": "James Booth",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1213
+			},{
+				"name": "Mark Johnson",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1162
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "David Rutley",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 71712,
+			"turnout": { "pc":69.5, "value": 49846 },
+			"valid": 49598,
+			"invalid": 248,
+			"majority": 14811
+		}
+	}
+}

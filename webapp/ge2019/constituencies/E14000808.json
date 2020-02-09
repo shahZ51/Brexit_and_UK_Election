@@ -1,0 +1,117 @@
+{
+	"id": "E14000808",
+	"title": "Manchester, Gorton",
+	"demographics": {
+		"2015UKIP": 8.17,
+		"age18-29": 30.2,
+		"EUminus": 11.18,
+		"leave": 37.9,
+		"withdegree": 20.85,
+		"religion": {
+			"christian": 39.38,
+			"jewish": 0.28,
+			"muslim": 28.79
+		},
+		"race": {
+			"Arab": 2.24,
+			"Bangladeshi": 3.64,
+			"Black": 9.76,
+			"Chinese": 1.85,
+			"Indian": 2.56,
+			"Mixed": 4.93,
+			"Other": 1.44,
+			"Other Asian": 2.59,
+			"Pakistani": 18.55,
+			"White": 52.42
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 76419,
+			"candidates": [{
+				"id": 5092,
+				"name": "Jackie Pearcey",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5502a96c4a4c7d71797616b9.png"
+			},{
+				"id": 22549,
+				"name": "Afzal Khan",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22549.png"
+			},{
+				"id": 33945,
+				"name": "Sebastian Michael Lowe",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": ""
+			},{
+				"id": 45351,
+				"name": "Eliza Kate Tyrrell",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45351-29fa8a03-b731-40e2-b117-133ec8bd1af8.png"
+			},{
+				"id": 72392,
+				"name": "Lesley Barbara Kaya",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72392-25507176-ee8e-4f6f-b869-de5366890593.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Afzal Khan",
+			"party": { "code": "Lab" },
+			"electorate": 75362,
+			"turnout": { "pc": 61.2, "value": 46098 },
+			"valid": 45953,
+			"invalid": 145,
+			"majority": 31730,
+			"candidates": [{
+				"name": "Afzal Khan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 35085
+			},{
+				"name": "Shaden Jaradat",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 3355
+			},{
+				"name": "George Galloway",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 2615
+			},{
+				"name": "Jackie Pearcey",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2597
+			},{
+				"name": "Jess Mayo",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1038
+			},{
+				"name": "Phil Eckersley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 952
+			},{
+				"name": "Kemi Abidogun",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 233
+			},{
+				"name": "David Hopkins",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 51
+			},{
+				"name": "Peter Clifford",
+				"party": { "code": "Comm Leagu", "title": "Communist League Election Campaign" },
+				"votes": 27
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Gerald Kaufman",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 72992,
+			"turnout": { "pc":57.9, "value": 42294 },
+			"valid": 42019,
+			"invalid": 275,
+			"majority": 24079
+		}
+	}
+}

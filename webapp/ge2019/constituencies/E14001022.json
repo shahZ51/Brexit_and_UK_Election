@@ -1,0 +1,105 @@
+{
+	"id": "E14001022",
+	"title": "Waveney",
+	"demographics": {
+		"2015UKIP": 14.52,
+		"age18-29": 12.7,
+		"EUminus": 3.37,
+		"leave": 63.21,
+		"withdegree": 7.39,
+		"religion": {
+			"christian": 60.06,
+			"jewish": 0.05,
+			"muslim": 0.36
+		},
+		"race": {
+			"Arab": 0.01,
+			"Bangladeshi": 0.09,
+			"Black": 0.35,
+			"Chinese": 0.26,
+			"Indian": 0.17,
+			"Mixed": 1.07,
+			"Other": 0.1,
+			"Other Asian": 0.3,
+			"Pakistani": 0.05,
+			"White": 97.6
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 82791,
+			"candidates": [{
+				"id": 1808,
+				"name": "Peter Aldous",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/550c3cd53be3632f3135c9fa.png"
+			},{
+				"id": 7698,
+				"name": "Helen Korfanty",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7698.png"
+			},{
+				"id": 26308,
+				"name": "Elfrede Brambley-Crawshaw",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26308.png"
+			},{
+				"id": 31152,
+				"name": "Sonia Valerie Barker",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31152.png"
+			},{
+				"id": 72316,
+				"name": "Dave Brennan",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Peter Aldous",
+			"party": { "code": "Con" },
+			"electorate": 80763,
+			"turnout": { "pc": 65.3, "value": 52742 },
+			"valid": 52674,
+			"invalid": 68,
+			"majority": 9215,
+			"candidates": [{
+				"name": "Peter Aldous",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28643
+			},{
+				"name": "Sonia Barker",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19428
+			},{
+				"name": "Bert Poole",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1933
+			},{
+				"name": "Elfrede Brambley-Crawshaw",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1332
+			},{
+				"name": "Jacky Howe",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1012
+			},{
+				"name": "Allyson Barron",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 326
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Peter Aldous",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 80166,
+			"turnout": { "pc":65.3, "value": 52339 },
+			"valid": 52196,
+			"invalid": 143,
+			"majority": 2408
+		}
+	}
+}

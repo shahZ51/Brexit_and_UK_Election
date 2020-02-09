@@ -1,0 +1,116 @@
+{
+	"id": "E14001002",
+	"title": "Tottenham",
+	"demographics": {
+		"2015UKIP": 3.55,
+		"age18-29": 21.81,
+		"EUminus": 35.52,
+		"leave": 23.78,
+		"withdegree": 22.79,
+		"religion": {
+			"christian": 47.42,
+			"jewish": 2.65,
+			"muslim": 19.07
+		},
+		"race": {
+			"Arab": 1.01,
+			"Bangladeshi": 2.32,
+			"Black": 26.66,
+			"Chinese": 1.57,
+			"Indian": 2.21,
+			"Mixed": 6.7,
+			"Other": 4.88,
+			"Other Asian": 3.64,
+			"Pakistani": 0.93,
+			"White": 50.1
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 75740,
+			"candidates": [{
+				"id": 4065,
+				"name": "Frank Sweeney",
+				"party": { "code": "", "title": "Workers Revolutionary Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4065-c4de3c58-d2f2-42fc-a9a2-ee53639b277b.png"
+			},{
+				"id": 4875,
+				"name": "David Lammy",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55323e9829c5d53959d9e45e.png"
+			},{
+				"id": 6911,
+				"name": "Jonathan Silberman",
+				"party": { "code": "", "title": "Communist League Election Campaign" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6911-5c0d0e05-108c-4926-873d-27d9c50a8842.png"
+			},{
+				"id": 36032,
+				"name": "Tammy Palmer",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36032.png"
+			},{
+				"id": 47756,
+				"name": "James Newhall",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47756.png"
+			},{
+				"id": 71700,
+				"name": "Emma Chan",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71700.png"
+			},{
+				"id": 72629,
+				"name": "Andrew Charles Bence",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72629-3e7f3902-c996-478f-a6e7-ec9ddc8f031a.png"
+			},{
+				"id": 72630,
+				"name": "Abdul Hamid Turay",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72630-0140fbfd-0260-47c3-9203-9270ecd7ed46.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "David Lammy",
+			"party": { "code": "Lab" },
+			"electorate": 72884,
+			"turnout": { "pc": 67.9, "value": 49486 },
+			"valid": 49339,
+			"invalid": 147,
+			"majority": 34584,
+			"candidates": [{
+				"name": "David Lammy",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 40249
+			},{
+				"name": "Myles Stacey",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 5665
+			},{
+				"name": "Brian Haley",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1687
+			},{
+				"name": "Jarelle Francis",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1276
+			},{
+				"name": "Patricia Rumble",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 462
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "David Lammy",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 70803,
+			"turnout": { "pc":60.4, "value": 42771 },
+			"valid": 42558,
+			"invalid": 213,
+			"majority": 23564
+		}
+	}
+}

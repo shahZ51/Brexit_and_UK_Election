@@ -1,0 +1,111 @@
+{
+	"id": "E14000592",
+	"title": "Brent North",
+	"demographics": {
+		"2015UKIP": 3.87,
+		"age18-29": 21.13,
+		"EUminus": 21.74,
+		"leave": 43.09,
+		"withdegree": 24.72,
+		"religion": {
+			"christian": 32.75,
+			"jewish": 1.49,
+			"muslim": 17.46
+		},
+		"race": {
+			"Arab": 3.35,
+			"Bangladeshi": 0.65,
+			"Black": 12.31,
+			"Chinese": 1.15,
+			"Indian": 32.86,
+			"Mixed": 3.61,
+			"Other": 1.72,
+			"Other Asian": 12.44,
+			"Pakistani": 5.33,
+			"White": 26.6
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 83772,
+			"candidates": [{
+				"id": 2456,
+				"name": "Barry Gardiner",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55323cfc29c5d53959d9e455.png"
+			},{
+				"id": 6276,
+				"name": "Paul Lorber",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55489aa539a8ee0311018609.png"
+			},{
+				"id": 7320,
+				"name": "Elcena Jeffers",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7320.png"
+			},{
+				"id": 7404,
+				"name": "Noel Coonan",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": ""
+			},{
+				"id": 47668,
+				"name": "Anjana Patel",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47668-b4ac59dc-cfa7-4a99-9a4c-f3d3625a5053.png"
+			},{
+				"id": 48143,
+				"name": "Simon David Rebbitt",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48143-ee5bb501-1975-4ef4-a5ad-0bd46cf39e9d.png"
+			},{
+				"id": 71935,
+				"name": "Suzie O'Brien",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71935.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Barry Gardiner",
+			"party": { "code": "Lab" },
+			"electorate": 82567,
+			"turnout": { "pc": 68.6, "value": 56647 },
+			"valid": 56444,
+			"invalid": 203,
+			"majority": 17061,
+			"candidates": [{
+				"name": "Barry Gardiner",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 35496
+			},{
+				"name": "Ameet Jogia",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18435
+			},{
+				"name": "Paul Lorber",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1614
+			},{
+				"name": "Michaela Lichten",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 660
+			},{
+				"name": "Elcena Jeffers",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 239
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Barry Gardiner",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 82196,
+			"turnout": { "pc":63.9, "value": 52526 },
+			"valid": 52235,
+			"invalid": 291,
+			"majority": 10834
+		}
+	}
+}

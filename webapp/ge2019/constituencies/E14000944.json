@@ -1,0 +1,106 @@
+{
+	"id": "E14000944",
+	"title": "South Shields",
+	"demographics": {
+		"2015UKIP": 21.99,
+		"age18-29": 15.43,
+		"EUminus": 1.82,
+		"leave": 62.05,
+		"withdegree": 8.95,
+		"religion": {
+			"christian": 67.6,
+			"jewish": 0.04,
+			"muslim": 2.89
+		},
+		"race": {
+			"Arab": 0.56,
+			"Bangladeshi": 1.62,
+			"Black": 0.39,
+			"Chinese": 0.13,
+			"Indian": 0.46,
+			"Mixed": 1.1,
+			"Other": 0.35,
+			"Other Asian": 0.4,
+			"Pakistani": 0.43,
+			"White": 94.56
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 62793,
+			"candidates": [{
+				"id": 5539,
+				"name": "Emma Lewell-Buck",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b8df1e6d2cbcd26e36a2c.png"
+			},{
+				"id": 16076,
+				"name": "Sarah Jean McKeown",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16076-54dd56f8-31d9-444d-815f-152894e47b81.png"
+			},{
+				"id": 39553,
+				"name": "William Shepherd",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39553-6aa00e96-eb41-4f50-9e9d-240cb303b035.png"
+			},{
+				"id": 43920,
+				"name": "Oni Oviri",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43920-7bd15916-1030-4b77-9255-7e52feaa477f.png"
+			},{
+				"id": 62685,
+				"name": "Glenn Michael Thompson",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/62685.png"
+			},{
+				"id": 72084,
+				"name": "Geoff Thompson",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72084-c8e9e83e-1668-4dc3-8a73-a7d31c4cdf1a.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Emma Lewell-Buck",
+			"party": { "code": "Lab" },
+			"electorate": 63433,
+			"turnout": { "pc": 64.4, "value": 40849 },
+			"valid": 40772,
+			"invalid": 77,
+			"majority": 14508,
+			"candidates": [{
+				"name": "Emma Lewell-Buck",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25078
+			},{
+				"name": "Felicity Buchan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10570
+			},{
+				"name": "Richard Elvin",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3006
+			},{
+				"name": "Shirley Ford",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1437
+			},{
+				"name": "Gita Gordon",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 681
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Emma Lewell-Buck",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 62730,
+			"turnout": { "pc":57.9, "value": 36346 },
+			"valid": 36265,
+			"invalid": 81,
+			"majority": 10614
+		}
+	}
+}

@@ -1,0 +1,96 @@
+{
+	"id": "E14000997",
+	"title": "Tonbridge and Malling",
+	"demographics": {
+		"2015UKIP": 15.19,
+		"age18-29": 11.01,
+		"EUminus": 4.83,
+		"leave": 52.59,
+		"withdegree": 18.54,
+		"religion": {
+			"christian": 63.81,
+			"jewish": 0.13,
+			"muslim": 0.61
+		},
+		"race": {
+			"Arab": 0.11,
+			"Bangladeshi": 0.2,
+			"Black": 0.29,
+			"Chinese": 0.44,
+			"Indian": 0.59,
+			"Mixed": 1.48,
+			"Other": 0.23,
+			"Other Asian": 0.65,
+			"Pakistani": 0.13,
+			"White": 95.9
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 77380,
+			"candidates": [{
+				"id": 4238,
+				"name": "Tom Tugendhat",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e77bb150e238702c0533.png"
+			},{
+				"id": 28573,
+				"name": "April Clark",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28573.png"
+			},{
+				"id": 34476,
+				"name": "Dylan Jones",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34476.png"
+			},{
+				"id": 71693,
+				"name": "Richard Morris",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71693-dbae21dc-b722-46bc-ad61-18913ea9327c.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Tom Tugendhat",
+			"party": { "code": "Con" },
+			"electorate": 77417,
+			"turnout": { "pc": 73.6, "value": 57015 },
+			"valid": 56907,
+			"invalid": 108,
+			"majority": 23508,
+			"candidates": [{
+				"name": "Tom Tugendhat",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36218
+			},{
+				"name": "Dylan Jones",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12710
+			},{
+				"name": "Keith Miller",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3787
+			},{
+				"name": "April Clark",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2335
+			},{
+				"name": "Colin Bullen",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1857
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Tom Tugendhat",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 74877,
+			"turnout": { "pc":71.9, "value": 53832 },
+			"valid": 53670,
+			"invalid": 162,
+			"majority": 23734
+		}
+	}
+}

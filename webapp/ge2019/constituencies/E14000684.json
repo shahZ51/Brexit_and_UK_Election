@@ -1,0 +1,101 @@
+{
+	"id": "E14000684",
+	"title": "Eastbourne",
+	"demographics": {
+		"2015UKIP": 11.6,
+		"age18-29": 14.34,
+		"EUminus": 10.19,
+		"leave": 57.62,
+		"withdegree": 12.66,
+		"religion": {
+			"christian": 60.12,
+			"jewish": 0.21,
+			"muslim": 1.38
+		},
+		"race": {
+			"Arab": 0.21,
+			"Bangladeshi": 0.27,
+			"Black": 0.74,
+			"Chinese": 0.6,
+			"Indian": 0.66,
+			"Mixed": 1.73,
+			"Other": 0.29,
+			"Other Asian": 1.06,
+			"Pakistani": 0.1,
+			"White": 94.32
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 79307,
+			"candidates": [{
+				"id": 1056,
+				"name": "Stephen Lloyd",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e901b150e238702c061e.png"
+			},{
+				"id": 4188,
+				"name": "Caroline Ansell",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4188.png"
+			},{
+				"id": 5292,
+				"name": "Jake Lambert",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517f4a0249b917507bee50f.png"
+			},{
+				"id": 71422,
+				"name": "Stephen Gander",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71422.png"
+			},{
+				"id": 72599,
+				"name": "Ken Pollock",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": ""
+			}],
+			"incumbent": {
+				"mp": "Stephen Lloyd",
+				"party": { "code": "Ind", "title": "Independent" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Stephen Lloyd",
+			"party": { "code": "LD" },
+			"electorate": 78754,
+			"turnout": { "pc": 73.0, "value": 57511 },
+			"valid": 57420,
+			"invalid": 91,
+			"majority": 1609,
+			"candidates": [{
+				"name": "Stephen Lloyd",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 26924
+			},{
+				"name": "Caroline Ansell",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25315
+			},{
+				"name": "Jake Lambert",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 4671
+			},{
+				"name": "Alex  Hough",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 510
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Caroline Ansell",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 78262,
+			"turnout": { "pc":67.8, "value": 53061 },
+			"valid": 52907,
+			"invalid": 154,
+			"majority": 733
+		}
+	}
+}

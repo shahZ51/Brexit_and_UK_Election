@@ -1,0 +1,100 @@
+{
+	"id": "E14000771",
+	"title": "Kingston upon Hull East",
+	"demographics": {
+		"2015UKIP": 22.37,
+		"age18-29": 16.9,
+		"EUminus": 3.93,
+		"leave": 72.63,
+		"withdegree": 5.54,
+		"religion": {
+			"christian": 56.86,
+			"jewish": 0.05,
+			"muslim": 0.73
+		},
+		"race": {
+			"Arab": 0.15,
+			"Bangladeshi": 0.08,
+			"Black": 0.48,
+			"Chinese": 0.27,
+			"Indian": 0.32,
+			"Mixed": 0.85,
+			"Other": 0.14,
+			"Other Asian": 0.23,
+			"Pakistani": 0.16,
+			"White": 97.31
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 2684,
+				"name": "Karl Turner",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ca219e22f98bc5d30fa75.png"
+			},{
+				"id": 34617,
+				"name": "Julia Brown",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34617.png"
+			},{
+				"id": 68442,
+				"name": "Bob Morgan",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68442-ecc1715f-6456-408e-bc9b-bfac64464d36.png"
+			},{
+				"id": 71505,
+				"name": "Marten Hall",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71505-4492f288-bd9a-4c78-86c0-df9f516270bc.png"
+			},{
+				"id": 72371,
+				"name": "Rachel Louise Storer",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72371-a5d73e18-c30e-4a91-afc6-235d25e4739e.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Karl Turner",
+			"party": { "code": "Lab" },
+			"electorate": 65959,
+			"turnout": { "pc": 55.6, "value": 36698 },
+			"valid": 36638,
+			"invalid": 60,
+			"majority": 10396,
+			"candidates": [{
+				"name": "Karl Turner",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21355
+			},{
+				"name": "Simon Burton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10959
+			},{
+				"name": "Mark Fox",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2573
+			},{
+				"name": "Andrew Marchington",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1258
+			},{
+				"name": "Julia Brown",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 493
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Karl Turner",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 65710,
+			"turnout": { "pc":53.6, "value": 35246 },
+			"valid": 35144,
+			"invalid": 102,
+			"majority": 10319
+		}
+	}
+}

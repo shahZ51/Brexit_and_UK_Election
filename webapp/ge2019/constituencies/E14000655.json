@@ -1,0 +1,110 @@
+{
+	"id": "E14000655",
+	"title": "Croydon North",
+	"demographics": {
+		"2015UKIP": 5.42,
+		"age18-29": 17.68,
+		"EUminus": 14.26,
+		"leave": 41.17,
+		"withdegree": 20.9,
+		"religion": {
+			"christian": 54.23,
+			"jewish": 0.16,
+			"muslim": 12.94
+		},
+		"race": {
+			"Arab": 0.56,
+			"Bangladeshi": 1.05,
+			"Black": 31.55,
+			"Chinese": 1.05,
+			"Indian": 9.04,
+			"Mixed": 7.64,
+			"Other": 1.7,
+			"Other Asian": 6.93,
+			"Pakistani": 5.31,
+			"White": 35.17
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 88466,
+			"candidates": [{
+				"id": 5372,
+				"name": "Steve Reed",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c30a0fc4fe0dc23f26c6a.png"
+			},{
+				"id": 35233,
+				"name": "Claire Bonham",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35233-906871b5-6e98-4ab0-9d86-bab5f1a8b195.png"
+			},{
+				"id": 42187,
+				"name": "Donald Ekekhomen",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72010.png"
+			},{
+				"id": 47048,
+				"name": "Rachel Mary Chance",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47048.png"
+			},{
+				"id": 71290,
+				"name": "Chidi Ngwaba",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71290-6e39b28a-fedc-488f-972b-63938955bbe7.png"
+			},{
+				"id": 72559,
+				"name": "Candace Mitchell",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72559-890284aa-1334-4bd6-aad3-97b339f475bf.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Steve Reed",
+			"party": { "code": "Lab" },
+			"electorate": 87461,
+			"turnout": { "pc": 68.3, "value": 59754 },
+			"valid": 59623,
+			"invalid": 131,
+			"majority": 32365,
+			"candidates": [{
+				"name": "Steve Reed",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 44213
+			},{
+				"name": "Samuel Kasumu",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11848
+			},{
+				"name": "Maltby Pindar",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1656
+			},{
+				"name": "Peter Underwood",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 983
+			},{
+				"name": "Michael Swadling",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 753
+			},{
+				"name": "Lee Berks",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 170
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Steve Reed",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
+			"electorate": 85941,
+			"turnout": { "pc":62.5, "value": 53710 },
+			"valid": 53522,
+			"invalid": 188,
+			"majority": 21364
+		}
+	}
+}

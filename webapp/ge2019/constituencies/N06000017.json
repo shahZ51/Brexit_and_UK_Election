@@ -1,0 +1,80 @@
+{
+	"id": "N06000017",
+	"title": "Upper Bann",
+	"demographics": {
+
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 82887,
+			"candidates": [{
+				"id": 699,
+				"name": "Dolores Kelly",
+				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553be5e0ec0766d3759c0467.png"
+			},{
+				"id": 3752,
+				"name": "John O'Dowd",
+				"party": { "code": "SF", "title": "Sinn Féin" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3752.png"
+			},{
+				"id": 8150,
+				"name": "Doug Beattie",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8150.png"
+			},{
+				"id": 12439,
+				"name": "Carla Lockhart",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/12439.png"
+			},{
+				"id": 50332,
+				"name": "Eóin Tennyson",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69134-8ae070b0-664c-44f8-b10f-aad5b05f29b6.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "David Simpson",
+			"party": { "code": "DUP" },
+			"electorate": 80168,
+			"turnout": { "pc": 64.2, "value": 51431 },
+			"valid": 51258,
+			"invalid": 173,
+			"majority": 7992,
+			"candidates": [{
+				"name": "David Simpson",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 22317
+			},{
+				"name": "John O'Dowd",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 14325
+			},{
+				"name": "Doug Beattie",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 7900
+			},{
+				"name": "Declan McAlinden",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 4397
+			},{
+				"name": "Tara Doyle",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 2319
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "David Simpson",
+			"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+			"electorate": 80060,
+			"turnout": { "pc":59.3, "value": 47473 },
+			"valid": 47219,
+			"invalid": 254,
+			"majority": 2264
+		}
+	}
+}

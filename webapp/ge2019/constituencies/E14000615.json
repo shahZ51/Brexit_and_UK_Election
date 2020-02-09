@@ -1,0 +1,109 @@
+{
+	"id": "E14000615",
+	"title": "Camberwell and Peckham",
+	"demographics": {
+		"2015UKIP": 4.68,
+		"age18-29": 20.94,
+		"EUminus": 16.46,
+		"leave": 30.2,
+		"withdegree": 30.25,
+		"religion": {
+			"christian": 54.72,
+			"jewish": 0.23,
+			"muslim": 9.87
+		},
+		"race": {
+			"Arab": 0.73,
+			"Bangladeshi": 1.26,
+			"Black": 37.38,
+			"Chinese": 1.94,
+			"Indian": 1.2,
+			"Mixed": 6.64,
+			"Other": 2.8,
+			"Other Asian": 2.64,
+			"Pakistani": 0.56,
+			"White": 44.84
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 1088,
+				"name": "Joshua Ogunleye",
+				"party": { "code": "", "title": "Workers Revolutionary Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5547b359c96b7d3221f3519e.png"
+			},{
+				"id": 3885,
+				"name": "Harriet Harman",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/552cf2553d3371cf3592d9d6.png"
+			},{
+				"id": 36021,
+				"name": "Julia Ogiehor",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36021.png"
+			},{
+				"id": 48361,
+				"name": "Claire Sheppard",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48361-f0358fa8-0406-4da7-a383-7b41e83b3644.png"
+			},{
+				"id": 72552,
+				"name": "Cass Jean-Claude Cass-Horne",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72552-01f737cb-ee8d-4a5e-bd58-899ab8ab3b6d.png"
+			},{
+				"id": 72553,
+				"name": "Peter James Quentin",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Harriet Harman",
+			"party": { "code": "Lab" },
+			"electorate": 85613,
+			"turnout": { "pc": 67.3, "value": 57648 },
+			"valid": 57412,
+			"invalid": 236,
+			"majority": 37316,
+			"candidates": [{
+				"name": "Harriet Harman",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 44665
+			},{
+				"name": "Ben Spencer",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7349
+			},{
+				"name": "Michael Bukola",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3413
+			},{
+				"name": "Eleanor Margolies",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1627
+			},{
+				"name": "Ray Towey",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 227
+			},{
+				"name": "Aminata Sellu",
+				"party": { "code": "WRP", "title": "Workers Revolutionary Party" },
+				"votes": 131
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Harriet Harman",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 82746,
+			"turnout": { "pc":62.6, "value": 51779 },
+			"valid": 51561,
+			"invalid": 218,
+			"majority": 25824
+		}
+	}
+}

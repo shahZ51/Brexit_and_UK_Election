@@ -1,0 +1,104 @@
+{
+	"id": "E14001047",
+	"title": "Woking",
+	"demographics": {
+		"2015UKIP": 11.3,
+		"age18-29": 14.02,
+		"EUminus": 11.28,
+		"leave": 44.06,
+		"withdegree": 26.19,
+		"religion": {
+			"christian": 59.22,
+			"jewish": 0.22,
+			"muslim": 6.98
+		},
+		"race": {
+			"Arab": 0.52,
+			"Bangladeshi": 0.43,
+			"Black": 1.45,
+			"Chinese": 0.84,
+			"Indian": 2.22,
+			"Mixed": 2.3,
+			"Other": 0.56,
+			"Other Asian": 2.09,
+			"Pakistani": 5.37,
+			"White": 84.2
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 2546,
+				"name": "Jonathan Lord",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2546.png"
+			},{
+				"id": 13476,
+				"name": "Troy De Leon",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13476.png"
+			},{
+				"id": 13560,
+				"name": "Will Forster",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13560.png"
+			},{
+				"id": 42927,
+				"name": "Gerry Mitchell",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71998.png"
+			},{
+				"id": 52782,
+				"name": "Ella Walding",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/52782.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Jonathan Lord",
+			"party": { "code": "Con" },
+			"electorate": 76170,
+			"turnout": { "pc": 72.7, "value": 55373 },
+			"valid": 55246,
+			"invalid": 127,
+			"majority": 16724,
+			"candidates": [{
+				"name": "Jonathan Lord",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29903
+			},{
+				"name": "Fiona Colley",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13179
+			},{
+				"name": "Will Forster",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 9711
+			},{
+				"name": "Troy De Leon",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1161
+			},{
+				"name": "James Brierley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1092
+			},{
+				"name": "Hassan Akberali",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 200
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Jonathan Lord",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 74269,
+			"turnout": { "pc":70.2, "value": 52113 },
+			"valid": 51964,
+			"invalid": 149,
+			"majority": 20810
+		}
+	}
+}

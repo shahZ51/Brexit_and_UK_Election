@@ -1,0 +1,97 @@
+{
+	"id": "E14000936",
+	"title": "South Dorset",
+	"demographics": {
+		"2015UKIP": 15.03,
+		"age18-29": 12.96,
+		"EUminus": 5.13,
+		"leave": 59.49,
+		"withdegree": 11.28,
+		"religion": {
+			"christian": 62.22,
+			"jewish": 0.1,
+			"muslim": 0.39
+		},
+		"race": {
+			"Arab": 0.02,
+			"Bangladeshi": 0.13,
+			"Black": 0.39,
+			"Chinese": 0.22,
+			"Indian": 0.14,
+			"Mixed": 0.93,
+			"Other": 0.08,
+			"Other Asian": 0.34,
+			"Pakistani": 0.03,
+			"White": 97.71
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 72924,
+			"candidates": [{
+				"id": 2850,
+				"name": "Richard Drax",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553aaca478c2688c57905d0c.png"
+			},{
+				"id": 8580,
+				"name": "Jon Orrell",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50055.png"
+			},{
+				"id": 24399,
+				"name": "Nick Ireland",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24399.png"
+			},{
+				"id": 71633,
+				"name": "Carralyn Parkes",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71633.png"
+			},{
+				"id": 72581,
+				"name": "Joseph Green",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Richard Drax",
+			"party": { "code": "Con" },
+			"electorate": 75553,
+			"turnout": { "pc": 68.8, "value": 52009 },
+			"valid": 51906,
+			"invalid": 103,
+			"majority": 11695,
+			"candidates": [{
+				"name": "Richard Drax",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29135
+			},{
+				"name": "Tashi Warr",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17440
+			},{
+				"name": "Howard Legg",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3053
+			},{
+				"name": "Jon Orrell",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2278
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Richard Drax",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 71534,
+			"turnout": { "pc":68.1, "value": 48737 },
+			"valid": 48597,
+			"invalid": 140,
+			"majority": 11994
+		}
+	}
+}

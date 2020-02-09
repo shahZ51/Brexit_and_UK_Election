@@ -1,0 +1,95 @@
+{
+	"id": "S14000017",
+	"title": "Dunfermline and West Fife",
+	"demographics": {
+		"age18-29": 13.55,
+		"EUminus": 3.76,
+		"leave": 40.03,
+		"religion": {
+			"christian": 44.57,
+			"jewish": 0.03,
+			"muslim": 0.7
+		},
+		"race": {
+			"Arab": 0.06,
+			"Bangladeshi": 0.04,
+			"Black": null,
+			"Chinese": 0.3,
+			"Indian": 0.26,
+			"Mixed": 0,
+			"Other": 0.05,
+			"Other Asian": 0.2,
+			"Pakistani": 0.53,
+			"White": 97.97
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 76652,
+			"candidates": [{
+				"id": 6050,
+				"name": "Douglas Chapman",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c06ada8c0192f732ca8ea.png"
+			},{
+				"id": 8111,
+				"name": "Cara Hilton",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8111_gKHqSFS.png"
+			},{
+				"id": 9022,
+				"name": "Rebecca Bell",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9022.png"
+			},{
+				"id": 20570,
+				"name": "Mags Hall",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20570.png"
+			},{
+				"id": 72223,
+				"name": "Moira McDonald Benny",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Douglas Chapman",
+			"party": { "code": "SNP" },
+			"electorate": 75672,
+			"turnout": { "pc": 67.5, "value": 51083 },
+			"valid": 51010,
+			"invalid": 73,
+			"majority": 844,
+			"candidates": [{
+				"name": "Douglas Chapman",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 18121
+			},{
+				"name": "Cara Hilton",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 17277
+			},{
+				"name": "Belinda Hacking",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12593
+			},{
+				"name": "James Calder",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3019
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Douglas Chapman",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
+			"electorate": 78037,
+			"turnout": { "pc":71.7, "value": 55968 },
+			"valid": 55890,
+			"invalid": 78,
+			"majority": 10352
+		}
+	}
+}

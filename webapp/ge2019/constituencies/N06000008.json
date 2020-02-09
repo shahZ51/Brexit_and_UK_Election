@@ -1,0 +1,90 @@
+{
+	"id": "N06000008",
+	"title": "Foyle",
+	"demographics": {
+
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 74346,
+			"candidates": [{
+				"id": 7209,
+				"name": "Gary Middleton",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72315-5b582878-76da-4bf3-ba13-b93a3536defd.png"
+			},{
+				"id": 11857,
+				"name": "Colum Eastwood",
+				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11857.png"
+			},{
+				"id": 11862,
+				"name": "Anne McCloskey",
+				"party": { "code": "", "title": "Aontú" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50485.png"
+			},{
+				"id": 19678,
+				"name": "Elisha McCallion",
+				"party": { "code": "SF", "title": "Sinn Féin" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19678.png"
+			},{
+				"id": 35060,
+				"name": "Shaun Harkin",
+				"party": { "code": "", "title": "People Before Profit Alliance" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35060.png"
+			},{
+				"id": 72309,
+				"name": "Rachael Ferguson",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72309-13942359-b1f8-41fa-ae3d-1b918d082436.png"
+			},{
+				"id": 72311,
+				"name": "Darren Guy",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72311-69f7860c-8833-4537-9613-7ce907087fab.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Elisha McCallion",
+			"party": { "code": "SF" },
+			"electorate": 70324,
+			"turnout": { "pc": 65.6, "value": 46142 },
+			"valid": 45965,
+			"invalid": 177,
+			"majority": 169,
+			"candidates": [{
+				"name": "Elisha McCallion",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 18256
+			},{
+				"name": "Mark Durkan",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 18087
+			},{
+				"name": "Gary Middleton",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 7398
+			},{
+				"name": "Shaun Harkin",
+				"party": { "code": "PBPA", "title": "People Before Profit Alliance" },
+				"votes": 1377
+			},{
+				"name": "John Doherty",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 847
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Mark Durkan",
+			"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+			"electorate": 70036,
+			"turnout": { "pc":53.6, "value": 37528 },
+			"valid": 37002,
+			"invalid": 526,
+			"majority": 6046
+		}
+	}
+}

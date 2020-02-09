@@ -1,0 +1,91 @@
+{
+	"id": "E14000610",
+	"title": "Burton",
+	"demographics": {
+		"2015UKIP": 17.68,
+		"age18-29": 15.26,
+		"EUminus": 8.07,
+		"leave": 64.62,
+		"withdegree": 11.7,
+		"religion": {
+			"christian": 63.13,
+			"jewish": 0.04,
+			"muslim": 6.57
+		},
+		"race": {
+			"Arab": 0.09,
+			"Bangladeshi": 0.15,
+			"Black": 0.97,
+			"Chinese": 0.28,
+			"Indian": 0.87,
+			"Mixed": 1.48,
+			"Other": 0.27,
+			"Other Asian": 0.81,
+			"Pakistani": 5.41,
+			"White": 89.65
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 31482,
+				"name": "Adam Wain",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31482-b7e441d6-ccbc-419d-b8df-9e709941cc7f.png"
+			},{
+				"id": 71951,
+				"name": "Kate Copeland",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71951-47e5f01a-0e39-48b8-9587-399ec63f0e06.png"
+			},{
+				"id": 72068,
+				"name": "Kate Griffiths",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72068-5a20989d-6bec-4e88-b9ea-f9cbf32dd217.png"
+			},{
+				"id": 72620,
+				"name": "Louise Walker",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72620-4629fe3d-09fd-4865-bff5-37abcd92d2de.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Andrew Griffiths",
+			"party": { "code": "Con" },
+			"electorate": 73954,
+			"turnout": { "pc": 67.7, "value": 50054 },
+			"valid": 49911,
+			"invalid": 143,
+			"majority": 10047,
+			"candidates": [{
+				"name": "Andrew Griffiths",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28936
+			},{
+				"name": "John McKiernan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18889
+			},{
+				"name": "Dominic Hardwick",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1262
+			},{
+				"name": "Simon Hales",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 824
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Andrew Griffiths",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 75248,
+			"turnout": { "pc":65.3, "value": 49150 },
+			"valid": 48974,
+			"invalid": 176,
+			"majority": 10892
+		}
+	}
+}

@@ -1,0 +1,106 @@
+{
+	"id": "E14000737",
+	"title": "Hayes and Harlington",
+	"demographics": {
+		"2015UKIP": 11.96,
+		"age18-29": 19.06,
+		"EUminus": 13.63,
+		"leave": 59.41,
+		"withdegree": 15.76,
+		"religion": {
+			"christian": 40.1,
+			"jewish": 0.09,
+			"muslim": 16.63
+		},
+		"race": {
+			"Arab": 1.23,
+			"Bangladeshi": 1.07,
+			"Black": 11.88,
+			"Chinese": 0.54,
+			"Indian": 19.17,
+			"Mixed": 4.1,
+			"Other": 2.85,
+			"Other Asian": 10.17,
+			"Pakistani": 5.57,
+			"White": 43.4
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 72356,
+			"candidates": [{
+				"id": 1860,
+				"name": "John McDonnell",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55356e59367dc5383f552cb1.png"
+			},{
+				"id": 34483,
+				"name": "Alex Cunliffe",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34483.png"
+			},{
+				"id": 40253,
+				"name": "Wayne Bridges",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72076.png"
+			},{
+				"id": 47641,
+				"name": "Harry Boparai",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47641-8ecdb014-d8e5-4d81-8da5-1143cd0bdd73.png"
+			},{
+				"id": 48288,
+				"name": "Christine West",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48288-61fc737c-384b-496e-9bb3-9985b38bd323.png"
+			},{
+				"id": 72329,
+				"name": "Chika Amadi",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72329-4c4af5b5-bdf2-47cc-81fa-1e9db12fbdaa.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "John McDonnell",
+			"party": { "code": "Lab" },
+			"electorate": 73268,
+			"turnout": { "pc": 65.4, "value": 47920 },
+			"valid": 47802,
+			"invalid": 118,
+			"majority": 18115,
+			"candidates": [{
+				"name": "John McDonnell",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 31796
+			},{
+				"name": "Greg Smith",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 13681
+			},{
+				"name": "Cliff Dixon",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1153
+			},{
+				"name": "Bill Newton Dunn",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 601
+			},{
+				"name": "John Bowman",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 571
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "John McDonnell",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 74874,
+			"turnout": { "pc":60.4, "value": 45198 },
+			"valid": 45056,
+			"invalid": 142,
+			"majority": 15700
+		}
+	}
+}

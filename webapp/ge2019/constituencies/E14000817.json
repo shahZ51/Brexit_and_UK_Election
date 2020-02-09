@@ -1,0 +1,114 @@
+{
+	"id": "E14000817",
+	"title": "Mid Sussex",
+	"demographics": {
+		"2015UKIP": 12,
+		"age18-29": 12.44,
+		"EUminus": 6.72,
+		"leave": 46.69,
+		"withdegree": 19.52,
+		"religion": {
+			"christian": 62.34,
+			"jewish": 0.17,
+			"muslim": 0.93
+		},
+		"race": {
+			"Arab": 0.07,
+			"Bangladeshi": 0.35,
+			"Black": 0.64,
+			"Chinese": 0.38,
+			"Indian": 1.19,
+			"Mixed": 1.44,
+			"Other": 0.18,
+			"Other Asian": 1.08,
+			"Pakistani": 0.11,
+			"White": 94.57
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 85140,
+			"candidates": [{
+				"id": 4189,
+				"name": "Mims Davies",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4189.png"
+			},{
+				"id": 7420,
+				"name": "Baron Von Thunderclap",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7420.png"
+			},{
+				"id": 61364,
+				"name": "Gemma Nadia Bolton",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/61364.png"
+			},{
+				"id": 61419,
+				"name": "Robert Eggleston",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/61419.png"
+			},{
+				"id": 71887,
+				"name": "Deanna Nicholson",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71887.png"
+			},{
+				"id": 72143,
+				"name": "Brett David Mortensen",
+				"party": { "code": "", "title": "Advance Together" },
+				"img": ""
+			}],
+			"incumbent": {
+				"mp": "Nicholas Soames",
+				"party": { "code": "Ind", "title": "Independent" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Nicholas Soames",
+			"party": { "code": "Con" },
+			"electorate": 84170,
+			"turnout": { "pc": 73.4, "value": 61745 },
+			"valid": 61632,
+			"invalid": 113,
+			"majority": 19673,
+			"candidates": [{
+				"name": "Nicholas Soames",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35082
+			},{
+				"name": "Greg Mountain",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15409
+			},{
+				"name": "Sarah Osborne",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 7855
+			},{
+				"name": "Chris Jerrey",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1571
+			},{
+				"name": "Toby Brothers",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1251
+			},{
+				"name": "Baron Von Thunderclap",
+				"party": { "code": "MRLP", "title": "Monster Raving Loony Party" },
+				"votes": 464
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Nicholas Soames",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 81034,
+			"turnout": { "pc":71.3, "value": 57744 },
+			"valid": 57492,
+			"invalid": 252,
+			"majority": 24286
+		}
+	}
+}

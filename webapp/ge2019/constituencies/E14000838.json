@@ -1,0 +1,101 @@
+{
+	"id": "E14000838",
+	"title": "North Devon",
+	"demographics": {
+		"2015UKIP": 14.75,
+		"age18-29": 12.23,
+		"EUminus": 3.89,
+		"leave": 57.04,
+		"withdegree": 11.47,
+		"religion": {
+			"christian": 61.31,
+			"jewish": 0.06,
+			"muslim": 0.3
+		},
+		"race": {
+			"Arab": 0.07,
+			"Bangladeshi": 0.08,
+			"Black": 0.17,
+			"Chinese": 0.16,
+			"Indian": 0.23,
+			"Mixed": 0.84,
+			"Other": 0.09,
+			"Other Asian": 0.34,
+			"Pakistani": 0.07,
+			"White": 97.95
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 75862,
+			"candidates": [{
+				"id": 5712,
+				"name": "Selaine Saxby",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5712.png"
+			},{
+				"id": 6201,
+				"name": "Alex James White",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6201.png"
+			},{
+				"id": 64471,
+				"name": "Robbie Mack",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64471.png"
+			},{
+				"id": 72376,
+				"name": "Steve Cotten",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72376-3c5a9c6c-92fa-4e52-9e56-d05564cd1d53.png"
+			},{
+				"id": 72377,
+				"name": "Finola ONeill",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72377-8fd91715-cd9e-40e1-83a8-7e7b56112a0b.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Peter Heaton-Jones",
+			"party": { "code": "Con" },
+			"electorate": 75801,
+			"turnout": { "pc": 73.6, "value": 55771 },
+			"valid": 55705,
+			"invalid": 66,
+			"majority": 4332,
+			"candidates": [{
+				"name": "Peter Heaton-Jones",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25517
+			},{
+				"name": "Nick Harvey",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 21185
+			},{
+				"name": "Mark Cann",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 7063
+			},{
+				"name": "Stephen Crowther",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1187
+			},{
+				"name": "Ricky Knight",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 753
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Peter Heaton-Jones",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 74737,
+			"turnout": { "pc":70.2, "value": 52453 },
+			"valid": 52320,
+			"invalid": 133,
+			"majority": 6936
+		}
+	}
+}

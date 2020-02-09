@@ -1,0 +1,105 @@
+{
+	"id": "E14000923",
+	"title": "Sheffield, Heeley",
+	"demographics": {
+		"2015UKIP": 17.4,
+		"age18-29": 15.51,
+		"EUminus": 3.81,
+		"leave": 57.61,
+		"withdegree": 13.96,
+		"religion": {
+			"christian": 56.29,
+			"jewish": 0.1,
+			"muslim": 2.76
+		},
+		"race": {
+			"Arab": 0.54,
+			"Bangladeshi": 0.23,
+			"Black": 3.43,
+			"Chinese": 0.57,
+			"Indian": 0.44,
+			"Mixed": 2.63,
+			"Other": 0.48,
+			"Other Asian": 0.53,
+			"Pakistani": 1.26,
+			"White": 89.89
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 66940,
+			"candidates": [{
+				"id": 432,
+				"name": "Simon William Clement-Jones",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/432.png"
+			},{
+				"id": 4421,
+				"name": "Louise Haigh",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4421_U9bwOVm.png"
+			},{
+				"id": 35052,
+				"name": "Gordon C Gregory",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35052-e55ffef6-9fc7-4895-80b8-4f14ef7916e9.png"
+			},{
+				"id": 35074,
+				"name": "Tracy Knowles",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35074.png"
+			},{
+				"id": 36182,
+				"name": "Paul Turpin",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36182.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Louise Haigh",
+			"party": { "code": "Lab" },
+			"electorate": 68040,
+			"turnout": { "pc": 65.1, "value": 44305 },
+			"valid": 44226,
+			"invalid": 79,
+			"majority": 13828,
+			"candidates": [{
+				"name": "Louise Haigh",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26524
+			},{
+				"name": "Gordon Gregory",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12696
+			},{
+				"name": "Joe Otten",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2022
+			},{
+				"name": "Howard Denby",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1977
+			},{
+				"name": "Declan Walsh",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 943
+			},{
+				"name": "Jaspreet Oberoi",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
+				"votes": 64
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Louise Haigh",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 67950,
+			"turnout": { "pc":62.1, "value": 42179 },
+			"valid": 42048,
+			"invalid": 131,
+			"majority": 12954
+		}
+	}
+}

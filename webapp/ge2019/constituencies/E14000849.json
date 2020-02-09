@@ -1,0 +1,97 @@
+{
+	"id": "E14000849",
+	"title": "North Shropshire",
+	"demographics": {
+		"2015UKIP": 17.62,
+		"age18-29": 13.41,
+		"EUminus": 5.02,
+		"leave": 59.46,
+		"withdegree": 12.86,
+		"religion": {
+			"christian": 70.79,
+			"jewish": 0.04,
+			"muslim": 0.29
+		},
+		"race": {
+			"Arab": 0.03,
+			"Bangladeshi": 0.1,
+			"Black": 0.23,
+			"Chinese": 0.25,
+			"Indian": 0.19,
+			"Mixed": 0.65,
+			"Other": 0.07,
+			"Other Asian": 0.24,
+			"Pakistani": 0.06,
+			"White": 98.17
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 83257,
+			"candidates": [{
+				"id": 1325,
+				"name": "Owen Paterson",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55350c2ab247335574a42e69.png"
+			},{
+				"id": 4392,
+				"name": "Graeme Currie",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4392.png"
+			},{
+				"id": 25985,
+				"name": "Robert Jones",
+				"party": { "code": "", "title": "Shropshire Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25985.png"
+			},{
+				"id": 71562,
+				"name": "Helen Morgan",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71562.png"
+			},{
+				"id": 72526,
+				"name": "John George Walter Adams",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72526-ca031ae2-7321-45ba-bd7c-b88c77eec70c.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Owen Paterson",
+			"party": { "code": "Con" },
+			"electorate": 80535,
+			"turnout": { "pc": 69.2, "value": 55745 },
+			"valid": 55599,
+			"invalid": 146,
+			"majority": 16355,
+			"candidates": [{
+				"name": "Owen Paterson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33642
+			},{
+				"name": "Graeme Currie",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17287
+			},{
+				"name": "Tom Thornhill",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2948
+			},{
+				"name": "Duncan Kerr",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1722
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Owen Paterson",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 78858,
+			"turnout": { "pc":66.8, "value": 52689 },
+			"valid": 52573,
+			"invalid": 116,
+			"majority": 16494
+		}
+	}
+}

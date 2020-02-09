@@ -1,0 +1,106 @@
+{
+	"id": "E14000956",
+	"title": "Southampton, Test",
+	"demographics": {
+		"2015UKIP": 12.75,
+		"age18-29": 26.44,
+		"EUminus": 17.76,
+		"leave": 50.65,
+		"withdegree": 19.33,
+		"religion": {
+			"christian": 50.11,
+			"jewish": 0.12,
+			"muslim": 5.17
+		},
+		"race": {
+			"Arab": 0.44,
+			"Bangladeshi": 0.73,
+			"Black": 2.54,
+			"Chinese": 1.28,
+			"Indian": 3.93,
+			"Mixed": 2.51,
+			"Other": 0.72,
+			"Other Asian": 2.84,
+			"Pakistani": 1.96,
+			"White": 83.06
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 79509,
+			"candidates": [{
+				"id": 3111,
+				"name": "Alan Whitehead",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/550bdf3736b6dcb123cb431f.png"
+			},{
+				"id": 13989,
+				"name": "Steven Galton",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13989.png"
+			},{
+				"id": 14448,
+				"name": "Katherine Jane Barbour",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/14448.png"
+			},{
+				"id": 34112,
+				"name": "Joe Richards",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34112.png"
+			},{
+				"id": 71656,
+				"name": "Philip Crook",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71656.png"
+			},{
+				"id": 72402,
+				"name": "Kev Barry",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Alan Whitehead",
+			"party": { "code": "Lab" },
+			"electorate": 70199,
+			"turnout": { "pc": 67.0, "value": 47022 },
+			"valid": 46903,
+			"invalid": 119,
+			"majority": 11503,
+			"candidates": [{
+				"name": "Alan Whitehead",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 27509
+			},{
+				"name": "Paul Holmes",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16006
+			},{
+				"name": "Thomas Gravatt",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1892
+			},{
+				"name": "Andrew Pope",
+				"party": { "code": "Southampton Independents", "title": "Southampton Independents" },
+				"votes": 816
+			},{
+				"name": "Keith Morrell",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 680
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Alan Whitehead",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 70270,
+			"turnout": { "pc":62.3, "value": 43799 },
+			"valid": 43652,
+			"invalid": 147,
+			"majority": 3810
+		}
+	}
+}

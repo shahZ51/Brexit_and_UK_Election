@@ -1,0 +1,102 @@
+{
+	"id": "E14000570",
+	"title": "Blackburn",
+	"demographics": {
+		"2015UKIP": 14.27,
+		"age18-29": 17.25,
+		"EUminus": 4.86,
+		"leave": 53.73,
+		"withdegree": 10.11,
+		"religion": {
+			"christian": 45.81,
+			"jewish": 0.04,
+			"muslim": 36.26
+		},
+		"race": {
+			"Arab": 0.52,
+			"Bangladeshi": 1.36,
+			"Black": 0.76,
+			"Chinese": 0.48,
+			"Indian": 18.24,
+			"Mixed": 1.38,
+			"Other": 0.53,
+			"Other Asian": 1.42,
+			"Pakistani": 16.04,
+			"White": 59.26
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 71228,
+			"candidates": [{
+				"id": 4269,
+				"name": "Kate Hollern",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba22610284be476aae894.png"
+			},{
+				"id": 6933,
+				"name": "Reza Hossain",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6933.png"
+			},{
+				"id": 41765,
+				"name": "Beth Waller-Slack",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41765-b11e5bb7-577c-4b12-a719-3c560ce56841.png"
+			},{
+				"id": 51754,
+				"name": "Claire Rosalyn Gill",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51754.png"
+			},{
+				"id": 71874,
+				"name": "Rick Moore",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71874.png"
+			},{
+				"id": 72314,
+				"name": "Rizwan Ali Shah",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72314-3d046f96-b45d-4a08-acae-b6fca711aa30.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Kate Hollern",
+			"party": { "code": "Lab" },
+			"electorate": 70664,
+			"turnout": { "pc": 67.5, "value": 47702 },
+			"valid": 47515,
+			"invalid": 187,
+			"majority": 20368,
+			"candidates": [{
+				"name": "Kate Hollern",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 33148
+			},{
+				"name": "Bob Eastwood",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12780
+			},{
+				"name": "Duncan Miller",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 878
+			},{
+				"name": "Irfan Ahmed",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 709
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Kate Hollern",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 73260,
+			"turnout": { "pc":60.5, "value": 44324 },
+			"valid": 43999,
+			"invalid": 325,
+			"majority": 12760
+		}
+	}
+}

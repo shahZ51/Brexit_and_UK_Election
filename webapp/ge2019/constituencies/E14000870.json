@@ -1,0 +1,107 @@
+{
+	"id": "E14000870",
+	"title": "Oldham East and Saddleworth",
+	"demographics": {
+		"2015UKIP": 19.24,
+		"age18-29": 15.35,
+		"EUminus": 3.33,
+		"leave": 59.92,
+		"withdegree": 11.8,
+		"religion": {
+			"christian": 61.49,
+			"jewish": 0.04,
+			"muslim": 14.24
+		},
+		"race": {
+			"Arab": 0.07,
+			"Bangladeshi": 2.26,
+			"Black": 1.2,
+			"Chinese": 0.24,
+			"Indian": 0.45,
+			"Mixed": 1.88,
+			"Other": 0.16,
+			"Other Asian": 0.67,
+			"Pakistani": 11.69,
+			"White": 81.38
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 72173,
+			"candidates": [{
+				"id": 1862,
+				"name": "Debbie Abrahams",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55356e4b367dc5383f552cb0.png"
+			},{
+				"id": 7571,
+				"name": "Wendy Olsen",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7571_02Zxfue.png"
+			},{
+				"id": 35771,
+				"name": "Tom Lord",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35771-460708f6-5d3a-44d6-80c3-191749ecdf57.png"
+			},{
+				"id": 44712,
+				"name": "Sam Al-Hamdani",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44712.png"
+			},{
+				"id": 51196,
+				"name": "Amoy Lindo",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51196-f67567fd-10f0-4ffe-af3b-4529c1a93881.png"
+			},{
+				"id": 71316,
+				"name": "Paul Brierley",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71316.png"
+			},{
+				"id": 72299,
+				"name": "Paul Errock",
+				"party": { "code": "", "title": "Proud of Oldham & Saddleworth" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72299-5b379320-e6c5-4ec8-b83d-781fa7ed60bf.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Debbie Abrahams",
+			"party": { "code": "Lab" },
+			"electorate": 72184,
+			"turnout": { "pc": 65.3, "value": 47141 },
+			"valid": 47037,
+			"invalid": 104,
+			"majority": 8182,
+			"candidates": [{
+				"name": "Debbie Abrahams",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25629
+			},{
+				"name": "Kashif Ali",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17447
+			},{
+				"name": "Ian Bond",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2278
+			},{
+				"name": "Jonathan Smith",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1683
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Debbie Abrahams",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 71475,
+			"turnout": { "pc":62.5, "value": 44661 },
+			"valid": 44483,
+			"invalid": 178,
+			"majority": 6002
+		}
+	}
+}

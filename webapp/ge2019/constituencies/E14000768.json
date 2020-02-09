@@ -1,0 +1,124 @@
+{
+	"id": "E14000768",
+	"title": "Kensington",
+	"demographics": {
+		"2015UKIP": 4.47,
+		"age18-29": 20.1,
+		"EUminus": 34.5,
+		"leave": 31.35,
+		"withdegree": 46.27,
+		"religion": {
+			"christian": 52.13,
+			"jewish": 2.04,
+			"muslim": 10.93
+		},
+		"race": {
+			"Arab": 4.49,
+			"Bangladeshi": 0.54,
+			"Black": 7.54,
+			"Chinese": 2.84,
+			"Indian": 1.67,
+			"Mixed": 6.01,
+			"Other": 3.38,
+			"Other Asian": 4.96,
+			"Pakistani": 0.62,
+			"White": 67.95
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 64609,
+			"candidates": [{
+				"id": 3936,
+				"name": "Sam Gyimah",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3936-db644730-0c57-40ae-9f5b-cb090d73fc04.png"
+			},{
+				"id": 7195,
+				"name": "Scott Dore",
+				"party": { "code": "", "title": "Workers Revolutionary Party" },
+				"img": ""
+			},{
+				"id": 7197,
+				"name": "Felicity Buchan",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bb308a51642637514d640.png"
+			},{
+				"id": 34309,
+				"name": "Emma Dent Coad",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34309.png"
+			},{
+				"id": 41003,
+				"name": "Vivien Lichtenstein",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41003-8e49c5ec-bf28-4d8c-8f13-790c4237f778.png"
+			},{
+				"id": 71501,
+				"name": "Jay Aston",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71501-440423dd-c542-4a8c-a2de-1d10a0a12ec7.png"
+			},{
+				"id": 72361,
+				"name": "Harriet Gore",
+				"party": { "code": "", "title": "Touch Love Worldwide (UK)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72361-35ae01ef-483d-44f7-ab63-d1db7f16f128.png"
+			},{
+				"id": 72362,
+				"name": "Roger David Phillips",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Emma Dent Coad",
+			"party": { "code": "Lab" },
+			"electorate": 60588,
+			"turnout": { "pc": 64.0, "value": 38795 },
+			"valid": 38677,
+			"invalid": 118,
+			"majority": 20,
+			"candidates": [{
+				"name": "Emma Dent Coad",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16333
+			},{
+				"name": "Victoria Borwick",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16313
+			},{
+				"name": "Annabel Mullin",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4724
+			},{
+				"name": "Jennifer  Nadel",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 767
+			},{
+				"name": "James Torrance",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 393
+			},{
+				"name": "Peter Marshall",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 98
+			},{
+				"name": "John Lloyd",
+				"party": { "code": "Green Soc", "title": "Alliance for Green Socialism" },
+				"votes": 49
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Victoria Borwick",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 61133,
+			"turnout": { "pc":57.2, "value": 34967 },
+			"valid": 34828,
+			"invalid": 139,
+			"majority": 7361
+		}
+	}
+}

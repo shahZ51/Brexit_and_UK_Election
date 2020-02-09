@@ -1,0 +1,97 @@
+{
+	"id": "E14000952",
+	"title": "South West Norfolk",
+	"demographics": {
+		"2015UKIP": 23.26,
+		"age18-29": 13.79,
+		"EUminus": 10.24,
+		"leave": 66.25,
+		"withdegree": 8.1,
+		"religion": {
+			"christian": 64.68,
+			"jewish": 0.11,
+			"muslim": 0.35
+		},
+		"race": {
+			"Arab": 0.02,
+			"Bangladeshi": 0.08,
+			"Black": 0.48,
+			"Chinese": 0.16,
+			"Indian": 0.22,
+			"Mixed": 1.26,
+			"Other": 0.16,
+			"Other Asian": 0.33,
+			"Pakistani": 0.07,
+			"White": 97.21
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 78455,
+			"candidates": [{
+				"id": 188,
+				"name": "Elizabeth Truss",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5532303a29c5d53959d9e453.png"
+			},{
+				"id": 33490,
+				"name": "Josie Ratcliffe",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72035.png"
+			},{
+				"id": 63686,
+				"name": "Emily Blake",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63686.png"
+			},{
+				"id": 63688,
+				"name": "Pallavi Devulapalli",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63688.png"
+			},{
+				"id": 72256,
+				"name": "Earl Elvis Of Outwell",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72256-0ef9cdcb-cc76-4d2b-83dc-0965a9f21e1e.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Elizabeth Truss",
+			"party": { "code": "Con" },
+			"electorate": 77874,
+			"turnout": { "pc": 67.5, "value": 52570 },
+			"valid": 52416,
+			"invalid": 154,
+			"majority": 18312,
+			"candidates": [{
+				"name": "Elizabeth Truss",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32894
+			},{
+				"name": "Peter Smith",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14582
+			},{
+				"name": "David Williams",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2575
+			},{
+				"name": "Stephen Gordon",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2365
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Elizabeth Truss",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 76970,
+			"turnout": { "pc":65.4, "value": 50302 },
+			"valid": 50110,
+			"invalid": 192,
+			"majority": 13861
+		}
+	}
+}

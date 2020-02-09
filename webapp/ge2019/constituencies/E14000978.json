@@ -1,0 +1,105 @@
+{
+	"id": "E14000978",
+	"title": "Streatham",
+	"demographics": {
+		"2015UKIP": 3.21,
+		"age18-29": 23.69,
+		"EUminus": 26.07,
+		"leave": 20.54,
+		"withdegree": 39.43,
+		"religion": {
+			"christian": 53.43,
+			"jewish": 0.37,
+			"muslim": 7.97
+		},
+		"race": {
+			"Arab": 0.52,
+			"Bangladeshi": 0.82,
+			"Black": 24.33,
+			"Chinese": 1.02,
+			"Indian": 2.24,
+			"Mixed": 7.48,
+			"Other": 1.73,
+			"Other Asian": 1.83,
+			"Pakistani": 1.81,
+			"White": 58.2
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 84763,
+			"candidates": [{
+				"id": 35664,
+				"name": "Helen Thompson",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35664.png"
+			},{
+				"id": 36325,
+				"name": "Rory O'Broin",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36325.png"
+			},{
+				"id": 37323,
+				"name": "Scott Ainslie",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71965.png"
+			},{
+				"id": 71824,
+				"name": "Bell Ribeiro-Addy",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71824.png"
+			},{
+				"id": 72218,
+				"name": "Penelope Margaret Kimpton Becker",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": ""
+			}],
+			"incumbent": {
+				"mp": "Chuka Umunna",
+				"party": { "code": "LD", "title": "Liberal Democrat" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Chuka Umunna",
+			"party": { "code": "Lab" },
+			"electorate": 78649,
+			"turnout": { "pc": 71.1, "value": 55956 },
+			"valid": 55795,
+			"invalid": 161,
+			"majority": 26285,
+			"candidates": [{
+				"name": "Chuka Umunna",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 38212
+			},{
+				"name": "Kim Caddy",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11927
+			},{
+				"name": "Alex Davies",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3611
+			},{
+				"name": "Nicole Griffiths",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1696
+			},{
+				"name": "Robert Stephenson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 349
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Chuka Umunna",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 79137,
+			"turnout": { "pc":63.3, "value": 50088 },
+			"valid": 49933,
+			"invalid": 155,
+			"majority": 13934
+		}
+	}
+}

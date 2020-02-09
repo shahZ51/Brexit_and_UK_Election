@@ -1,0 +1,91 @@
+{
+	"id": "E14000934",
+	"title": "South Cambridgeshire",
+	"demographics": {
+		"2015UKIP": 9.77,
+		"age18-29": 12.38,
+		"EUminus": 8.26,
+		"leave": 38.44,
+		"withdegree": 30.1,
+		"religion": {
+			"christian": 58.59,
+			"jewish": 0.3,
+			"muslim": 1.08
+		},
+		"race": {
+			"Arab": 0.21,
+			"Bangladeshi": 0.2,
+			"Black": 0.79,
+			"Chinese": 0.92,
+			"Indian": 1.57,
+			"Mixed": 1.75,
+			"Other": 0.29,
+			"Other Asian": 1.07,
+			"Pakistani": 0.31,
+			"White": 92.88
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 87288,
+			"candidates": [{
+				"id": 6685,
+				"name": "Dan Greef",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6685_Fn92QJf.png"
+			},{
+				"id": 37499,
+				"name": "Ian Sollom",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/37499.png"
+			},{
+				"id": 71630,
+				"name": "Anthony Browne",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71630.png"
+			}],
+			"incumbent": {
+				"mp": "Heidi Allen",
+				"party": { "code": "Ind", "title": "Independent" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Heidi Allen",
+			"party": { "code": "Con" },
+			"electorate": 85257,
+			"turnout": { "pc": 76.3, "value": 65090 },
+			"valid": 64924,
+			"invalid": 166,
+			"majority": 15952,
+			"candidates": [{
+				"name": "Heidi Allen",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33631
+			},{
+				"name": "Dan Greef",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17679
+			},{
+				"name": "Susan van de Ven",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 12102
+			},{
+				"name": "Simon Saggers",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1512
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Heidi Allen",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 84132,
+			"turnout": { "pc":73.5, "value": 61799 },
+			"valid": 61540,
+			"invalid": 259,
+			"majority": 20594
+		}
+	}
+}

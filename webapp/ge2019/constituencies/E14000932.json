@@ -1,0 +1,95 @@
+{
+	"id": "E14000932",
+	"title": "Somerton and Frome",
+	"demographics": {
+		"2015UKIP": 10.68,
+		"age18-29": 10.75,
+		"EUminus": 5,
+		"leave": 50.96,
+		"withdegree": 16.34,
+		"religion": {
+			"christian": 64.74,
+			"jewish": 0.08,
+			"muslim": 0.18
+		},
+		"race": {
+			"Arab": 0.01,
+			"Bangladeshi": 0.04,
+			"Black": 0.19,
+			"Chinese": 0.2,
+			"Indian": 0.13,
+			"Mixed": 0.75,
+			"Other": 0.07,
+			"Other Asian": 0.24,
+			"Pakistani": 0.02,
+			"White": 98.37
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 4226,
+				"name": "David Warburton",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e769b150e238702c0524.png"
+			},{
+				"id": 6318,
+				"name": "Adam Boyden",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517c7de249b917507bee4dc.png"
+			},{
+				"id": 34356,
+				"name": "Sean Dromgoole",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34356.png"
+			},{
+				"id": 71627,
+				"name": "Andrea Dexter",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71627-bbdee464-911c-4d13-b1e2-dfc2a8a6ee8a.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "David Warburton",
+			"party": { "code": "Con" },
+			"electorate": 84437,
+			"turnout": { "pc": 75.8, "value": 63996 },
+			"valid": 63892,
+			"invalid": 104,
+			"majority": 22906,
+			"candidates": [{
+				"name": "David Warburton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36231
+			},{
+				"name": "Mark Blackburn",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 13325
+			},{
+				"name": "Sean Dromgoole",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10998
+			},{
+				"name": "Theo Simon",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2347
+			},{
+				"name": "Richard Hadwin",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 991
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "David Warburton",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 83281,
+			"turnout": { "pc":72.6, "value": 60477 },
+			"valid": 60309,
+			"invalid": 168,
+			"majority": 20268
+		}
+	}
+}

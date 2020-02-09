@@ -1,0 +1,101 @@
+{
+	"id": "E14001030",
+	"title": "West Bromwich West",
+	"demographics": {
+		"2015UKIP": 25.23,
+		"age18-29": 17.05,
+		"EUminus": 6.12,
+		"leave": 69.14,
+		"withdegree": 6.76,
+		"religion": {
+			"christian": 58.8,
+			"jewish": 0.03,
+			"muslim": 5.58
+		},
+		"race": {
+			"Arab": 0.12,
+			"Bangladeshi": 1.93,
+			"Black": 4.59,
+			"Chinese": 0.22,
+			"Indian": 8.27,
+			"Mixed": 2.72,
+			"Other": 0.83,
+			"Other Asian": 1.35,
+			"Pakistani": 3.21,
+			"White": 76.76
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 64576,
+			"candidates": [{
+				"id": 7028,
+				"name": "Flo Clucas",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b8db4788906ef2517bd6e.png"
+			},{
+				"id": 39408,
+				"name": "Keir Lawrence Williams",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39408.png"
+			},{
+				"id": 70750,
+				"name": "Shaun Stephen Bailey",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72022.png"
+			},{
+				"id": 71726,
+				"name": "Franco D'Aulerio",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71726.png"
+			},{
+				"id": 72067,
+				"name": "James Cunningham",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72067-61f974db-822e-44f4-b1b6-b73c3826dc0b.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Adrian Bailey",
+			"party": { "code": "Lab" },
+			"electorate": 65967,
+			"turnout": { "pc": 54.9, "value": 36184 },
+			"valid": 36094,
+			"invalid": 90,
+			"majority": 4460,
+			"candidates": [{
+				"name": "Adrian Bailey",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 18789
+			},{
+				"name": "Andrew Hardie",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14329
+			},{
+				"name": "Star Anderton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2320
+			},{
+				"name": "Flo Clucas",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 333
+			},{
+				"name": "Robert Buckman",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 323
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Adrian Bailey",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
+			"electorate": 65524,
+			"turnout": { "pc":53.7, "value": 35156 },
+			"valid": 35026,
+			"invalid": 130,
+			"majority": 7742
+		}
+	}
+}

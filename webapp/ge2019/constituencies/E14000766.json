@@ -1,0 +1,110 @@
+{
+	"id": "E14000766",
+	"title": "Keighley",
+	"demographics": {
+		"2015UKIP": 11.53,
+		"age18-29": 13.39,
+		"EUminus": 4.64,
+		"leave": 53.33,
+		"withdegree": 15.89,
+		"religion": {
+			"christian": 55.6,
+			"jewish": 0.1,
+			"muslim": 13.09
+		},
+		"race": {
+			"Arab": 0.1,
+			"Bangladeshi": 2.08,
+			"Black": 0.51,
+			"Chinese": 0.23,
+			"Indian": 0.52,
+			"Mixed": 1.25,
+			"Other": 0.36,
+			"Other Asian": 0.62,
+			"Pakistani": 10.72,
+			"White": 83.61
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 72778,
+			"candidates": [{
+				"id": 4363,
+				"name": "John Grogan",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e828b150e238702c05a3.png"
+			},{
+				"id": 7196,
+				"name": "Waqas Ali Khan",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55244a29f0e9e2c82406eba0.png"
+			},{
+				"id": 26213,
+				"name": "Robbie Moore",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26213.png"
+			},{
+				"id": 38339,
+				"name": "Thomas Franks",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38339.png"
+			},{
+				"id": 71852,
+				"name": "Mark Barton",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71852-20cd5554-61eb-4020-becf-685ab1a14d53.png"
+			},{
+				"id": 72423,
+				"name": "Matthew Rose",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72423-440e0ae8-5464-4c0d-9208-1c52a515dcd4.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "John Grogan",
+			"party": { "code": "Lab" },
+			"electorate": 71429,
+			"turnout": { "pc": 72.5, "value": 51805 },
+			"valid": 51714,
+			"invalid": 91,
+			"majority": 239,
+			"candidates": [{
+				"name": "John Grogan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24056
+			},{
+				"name": "Kris Hopkins",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23817
+			},{
+				"name": "Paul Latham",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1291
+			},{
+				"name": "Matt Walker",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1226
+			},{
+				"name": "Ros Brown",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 790
+			},{
+				"name": "David Crabtree",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 534
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Kris Hopkins",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 68865,
+			"turnout": { "pc":71.6, "value": 49321 },
+			"valid": 49123,
+			"invalid": 198,
+			"majority": 3053
+		}
+	}
+}

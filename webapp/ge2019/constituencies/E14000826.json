@@ -1,0 +1,93 @@
+{
+	"id": "E14000826",
+	"title": "Morley and Outwood",
+	"demographics": {
+		"2015UKIP": 16.48,
+		"age18-29": 14.05,
+		"EUminus": 3.1,
+		"leave": 59.79,
+		"withdegree": 13.14,
+		"religion": {
+			"christian": 63.22,
+			"jewish": 0.05,
+			"muslim": 0.85
+		},
+		"race": {
+			"Arab": 0.1,
+			"Bangladeshi": 0.02,
+			"Black": 0.62,
+			"Chinese": 0.43,
+			"Indian": 1.15,
+			"Mixed": 1.24,
+			"Other": 0.19,
+			"Other Asian": 0.33,
+			"Pakistani": 0.54,
+			"White": 95.37
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 78803,
+			"candidates": [{
+				"id": 360,
+				"name": "Craig Dobson",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/360.png"
+			},{
+				"id": 4210,
+				"name": "Andrea Jenkyns",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4210.png"
+			},{
+				"id": 17202,
+				"name": "Dan Woodlock",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/17202-4baf31b1-7b93-4a7c-88a5-2bc831f2ebef.png"
+			},{
+				"id": 18822,
+				"name": "Chris Bell",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18822.png"
+			},{
+				"id": 71546,
+				"name": "Deanne Ferguson",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71546.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Andrea Jenkyns",
+			"party": { "code": "Con" },
+			"electorate": 76495,
+			"turnout": { "pc": 68.7, "value": 52555 },
+			"valid": 52357,
+			"invalid": 198,
+			"majority": 2104,
+			"candidates": [{
+				"name": "Andrea Jenkyns",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26550
+			},{
+				"name": "Neil Dawson",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 24446
+			},{
+				"name": "Craig Dobson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1361
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Andrea Jenkyns",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 75820,
+			"turnout": { "pc":63.8, "value": 48389 },
+			"valid": 48250,
+			"invalid": 139,
+			"majority": 422
+		}
+	}
+}

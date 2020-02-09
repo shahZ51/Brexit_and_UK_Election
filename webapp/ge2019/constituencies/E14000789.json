@@ -1,0 +1,119 @@
+{
+	"id": "E14000789",
+	"title": "Lewisham, Deptford",
+	"demographics": {
+		"2015UKIP": 4.24,
+		"age18-29": 24.01,
+		"EUminus": 19.23,
+		"leave": 24.67,
+		"withdegree": 34.31,
+		"religion": {
+			"christian": 49.17,
+			"jewish": 0.25,
+			"muslim": 7.27
+		},
+		"race": {
+			"Arab": 0.69,
+			"Bangladeshi": 0.54,
+			"Black": 28.87,
+			"Chinese": 3.5,
+			"Indian": 1.79,
+			"Mixed": 7.54,
+			"Other": 2.16,
+			"Other Asian": 4.36,
+			"Pakistani": 0.65,
+			"White": 49.9
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 80617,
+			"candidates": [{
+				"id": 4372,
+				"name": "Vicky Foxcroft",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4372.png"
+			},{
+				"id": 7779,
+				"name": "Andrea Carey Fuller",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7779.png"
+			},{
+				"id": 34211,
+				"name": "Bobby Dean",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34211_a7CA6hp.png"
+			},{
+				"id": 72228,
+				"name": "Tan Bui",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72228-377ed853-266f-4728-9a69-2b10b1a0c70e.png"
+			},{
+				"id": 72231,
+				"name": "Moses John Etienne",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": ""
+			},{
+				"id": 72233,
+				"name": "Gavin Haran",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72233-a3717bc3-9d8b-448b-a759-06e98e934867.png"
+			},{
+				"id": 72235,
+				"name": "John Robert Lloyd",
+				"party": { "code": "", "title": "Alliance For Green Socialism" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Vicky Foxcroft",
+			"party": { "code": "Lab" },
+			"electorate": 78468,
+			"turnout": { "pc": 70.5, "value": 55320 },
+			"valid": 55112,
+			"invalid": 208,
+			"majority": 34899,
+			"candidates": [{
+				"name": "Vicky Foxcroft",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 42461
+			},{
+				"name": "Melanie McLean",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7562
+			},{
+				"name": "Bobby Dean",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2911
+			},{
+				"name": "John Coughlin",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1640
+			},{
+				"name": "Malcolm Martin",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 252
+			},{
+				"name": "Laura McAnea",
+				"party": { "code": "Animal Welfare Party", "title": "Animal Welfare Party" },
+				"votes": 225
+			},{
+				"name": "Jane Lawrence",
+				"party": { "code": "The Realists' Party", "title": "The Realists' Party" },
+				"votes": 61
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Vicky Foxcroft",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 73428,
+			"turnout": { "pc":64.9, "value": 47648 },
+			"valid": 47426,
+			"invalid": 222,
+			"majority": 21516
+		}
+	}
+}

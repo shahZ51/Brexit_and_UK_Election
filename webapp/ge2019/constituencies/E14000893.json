@@ -1,0 +1,101 @@
+{
+	"id": "E14000893",
+	"title": "Reigate",
+	"demographics": {
+		"2015UKIP": 13.28,
+		"age18-29": 12.78,
+		"EUminus": 7.44,
+		"leave": 47.79,
+		"withdegree": 23.57,
+		"religion": {
+			"christian": 61.87,
+			"jewish": 0.22,
+			"muslim": 1.97
+		},
+		"race": {
+			"Arab": 0.19,
+			"Bangladeshi": 0.38,
+			"Black": 1.71,
+			"Chinese": 0.69,
+			"Indian": 1.72,
+			"Mixed": 2.27,
+			"Other": 0.37,
+			"Other Asian": 1.67,
+			"Pakistani": 0.97,
+			"White": 90.02
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 74842,
+			"candidates": [{
+				"id": 439,
+				"name": "Jonathan Essex",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/439.png"
+			},{
+				"id": 1641,
+				"name": "Crispin Blunt",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553500f7b247335574a42e4f.png"
+			},{
+				"id": 3559,
+				"name": "John Vincent",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/52047.png"
+			},{
+				"id": 7585,
+				"name": "Julia Florence Searle",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7585.png"
+			},{
+				"id": 56246,
+				"name": "Susan Kathryn Gregory",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72204-0d7ab49b-fa24-43eb-94cd-8262e1be1e42.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Crispin Blunt",
+			"party": { "code": "Con" },
+			"electorate": 74628,
+			"turnout": { "pc": 72.3, "value": 53993 },
+			"valid": 53823,
+			"invalid": 170,
+			"majority": 17614,
+			"candidates": [{
+				"name": "Crispin Blunt",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30896
+			},{
+				"name": "Toby Brampton",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13282
+			},{
+				"name": "Anna Tarrant",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5889
+			},{
+				"name": "Jonathan Essex",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2214
+			},{
+				"name": "Joseph Fox",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1542
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Crispin Blunt",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 73429,
+			"turnout": { "pc":70.2, "value": 51514 },
+			"valid": 51349,
+			"invalid": 165,
+			"majority": 22334
+		}
+	}
+}

@@ -1,0 +1,138 @@
+{
+	"id": "E14000787",
+	"title": "Lewisham East",
+	"demographics": {
+		"2015UKIP": 9.05,
+		"age18-29": 16.5,
+		"EUminus": 13.98,
+		"leave": 35.45,
+		"withdegree": 25.64,
+		"religion": {
+			"christian": 56,
+			"jewish": 0.21,
+			"muslim": 6.07
+		},
+		"race": {
+			"Arab": 0.41,
+			"Bangladeshi": 0.53,
+			"Black": 25.82,
+			"Chinese": 1.43,
+			"Indian": 1.6,
+			"Mixed": 7.01,
+			"Other": 2.29,
+			"Other Asian": 4.65,
+			"Pakistani": 0.54,
+			"White": 55.72
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 67857,
+			"candidates": [{
+				"id": 7412,
+				"name": "Maureen Martin",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55390bcf539d9492693b0977.png"
+			},{
+				"id": 40161,
+				"name": "Ade Fatukasi",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40161.png"
+			},{
+				"id": 44584,
+				"name": "Sam Thurgood",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44584-b937aa0b-9d88-496c-9df3-ce13450a9379.png"
+			},{
+				"id": 45229,
+				"name": "Janet Daby",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45229.png"
+			},{
+				"id": 48952,
+				"name": "Rosamund Adoo-Kissi-Debrah",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48952.png"
+			},{
+				"id": 72342,
+				"name": "Mark Barber",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72342-2630c15b-41c0-477f-8d1f-e79f3bd387ce.png"
+			},{
+				"id": 72343,
+				"name": "Richard Galloway",
+				"party": { "code": "", "title": "Young People's Party YPP" },
+				"img": ""
+			},{
+				"id": 72344,
+				"name": "Elder Roger N M Mighton",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72344-9713f665-7bf6-45ed-9bb7-3f9c195f1d02.png"
+			},{
+				"id": 72345,
+				"name": "Wesley Derek Bruce Pollard",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": ""
+			}]
+		},
+		"2018-06-14": {
+			"type": "by",
+			"mp": "Janet Jessica Daby",
+			"party": { "code": "Lab", "title": "Labour" },
+			"turnout": { "pc": 33.35, "value": 22046 },
+			"valid": 21979,
+			"invalid": 67,
+			"majority": 5629
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Heidi Alexander",
+			"party": { "code": "Lab" },
+			"electorate": 68124,
+			"turnout": { "pc": 69.4, "value": 47312 },
+			"valid": 47201,
+			"invalid": 111,
+			"majority": 21213,
+			"candidates": [{
+				"name": "Heidi Alexander",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 32072
+			},{
+				"name": "Peter Fortune",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10859
+			},{
+				"name": "Emily Frith",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2086
+			},{
+				"name": "Storm Poorun",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 803
+			},{
+				"name": "Keith Forster",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 798
+			},{
+				"name": "Willow Winston",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 355
+			},{
+				"name": "Maureen Martin",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 228
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Heidi Alexander",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 66913,
+			"turnout": { "pc":64.3, "value": 43056 },
+			"valid": 42923,
+			"invalid": 133,
+			"majority": 14333
+		}
+	}
+}

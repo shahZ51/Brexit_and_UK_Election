@@ -1,0 +1,105 @@
+{
+	"id": "E14000841",
+	"title": "North East Bedfordshire",
+	"demographics": {
+		"2015UKIP": 14.62,
+		"age18-29": 11.72,
+		"EUminus": 5.27,
+		"leave": 53.29,
+		"withdegree": 17.33,
+		"religion": {
+			"christian": 62.69,
+			"jewish": 0.13,
+			"muslim": 0.64
+		},
+		"race": {
+			"Arab": 0.05,
+			"Bangladeshi": 0.16,
+			"Black": 1.12,
+			"Chinese": 0.39,
+			"Indian": 1.32,
+			"Mixed": 1.9,
+			"Other": 0.23,
+			"Other Asian": 0.6,
+			"Pakistani": 0.17,
+			"White": 94.06
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 90679,
+			"candidates": [{
+				"id": 2925,
+				"name": "Richard Fuller",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72015.png"
+			},{
+				"id": 34122,
+				"name": "Daniel Norton",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34122-e25f2e0d-6888-4084-899a-e96b5f7eb112.png"
+			},{
+				"id": 34410,
+				"name": "Julian Vaughan",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34410.png"
+			},{
+				"id": 34896,
+				"name": "Philippa Fleming",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34896.png"
+			},{
+				"id": 66751,
+				"name": "Adam Zerny",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72016.png"
+			}],
+			"incumbent": {
+				"mp": "Alistair Burt",
+				"party": { "code": "Ind", "title": "Independent" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Alistair Burt",
+			"party": { "code": "Con" },
+			"electorate": 87505,
+			"turnout": { "pc": 73.5, "value": 64354 },
+			"valid": 64220,
+			"invalid": 134,
+			"majority": 20862,
+			"candidates": [{
+				"name": "Alistair Burt",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 39139
+			},{
+				"name": "Julian Vaughan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18277
+			},{
+				"name": "Stephen Rutherford",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3693
+			},{
+				"name": "Duncan Strachan",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1896
+			},{
+				"name": "Philippa Fleming",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1215
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Alistair Burt",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 83551,
+			"turnout": { "pc":70.5, "value": 58867 },
+			"valid": 58672,
+			"invalid": 195,
+			"majority": 25644
+		}
+	}
+}

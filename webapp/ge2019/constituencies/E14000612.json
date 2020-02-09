@@ -1,0 +1,120 @@
+{
+	"id": "E14000612",
+	"title": "Bury South",
+	"demographics": {
+		"2015UKIP": 13.34,
+		"age18-29": 14.52,
+		"EUminus": 5.86,
+		"leave": 54.53,
+		"withdegree": 15.64,
+		"religion": {
+			"christian": 59.37,
+			"jewish": 10.19,
+			"muslim": 4.24
+		},
+		"race": {
+			"Arab": 0.27,
+			"Bangladeshi": 0.14,
+			"Black": 1.22,
+			"Chinese": 0.72,
+			"Indian": 0.98,
+			"Mixed": 1.96,
+			"Other": 0.69,
+			"Other Asian": 0.84,
+			"Pakistani": 3.03,
+			"White": 90.14
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 75152,
+			"candidates": [{
+				"id": 3904,
+				"name": "Ivan Lewis",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55356f8e367dc5383f552cbb.png"
+			},{
+				"id": 6225,
+				"name": "Richard Kilpatrick",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b9d45a8c0192f732ca8c2.png"
+			},{
+				"id": 6691,
+				"name": "Glyn Heath",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551817e6249b917507bee54a.png"
+			},{
+				"id": 18920,
+				"name": "Christian Wakeford",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18920.png"
+			},{
+				"id": 71340,
+				"name": "Andrea Livesey",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71340.png"
+			},{
+				"id": 71763,
+				"name": "Gemma Evans",
+				"party": { "code": "", "title": "Women's Equality Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71763.png"
+			},{
+				"id": 71823,
+				"name": "Lucy Burke",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71823.png"
+			},{
+				"id": 72081,
+				"name": "Michael Boyle",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72081-a0d38567-647e-45e0-b681-65d2b04e36b2.png"
+			}],
+			"incumbent": {
+				"mp": "Ivan Lewis",
+				"party": { "code": "Ind", "title": "Independent" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Ivan Lewis",
+			"party": { "code": "Lab" },
+			"electorate": 73715,
+			"turnout": { "pc": 69.3, "value": 51113 },
+			"valid": 50990,
+			"invalid": 123,
+			"majority": 5965,
+			"candidates": [{
+				"name": "Ivan Lewis",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 27165
+			},{
+				"name": "Robert Largan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21200
+			},{
+				"name": "Ian Henderson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1316
+			},{
+				"name": "Andrew Page",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1065
+			},{
+				"name": "Peter Wright",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 244
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Ivan Lewis",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 73883,
+			"turnout": { "pc":64.2, "value": 47396 },
+			"valid": 47215,
+			"invalid": 181,
+			"majority": 4922
+		}
+	}
+}

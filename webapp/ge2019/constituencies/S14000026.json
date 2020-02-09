@@ -1,0 +1,100 @@
+{
+	"id": "S14000026",
+	"title": "Edinburgh West",
+	"demographics": {
+		"2015UKIP": 1.85,
+		"age18-29": 13.12,
+		"EUminus": 6.86,
+		"leave": 28.77,
+		"religion": {
+			"christian": 49.22,
+			"jewish": 0.1,
+			"muslim": 1.66
+		},
+		"race": {
+			"Arab": 0.23,
+			"Bangladeshi": 0.25,
+			"Black": null,
+			"Chinese": 0.89,
+			"Indian": 0.98,
+			"Mixed": 0,
+			"Other": 0.13,
+			"Other Asian": 0.5,
+			"Pakistani": 0.9,
+			"White": 94.93
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 72507,
+			"candidates": [{
+				"id": 4499,
+				"name": "Christine Jardine",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e907b150e238702c0623.png"
+			},{
+				"id": 8370,
+				"name": "Graham Hutchison",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8370-3b30b8fb-4baa-4426-b192-79d0984bf2ee.png"
+			},{
+				"id": 71765,
+				"name": "Elaine Gunn",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71765.png"
+			},{
+				"id": 71830,
+				"name": "Sarah Masson",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71830.png"
+			},{
+				"id": 71924,
+				"name": "Craig Bolton",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71924.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Christine Jardine",
+			"party": { "code": "LD" },
+			"electorate": 71500,
+			"turnout": { "pc": 73.9, "value": 52866 },
+			"valid": 52795,
+			"invalid": 71,
+			"majority": 2988,
+			"candidates": [{
+				"name": "Christine Jardine",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 18108
+			},{
+				"name": "Toni Giugliano",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 15120
+			},{
+				"name": "Sandy Batho",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11559
+			},{
+				"name": "Mandy Telford",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 7876
+			},{
+				"name": "Mark Whittet",
+				"party": { "code": "Scotland's Independence Referendum Party", "title": "Scotland's Independence Referendum Party" },
+				"votes": 132
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Michelle  Thomson",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
+			"electorate": 71717,
+			"turnout": { "pc":76.6, "value": 54907 },
+			"valid": 54858,
+			"invalid": 49,
+			"majority": 3210
+		}
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"id": "E14000940",
+	"title": "South Leicestershire",
+	"demographics": {
+		"2015UKIP": 17.36,
+		"age18-29": 12.79,
+		"EUminus": 3.41,
+		"leave": 58.22,
+		"withdegree": 14.56,
+		"religion": {
+			"christian": 60.37,
+			"jewish": 0.06,
+			"muslim": 0.61
+		},
+		"race": {
+			"Arab": 0.07,
+			"Bangladeshi": 0.02,
+			"Black": 0.74,
+			"Chinese": 0.32,
+			"Indian": 3.25,
+			"Mixed": 1.43,
+			"Other": 0.2,
+			"Other Asian": 0.46,
+			"Pakistani": 0.21,
+			"White": 93.29
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 5023,
+				"name": "Alberto Costa",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5023.png"
+			},{
+				"id": 23333,
+				"name": "Nick Cox",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23333-f7c8986c-d20f-488c-93f2-c726f5cab68f.png"
+			},{
+				"id": 64358,
+				"name": "Phil Knowles",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70014.png"
+			},{
+				"id": 72360,
+				"name": "Tristan Naseem Koriya",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72360-d2d64455-ded7-4ce1-bb5d-447bf87c195d.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Alberto Costa",
+			"party": { "code": "Con" },
+			"electorate": 78985,
+			"turnout": { "pc": 71.9, "value": 56801 },
+			"valid": 56689,
+			"invalid": 112,
+			"majority": 18631,
+			"candidates": [{
+				"name": "Alberto Costa",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 34795
+			},{
+				"name": "Shabbir Aslam",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16164
+			},{
+				"name": "Gregory Webb",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2403
+			},{
+				"name": "Roger Helmer",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2235
+			},{
+				"name": "Mary Morgan",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1092
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Alberto Costa",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 76851,
+			"turnout": { "pc":70.6, "value": 54226 },
+			"valid": 53926,
+			"invalid": 300,
+			"majority": 16824
+		}
+	}
+}

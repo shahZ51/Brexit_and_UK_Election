@@ -1,0 +1,101 @@
+{
+	"id": "E14000911",
+	"title": "Salford and Eccles",
+	"demographics": {
+		"2015UKIP": 18.04,
+		"age18-29": 24.81,
+		"EUminus": 9.8,
+		"leave": 53.59,
+		"withdegree": 17.37,
+		"religion": {
+			"christian": 64.34,
+			"jewish": 0.28,
+			"muslim": 3.15
+		},
+		"race": {
+			"Arab": 0.86,
+			"Bangladeshi": 0.34,
+			"Black": 3.43,
+			"Chinese": 1.53,
+			"Indian": 1.3,
+			"Mixed": 2.17,
+			"Other": 0.35,
+			"Other Asian": 1.01,
+			"Pakistani": 0.91,
+			"White": 88.1
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 82202,
+			"candidates": [{
+				"id": 5749,
+				"name": "Rebecca Long Bailey",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5515981f4fb3d15c51926dcb.png"
+			},{
+				"id": 18663,
+				"name": "Attika Choudhary",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18663-c83e16f7-36d6-43c5-b777-bdbb0d17333a.png"
+			},{
+				"id": 35462,
+				"name": "Jake Overend",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35462-614e8fa8-e745-4835-b28c-72e7a20927e4.png"
+			},{
+				"id": 59344,
+				"name": "Bryan Blears",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59344.png"
+			},{
+				"id": 72492,
+				"name": "Matt Mickler",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72492-4304e30a-9287-4438-a5ea-72178a489a6c.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Rebecca Long Bailey",
+			"party": { "code": "Lab" },
+			"electorate": 78080,
+			"turnout": { "pc": 61.1, "value": 47730 },
+			"valid": 47619,
+			"invalid": 111,
+			"majority": 19132,
+			"candidates": [{
+				"name": "Rebecca Long Bailey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 31168
+			},{
+				"name": "Jason Sugarman",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12036
+			},{
+				"name": "Christopher Barnes",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2320
+			},{
+				"name": "John Reid",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1286
+			},{
+				"name": "Wendy Olsen",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 809
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Rebecca Long Bailey",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 74291,
+			"turnout": { "pc":58.5, "value": 43462 },
+			"valid": 43261,
+			"invalid": 201,
+			"majority": 12541
+		}
+	}
+}

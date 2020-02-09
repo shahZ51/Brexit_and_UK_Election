@@ -1,0 +1,99 @@
+{
+	"id": "E14000538",
+	"title": "Aylesbury",
+	"demographics": {
+		"2015UKIP": 19.71,
+		"age18-29": 14.1,
+		"EUminus": 7.93,
+		"leave": 52.1,
+		"withdegree": 17.8,
+		"religion": {
+			"christian": 59.12,
+			"jewish": 0.17,
+			"muslim": 5.75
+		},
+		"race": {
+			"Arab": 0.21,
+			"Bangladeshi": 0.12,
+			"Black": 2.55,
+			"Chinese": 0.4,
+			"Indian": 1.44,
+			"Mixed": 2.74,
+			"Other": 0.31,
+			"Other Asian": 1.6,
+			"Pakistani": 4.84,
+			"White": 85.79
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 4100,
+				"name": "Steven Lambert",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4100.png"
+			},{
+				"id": 24917,
+				"name": "Coral Simpson",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24917.png"
+			},{
+				"id": 49217,
+				"name": "Liz Hind",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49217.png"
+			},{
+				"id": 72029,
+				"name": "Rob Butler",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72029-9c934abd-0609-40f8-8b92-0cd461ab0ada.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "David Lidington",
+			"party": { "code": "Con" },
+			"electorate": 82546,
+			"turnout": { "pc": 71.4, "value": 58905 },
+			"valid": 58783,
+			"invalid": 122,
+			"majority": 14656,
+			"candidates": [{
+				"name": "David Lidington",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32313
+			},{
+				"name": "Mark Bateman",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17657
+			},{
+				"name": "Steven Lambert",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5660
+			},{
+				"name": "Vijay  Srao",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1296
+			},{
+				"name": "Coral Simpson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1237
+			},{
+				"name": "Kyle  Michael",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 620
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "David Lidington",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 80315,
+			"turnout": { "pc":69.3, "value": 55654 },
+			"valid": 55419,
+			"invalid": 235,
+			"majority": 17158
+		}
+	}
+}

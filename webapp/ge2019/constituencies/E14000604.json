@@ -1,0 +1,106 @@
+{
+	"id": "E14000604",
+	"title": "Bromley and Chislehurst",
+	"demographics": {
+		"2015UKIP": 14.26,
+		"age18-29": 13.43,
+		"EUminus": 8.61,
+		"leave": 49.83,
+		"withdegree": 22.42,
+		"religion": {
+			"christian": 59.65,
+			"jewish": 0.32,
+			"muslim": 2.68
+		},
+		"race": {
+			"Arab": 0.33,
+			"Bangladeshi": 0.46,
+			"Black": 5.45,
+			"Chinese": 1.05,
+			"Indian": 2.48,
+			"Mixed": 3.41,
+			"Other": 0.75,
+			"Other Asian": 1.71,
+			"Pakistani": 0.35,
+			"White": 84
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 66711,
+			"candidates": [{
+				"id": 1023,
+				"name": "Bob Neill",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55225877328bff5d39338a5c.png"
+			},{
+				"id": 8019,
+				"name": "Julie Ireland",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8019.png"
+			},{
+				"id": 40531,
+				"name": "Angela Wilkins",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40531-6c0b1af1-964d-42bf-aab8-4eee6dc695e8.png"
+			},{
+				"id": 48504,
+				"name": "Mary Elizabeth Ion",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48504.png"
+			},{
+				"id": 71333,
+				"name": "Jyoti Dialani",
+				"party": { "code": "", "title": "Renew" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71333.png"
+			},{
+				"id": 72406,
+				"name": "Zion Amodu",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Robert Neill",
+			"party": { "code": "Con" },
+			"electorate": 65117,
+			"turnout": { "pc": 71.8, "value": 46781 },
+			"valid": 46662,
+			"invalid": 119,
+			"majority": 9590,
+			"candidates": [{
+				"name": "Robert Neill",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25175
+			},{
+				"name": "Sara Hyde",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15585
+			},{
+				"name": "Sam Webber",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3369
+			},{
+				"name": "Emmett Jenner",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1383
+			},{
+				"name": "Roisin Robertson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1150
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Robert Neill",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 65477,
+			"turnout": { "pc":67.5, "value": 44197 },
+			"valid": 44066,
+			"invalid": 131,
+			"majority": 13564
+		}
+	}
+}

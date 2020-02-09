@@ -1,0 +1,109 @@
+{
+	"id": "E14000844",
+	"title": "North East Hampshire",
+	"demographics": {
+		"2015UKIP": 8.76,
+		"age18-29": 10.93,
+		"EUminus": 6.18,
+		"leave": 45.92,
+		"withdegree": 24.48,
+		"religion": {
+			"christian": 65.35,
+			"jewish": 0.11,
+			"muslim": 0.52
+		},
+		"race": {
+			"Arab": 0.08,
+			"Bangladeshi": 0.14,
+			"Black": 0.45,
+			"Chinese": 0.42,
+			"Indian": 0.86,
+			"Mixed": 1.52,
+			"Other": 0.17,
+			"Other Asian": 0.74,
+			"Pakistani": 0.15,
+			"White": 95.49
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 422,
+				"name": "Howling Laud Hope",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534fa1fb247335574a42e45.png"
+			},{
+				"id": 1835,
+				"name": "Barry Jones",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1835.png"
+			},{
+				"id": 4217,
+				"name": "Ranil Jayawardena",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4217.png"
+			},{
+				"id": 6314,
+				"name": "Graham Cockarill",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6314-2db6e0f9-67f4-41c2-8ffd-d04e46657f36.png"
+			},{
+				"id": 43826,
+				"name": "Culann Walsh",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43826.png"
+			},{
+				"id": 72183,
+				"name": "Tony Durrant",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72183-875a9292-d895-4b31-a7f0-d2126475180f.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Ranil Jayawardena",
+			"party": { "code": "Con" },
+			"electorate": 74576,
+			"turnout": { "pc": 77.4, "value": 57748 },
+			"valid": 57627,
+			"invalid": 121,
+			"majority": 27772,
+			"candidates": [{
+				"name": "Ranil Jayawardena",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 37754
+			},{
+				"name": "Barry Jones",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 9982
+			},{
+				"name": "Graham Cockarill",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 6987
+			},{
+				"name": "Chas Spradbery",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1476
+			},{
+				"name": "Mike Gascoigne",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1061
+			},{
+				"name": "Robert Blay",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 367
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Ranil Jayawardena",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 76918,
+			"turnout": { "pc":70.5, "value": 54198 },
+			"valid": 54000,
+			"invalid": 198,
+			"majority": 29916
+		}
+	}
+}

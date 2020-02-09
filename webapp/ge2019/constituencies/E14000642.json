@@ -1,0 +1,123 @@
+{
+	"id": "E14000642",
+	"title": "Clacton",
+	"demographics": {
+		"2015UKIP": 44.43,
+		"age18-29": 10.87,
+		"EUminus": 3.79,
+		"leave": 71.08,
+		"withdegree": 5.1,
+		"religion": {
+			"christian": 64.56,
+			"jewish": 0.16,
+			"muslim": 0.32
+		},
+		"race": {
+			"Arab": 0.04,
+			"Bangladeshi": 0.12,
+			"Black": 0.32,
+			"Chinese": 0.26,
+			"Indian": 0.25,
+			"Mixed": 1.11,
+			"Other": 0.12,
+			"Other Asian": 0.31,
+			"Pakistani": 0.04,
+			"White": 97.44
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 70930,
+			"candidates": [{
+				"id": 268,
+				"name": "Chris Southall",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/268.png"
+			},{
+				"id": 788,
+				"name": "Kevin Bonavia",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/788.png"
+			},{
+				"id": 4179,
+				"name": "Giles Watling",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4179.png"
+			},{
+				"id": 35219,
+				"name": "Callum Robertson",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35219.png"
+			},{
+				"id": 72483,
+				"name": "Colin Leslie Bennett",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": ""
+			},{
+				"id": 72484,
+				"name": "Andy Morgan",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72484-c7043503-4691-4c1f-b6e2-a8bf330d87f1.png"
+			},{
+				"id": 72485,
+				"name": "Just-John Sexton",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Giles Watling",
+			"party": { "code": "Con" },
+			"electorate": 69263,
+			"turnout": { "pc": 63.8, "value": 44218 },
+			"valid": 44145,
+			"invalid": 73,
+			"majority": 15828,
+			"candidates": [{
+				"name": "Giles Watling",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27031
+			},{
+				"name": "Tasha Osben",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11203
+			},{
+				"name": "Paul Oakley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3357
+			},{
+				"name": "David Grace",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 887
+			},{
+				"name": "Chris Southall",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 719
+			},{
+				"name": "Caroline Shearer",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 449
+			},{
+				"name": "Robin Tilbrook",
+				"party": { "code": "Eng Dem", "title": "English Democrats" },
+				"votes": 289
+			},{
+				"name": "Nick Martin",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 210
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Douglas Carswell",
+			"party": { "code": "UKIP", "title": "UK Independence Party" },
+			"electorate": 68936,
+			"turnout": { "pc":64.4, "value": 44375 },
+			"valid": 44207,
+			"invalid": 168,
+			"majority": 3437
+		}
+	}
+}

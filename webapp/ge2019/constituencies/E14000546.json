@@ -1,0 +1,92 @@
+{
+	"id": "E14000546",
+	"title": "Bassetlaw",
+	"demographics": {
+		"2015UKIP": 15.96,
+		"age18-29": 13.23,
+		"EUminus": 5.31,
+		"leave": 68.32,
+		"withdegree": 9.04,
+		"religion": {
+			"christian": 70.81,
+			"jewish": 0.04,
+			"muslim": 0.52
+		},
+		"race": {
+			"Arab": 0.05,
+			"Bangladeshi": 0.06,
+			"Black": 0.44,
+			"Chinese": 0.17,
+			"Indian": 0.42,
+			"Mixed": 0.89,
+			"Other": 0.13,
+			"Other Asian": 0.25,
+			"Pakistani": 0.17,
+			"White": 97.42
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 80035,
+			"candidates": [{
+				"id": 49193,
+				"name": "Helen Tamblyn-Saville",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49193.png"
+			},{
+				"id": 56018,
+				"name": "Keir Alexander Morrison",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/56018.png"
+			},{
+				"id": 65408,
+				"name": "Brendan Clarke-Smith",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65408-1feb77b7-385e-4654-92de-987332ae59c8.png"
+			},{
+				"id": 71847,
+				"name": "Debbie Soloman",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71847.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "John Mann",
+			"party": { "code": "Lab" },
+			"electorate": 78540,
+			"turnout": { "pc": 66.7, "value": 52377 },
+			"valid": 52250,
+			"invalid": 127,
+			"majority": 4852,
+			"candidates": [{
+				"name": "John Mann",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 27467
+			},{
+				"name": "Annette Simpson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 22615
+			},{
+				"name": "Leon Duveen",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1154
+			},{
+				"name": "Nigel Turner",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1014
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "John Mann",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 76796,
+			"turnout": { "pc":64.4, "value": 49459 },
+			"valid": 49289,
+			"invalid": 170,
+			"majority": 8843
+		}
+	}
+}

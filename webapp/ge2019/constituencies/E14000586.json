@@ -1,0 +1,104 @@
+{
+	"id": "E14000586",
+	"title": "Bracknell",
+	"demographics": {
+		"2015UKIP": 15.71,
+		"age18-29": 14.59,
+		"EUminus": 7.74,
+		"leave": 53.25,
+		"withdegree": 18.5,
+		"religion": {
+			"christian": 59.98,
+			"jewish": 0.26,
+			"muslim": 1.07
+		},
+		"race": {
+			"Arab": 0.14,
+			"Bangladeshi": 0.15,
+			"Black": 1.87,
+			"Chinese": 0.49,
+			"Indian": 1.55,
+			"Mixed": 1.96,
+			"Other": 0.26,
+			"Other Asian": 2.25,
+			"Pakistani": 0.38,
+			"White": 90.94
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 5098,
+				"name": "Derek Florey",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53264.png"
+			},{
+				"id": 34464,
+				"name": "Paul Bidwell",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34464.png"
+			},{
+				"id": 34943,
+				"name": "Olivio Barreto",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34943.png"
+			},{
+				"id": 46303,
+				"name": "Kaweh Beheshtizadeh",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71756.png"
+			},{
+				"id": 72017,
+				"name": "James Sunderland",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72017.png"
+			}],
+			"incumbent": {
+				"mp": "Phillip Lee",
+				"party": { "code": "LD", "title": "Liberal Democrat" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Phillip Lee",
+			"party": { "code": "Con" },
+			"electorate": 79199,
+			"turnout": { "pc": 70.8, "value": 56038 },
+			"valid": 55892,
+			"invalid": 146,
+			"majority": 16016,
+			"candidates": [{
+				"name": "Phillip Lee",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32882
+			},{
+				"name": "Paul Bidwell",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16866
+			},{
+				"name": "Patrick Smith",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4186
+			},{
+				"name": "Leonard Amos",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1521
+			},{
+				"name": "Olivio Barreto",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 437
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Phillip Lee",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 81271,
+			"turnout": { "pc":65.6, "value": 53301 },
+			"valid": 53086,
+			"invalid": 215,
+			"majority": 20650
+		}
+	}
+}

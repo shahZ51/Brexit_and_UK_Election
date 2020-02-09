@@ -1,0 +1,110 @@
+{
+	"id": "E14000889",
+	"title": "Reading East",
+	"demographics": {
+		"2015UKIP": 7.22,
+		"age18-29": 23.83,
+		"EUminus": 12.24,
+		"leave": 38.24,
+		"withdegree": 29.65,
+		"religion": {
+			"christian": 48.81,
+			"jewish": 0.24,
+			"muslim": 7.28
+		},
+		"race": {
+			"Arab": 0.59,
+			"Bangladeshi": 0.35,
+			"Black": 4.76,
+			"Chinese": 1.32,
+			"Indian": 4.93,
+			"Mixed": 3.3,
+			"Other": 0.63,
+			"Other Asian": 3.57,
+			"Pakistani": 4.96,
+			"White": 75.6
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 77465,
+			"candidates": [{
+				"id": 4406,
+				"name": "Matt Rodda",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bb673a8c0192f732ca8df.png"
+			},{
+				"id": 6475,
+				"name": "Yemi Awolola",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6475-45187744-2281-4a52-bce9-c586e1fe4e3a.png"
+			},{
+				"id": 6584,
+				"name": "Imogen Shepherd-DuBey",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551596144fb3d15c51926dc8.png"
+			},{
+				"id": 71594,
+				"name": "Craig Morley",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71594.png"
+			},{
+				"id": 71595,
+				"name": "Mitchell Feierstein",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71595.png"
+			},{
+				"id": 71921,
+				"name": "David McElroy",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71921-68b25662-e7f7-4f14-be32-a0e829249c3b.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Matt Rodda",
+			"party": { "code": "Lab" },
+			"electorate": 75537,
+			"turnout": { "pc": 73.3, "value": 55370 },
+			"valid": 55238,
+			"invalid": 132,
+			"majority": 3749,
+			"candidates": [{
+				"name": "Matt Rodda",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 27093
+			},{
+				"name": "Rob Wilson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23344
+			},{
+				"name": "Jenny Woods",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3378
+			},{
+				"name": "Kizzi Johannessen",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1093
+			},{
+				"name": "Michael Turberville",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 188
+			},{
+				"name": "Andy Kirkwood",
+				"party": { "code": "MAD", "title": "Movement for Active Democracy" },
+				"votes": 142
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Rob Wilson",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 73232,
+			"turnout": { "pc":69.2, "value": 50685 },
+			"valid": 50494,
+			"invalid": 191,
+			"majority": 6520
+		}
+	}
+}

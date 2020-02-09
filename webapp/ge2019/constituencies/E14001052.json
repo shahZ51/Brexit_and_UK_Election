@@ -1,0 +1,109 @@
+{
+	"id": "E14001052",
+	"title": "Worcester",
+	"demographics": {
+		"2015UKIP": 12.83,
+		"age18-29": 17.86,
+		"EUminus": 7.32,
+		"leave": 53.68,
+		"withdegree": 16.98,
+		"religion": {
+			"christian": 63.7,
+			"jewish": 0.03,
+			"muslim": 2.88
+		},
+		"race": {
+			"Arab": 0.06,
+			"Bangladeshi": 0.45,
+			"Black": 0.48,
+			"Chinese": 0.4,
+			"Indian": 0.82,
+			"Mixed": 1.41,
+			"Other": 0.18,
+			"Other Asian": 0.81,
+			"Pakistani": 1.95,
+			"White": 93.44
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 73403,
+			"candidates": [{
+				"id": 496,
+				"name": "Robin Walker",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551be5a8209513973bc512a3.png"
+			},{
+				"id": 2531,
+				"name": "Louis Stephen",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/550b5de53676900a02e1643e.png"
+			},{
+				"id": 5860,
+				"name": "Stephen Kearney",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a2337328b3f41504933ed.png"
+			},{
+				"id": 12771,
+				"name": "Lynn Denham",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/12771.png"
+			},{
+				"id": 72632,
+				"name": "Martin Potter",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72632-75110c4d-04dc-4966-b2cf-4c62cc4dd392.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Robin Walker",
+			"party": { "code": "Con" },
+			"electorate": 73893,
+			"turnout": { "pc": 69.7, "value": 51515 },
+			"valid": 51423,
+			"invalid": 92,
+			"majority": 2508,
+			"candidates": [{
+				"name": "Robin Walker",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24731
+			},{
+				"name": "Joy Squires",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22223
+			},{
+				"name": "Stephen Kearney",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1757
+			},{
+				"name": "Paul Hickling",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1354
+			},{
+				"name": "Louis Stephen",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1211
+			},{
+				"name": "Alex Rugg",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 109
+			},{
+				"name": "Mark Shuker",
+				"party": { "code": "Compass Party", "title": "Compass Party" },
+				"votes": 38
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Robin Walker",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 72461,
+			"turnout": { "pc":68.8, "value": 49860 },
+			"valid": 49723,
+			"invalid": 137,
+			"majority": 5646
+		}
+	}
+}

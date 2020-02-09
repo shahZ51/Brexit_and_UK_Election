@@ -1,0 +1,87 @@
+{
+	"id": "E14000958",
+	"title": "Southport",
+	"demographics": {
+		"2015UKIP": 16.85,
+		"age18-29": 12.58,
+		"EUminus": 7.1,
+		"leave": 45.51,
+		"withdegree": 14.28,
+		"religion": {
+			"christian": 71.11,
+			"jewish": 0.38,
+			"muslim": 0.66
+		},
+		"race": {
+			"Arab": 0.17,
+			"Bangladeshi": 0.23,
+			"Black": 0.38,
+			"Chinese": 0.44,
+			"Indian": 0.36,
+			"Mixed": 1.26,
+			"Other": 0.21,
+			"Other Asian": 0.33,
+			"Pakistani": 0.05,
+			"White": 96.57
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 70837,
+			"candidates": [{
+				"id": 4779,
+				"name": "Liz Savage",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/550821af7a8b511079bc5bcc.png"
+			},{
+				"id": 4780,
+				"name": "Damien Moore",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a4dbb7940863c767fde31.png"
+			},{
+				"id": 15318,
+				"name": "John Wright",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15318-1450f35d-53a3-4c20-8ef7-98f16acee534.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Damien Moore",
+			"party": { "code": "Con" },
+			"electorate": 69400,
+			"turnout": { "pc": 69.2, "value": 48019 },
+			"valid": 47956,
+			"invalid": 63,
+			"majority": 2914,
+			"candidates": [{
+				"name": "Damien Moore",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18541
+			},{
+				"name": "Liz Savage",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15627
+			},{
+				"name": "Sue McGuire",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 12661
+			},{
+				"name": "Terry Durrance",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1127
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "John Pugh",
+			"party": { "code": "LD", "title": "Liberal Democrat" },
+			"electorate": 67326,
+			"turnout": { "pc":65.8, "value": 44272 },
+			"valid": 44101,
+			"invalid": 171,
+			"majority": 1322
+		}
+	}
+}

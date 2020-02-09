@@ -1,0 +1,100 @@
+{
+	"id": "E14001040",
+	"title": "Wimbledon",
+	"demographics": {
+		"2015UKIP": 5.11,
+		"age18-29": 17.34,
+		"EUminus": 18.54,
+		"leave": 29.37,
+		"withdegree": 45.49,
+		"religion": {
+			"christian": 56.36,
+			"jewish": 0.67,
+			"muslim": 5.41
+		},
+		"race": {
+			"Arab": 0.77,
+			"Bangladeshi": 0.76,
+			"Black": 2.94,
+			"Chinese": 1.5,
+			"Indian": 3.7,
+			"Mixed": 4.16,
+			"Other": 1.04,
+			"Other Asian": 5.88,
+			"Pakistani": 2.37,
+			"White": 76.87
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 68232,
+			"candidates": [{
+				"id": 2253,
+				"name": "Stephen Hammond",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f3bab247335574a42e27.png"
+			},{
+				"id": 46264,
+				"name": "Paul Christopher Kohler",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/46264.png"
+			},{
+				"id": 71736,
+				"name": "Jackie Schneider",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71736.png"
+			},{
+				"id": 72239,
+				"name": "Graham Wilson Hadley",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": ""
+			}],
+			"incumbent": {
+				"mp": "Stephen Hammond",
+				"party": { "code": "Ind", "title": "Independent" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Stephen Hammond",
+			"party": { "code": "Con" },
+			"electorate": 66780,
+			"turnout": { "pc": 77.3, "value": 51653 },
+			"valid": 51526,
+			"invalid": 127,
+			"majority": 5622,
+			"candidates": [{
+				"name": "Stephen Hammond",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23946
+			},{
+				"name": "Imran Uddin",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18324
+			},{
+				"name": "Carl Quilliam",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 7472
+			},{
+				"name": "Charles Barraball",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1231
+			},{
+				"name": "Strachan McDonald",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 553
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Stephen Hammond",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 65853,
+			"turnout": { "pc":73.7, "value": 48566 },
+			"valid": 48422,
+			"invalid": 144,
+			"majority": 12619
+		}
+	}
+}

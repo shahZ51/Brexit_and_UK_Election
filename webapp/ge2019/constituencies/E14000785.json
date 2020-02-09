@@ -1,0 +1,101 @@
+{
+	"id": "E14000785",
+	"title": "Leigh",
+	"demographics": {
+		"2015UKIP": 19.73,
+		"age18-29": 14.73,
+		"EUminus": 3.04,
+		"leave": 63.45,
+		"withdegree": 9.82,
+		"religion": {
+			"christian": 75.17,
+			"jewish": 0.02,
+			"muslim": 0.76
+		},
+		"race": {
+			"Arab": 0.12,
+			"Bangladeshi": 0.05,
+			"Black": 0.63,
+			"Chinese": 0.41,
+			"Indian": 0.36,
+			"Mixed": 0.99,
+			"Other": 0.12,
+			"Other Asian": 0.28,
+			"Pakistani": 0.27,
+			"White": 96.77
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 13928,
+				"name": "Jo Platt",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13928.png"
+			},{
+				"id": 15397,
+				"name": "James Grundy",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15397.png"
+			},{
+				"id": 45973,
+				"name": "Mark Clayton",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45973-6f8207a1-1284-4202-a47f-069ad1177076.png"
+			},{
+				"id": 51054,
+				"name": "Leon Adam Peters",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51054-03090f4f-3811-43d3-aaf3-8d4d166b8e4b.png"
+			},{
+				"id": 71968,
+				"name": "Ann Maureen O'Bern",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71968.png"
+			},{
+				"id": 72409,
+				"name": "James Paul Melly",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72409-4ef7d143-9b97-4efe-91fc-ff5cef45b79e.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Joanne Platt",
+			"party": { "code": "Lab" },
+			"electorate": 76202,
+			"turnout": { "pc": 61.7, "value": 46979 },
+			"valid": 46874,
+			"invalid": 105,
+			"majority": 9554,
+			"candidates": [{
+				"name": "Joanne Platt",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 26347
+			},{
+				"name": "James Grundy",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16793
+			},{
+				"name": "Mark Bradley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2783
+			},{
+				"name": "Richard Kilpatrick",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 951
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Andy Burnham",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 75905,
+			"turnout": { "pc":59.7, "value": 45312 },
+			"valid": 45123,
+			"invalid": 189,
+			"majority": 14096
+		}
+	}
+}

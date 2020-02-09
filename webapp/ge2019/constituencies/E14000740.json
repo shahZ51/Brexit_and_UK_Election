@@ -1,0 +1,116 @@
+{
+	"id": "E14000740",
+	"title": "Hemsworth",
+	"demographics": {
+		"2015UKIP": 20.2,
+		"age18-29": 14.16,
+		"EUminus": 4.33,
+		"leave": 68.13,
+		"withdegree": 9.05,
+		"religion": {
+			"christian": 68.67,
+			"jewish": 0.02,
+			"muslim": 1.36
+		},
+		"race": {
+			"Arab": 0.08,
+			"Bangladeshi": 0,
+			"Black": 0.45,
+			"Chinese": 0.2,
+			"Indian": 0.42,
+			"Mixed": 0.76,
+			"Other": 0.12,
+			"Other Asian": 0.2,
+			"Pakistani": 1.04,
+			"White": 96.71
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 73726,
+			"candidates": [{
+				"id": 456,
+				"name": "Jon Trickett",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bd1b8b9c95afe74c5d33e.png"
+			},{
+				"id": 2141,
+				"name": "Ian Womersley",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2141-75c7b497-9540-431b-92a8-dd362816ea69.png"
+			},{
+				"id": 6642,
+				"name": "Martin Roberts",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6642.png"
+			},{
+				"id": 30711,
+				"name": "James Monaghan",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30711.png"
+			},{
+				"id": 62764,
+				"name": "Lyn Morton",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/62764-30205d56-1126-446d-bb57-efb3af764807.png"
+			},{
+				"id": 70751,
+				"name": "Louise Calland",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70751.png"
+			},{
+				"id": 72428,
+				"name": "Waj Ali",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72428-39f4e7ab-db58-4e94-b331-2c85726a77e5.png"
+			},{
+				"id": 72429,
+				"name": "Pete Wilks",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Jon Trickett",
+			"party": { "code": "Lab" },
+			"electorate": 71870,
+			"turnout": { "pc": 64.0, "value": 46027 },
+			"valid": 45944,
+			"invalid": 83,
+			"majority": 10174,
+			"candidates": [{
+				"name": "Jon Trickett",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25740
+			},{
+				"name": "Mike Jordan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15566
+			},{
+				"name": "David Dews",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2591
+			},{
+				"name": "Martin Roberts",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 1135
+			},{
+				"name": "Joan Macqueen",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 912
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Jon Trickett",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 72714,
+			"turnout": { "pc":58.5, "value": 42573 },
+			"valid": 42406,
+			"invalid": 167,
+			"majority": 12078
+		}
+	}
+}

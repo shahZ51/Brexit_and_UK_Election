@@ -1,0 +1,92 @@
+{
+	"id": "E14000984",
+	"title": "Sutton and Cheam",
+	"demographics": {
+		"2015UKIP": 10.7,
+		"age18-29": 14.26,
+		"EUminus": 11.04,
+		"leave": 51.27,
+		"withdegree": 21.55,
+		"religion": {
+			"christian": 58.3,
+			"jewish": 0.34,
+			"muslim": 4.55
+		},
+		"race": {
+			"Arab": 0.69,
+			"Bangladeshi": 0.64,
+			"Black": 3.47,
+			"Chinese": 1.42,
+			"Indian": 3.95,
+			"Mixed": 3.49,
+			"Other": 0.8,
+			"Other Asian": 5.43,
+			"Pakistani": 1.5,
+			"White": 78.61
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 71760,
+			"candidates": [{
+				"id": 4233,
+				"name": "Paul Scully",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4233.png"
+			},{
+				"id": 34392,
+				"name": "Bonnie Craven",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34392_OgfvZo2.png"
+			},{
+				"id": 34628,
+				"name": "Claire Jackson-Prior",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34628.png"
+			},{
+				"id": 47398,
+				"name": "Hina Bokhari",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47398.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Paul Scully",
+			"party": { "code": "Con" },
+			"electorate": 70404,
+			"turnout": { "pc": 74.0, "value": 52093 },
+			"valid": 51970,
+			"invalid": 123,
+			"majority": 12698,
+			"candidates": [{
+				"name": "Paul Scully",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26567
+			},{
+				"name": "Amna Ahmad",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 13869
+			},{
+				"name": "Bonnie Craven",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10663
+			},{
+				"name": "Claire Jackson-Prior",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 871
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Paul Scully",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 69228,
+			"turnout": { "pc":72.3, "value": 50021 },
+			"valid": 49905,
+			"invalid": 116,
+			"majority": 3921
+		}
+	}
+}

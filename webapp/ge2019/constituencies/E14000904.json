@@ -1,0 +1,101 @@
+{
+	"id": "E14000904",
+	"title": "Rotherham",
+	"demographics": {
+		"2015UKIP": 30.18,
+		"age18-29": 15.98,
+		"EUminus": 6.14,
+		"leave": 68.35,
+		"withdegree": 6.95,
+		"religion": {
+			"christian": 60,
+			"jewish": 0.04,
+			"muslim": 8.98
+		},
+		"race": {
+			"Arab": 0.48,
+			"Bangladeshi": 0.08,
+			"Black": 1.62,
+			"Chinese": 0.34,
+			"Indian": 0.55,
+			"Mixed": 1.41,
+			"Other": 0.61,
+			"Other Asian": 1,
+			"Pakistani": 7.27,
+			"White": 86.62
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 61688,
+			"candidates": [{
+				"id": 5542,
+				"name": "Sarah Champion",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5542.png"
+			},{
+				"id": 18365,
+				"name": "Adam Jonathon Carter",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18365-6533f331-a654-40bb-8671-2552747d31f8.png"
+			},{
+				"id": 18444,
+				"name": "Paul Hague",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18444-784e90eb-40c8-4a1d-892b-cc35ab0caa3a.png"
+			},{
+				"id": 59113,
+				"name": "Gerri Hickton",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59113-bf5f89fe-1686-4b64-864d-5836e7d4f616.png"
+			},{
+				"id": 72118,
+				"name": "Dennis Bannan",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Sarah Champion",
+			"party": { "code": "Lab" },
+			"electorate": 63237,
+			"turnout": { "pc": 60.1, "value": 38006 },
+			"valid": 37923,
+			"invalid": 83,
+			"majority": 11387,
+			"candidates": [{
+				"name": "Sarah Champion",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21404
+			},{
+				"name": "James Bellis",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10017
+			},{
+				"name": "Allen Cowles",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3316
+			},{
+				"name": "Adam Carter",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1754
+			},{
+				"name": "Mick Bower",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 1432
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Sarah Champion",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 63698,
+			"turnout": { "pc":59.6, "value": 37976 },
+			"valid": 37823,
+			"invalid": 153,
+			"majority": 8446
+		}
+	}
+}

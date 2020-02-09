@@ -1,0 +1,96 @@
+{
+	"id": "E14000862",
+	"title": "Northampton South",
+	"demographics": {
+		"2015UKIP": 18.3,
+		"age18-29": 19.4,
+		"EUminus": 16.42,
+		"leave": 59.61,
+		"withdegree": 13.57,
+		"religion": {
+			"christian": 55.09,
+			"jewish": 0.12,
+			"muslim": 5.4
+		},
+		"race": {
+			"Arab": 0.3,
+			"Bangladeshi": 2.23,
+			"Black": 5.87,
+			"Chinese": 0.82,
+			"Indian": 2.67,
+			"Mixed": 3.38,
+			"Other": 0.55,
+			"Other Asian": 1.07,
+			"Pakistani": 0.72,
+			"White": 82.41
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 62172,
+			"candidates": [{
+				"id": 3353,
+				"name": "Jill Hope",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3353.png"
+			},{
+				"id": 22866,
+				"name": "Scott Mabbutt",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22866.png"
+			},{
+				"id": 27155,
+				"name": "Gareth Matthew Eales",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/27155-55b5c293-4c21-4f87-843a-4337826f83f8.png"
+			},{
+				"id": 34338,
+				"name": "Andrew Lewer",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34338.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Andrew Lewer",
+			"party": { "code": "Con" },
+			"electorate": 61766,
+			"turnout": { "pc": 66.5, "value": 41105 },
+			"valid": 41034,
+			"invalid": 71,
+			"majority": 1159,
+			"candidates": [{
+				"name": "Andrew Lewer",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19231
+			},{
+				"name": "Kevin McKeever",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18072
+			},{
+				"name": "Rose Gibbins",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1630
+			},{
+				"name": "Jill Hope",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1405
+			},{
+				"name": "Scott Mabbutt",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 696
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "David Mackintosh",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 61287,
+			"turnout": { "pc":63.7, "value": 39045 },
+			"valid": 38884,
+			"invalid": 161,
+			"majority": 3793
+		}
+	}
+}

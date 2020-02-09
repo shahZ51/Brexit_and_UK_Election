@@ -1,0 +1,74 @@
+{
+	"id": "N06000002",
+	"title": "Belfast North",
+	"demographics": {
+
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 72225,
+			"candidates": [{
+				"id": 2140,
+				"name": "Nigel Dodds",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55322f2229c5d53959d9e44e.png"
+			},{
+				"id": 11374,
+				"name": "Nuala McAllister",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11374.png"
+			},{
+				"id": 34499,
+				"name": "John Finucane",
+				"party": { "code": "SF", "title": "Sinn Féin" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34499.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Nigel Dodds",
+			"party": { "code": "DUP" },
+			"electorate": 68249,
+			"turnout": { "pc": 67.5, "value": 46094 },
+			"valid": 45936,
+			"invalid": 158,
+			"majority": 2081,
+			"candidates": [{
+				"name": "Nigel Dodds",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 21240
+			},{
+				"name": "John Finucane",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 19159
+			},{
+				"name": "Sam Nelson",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 2475
+			},{
+				"name": "Martin McAuley",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 2058
+			},{
+				"name": "Malachai O'Hara",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 644
+			},{
+				"name": "Gemma Weir",
+				"party": { "code": "WP", "title": "Workers Party" },
+				"votes": 360
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Nigel Dodds",
+			"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+			"electorate": 68553,
+			"turnout": { "pc":59.6, "value": 40887 },
+			"valid": 40593,
+			"invalid": 294,
+			"majority": 5326
+		}
+	}
+}

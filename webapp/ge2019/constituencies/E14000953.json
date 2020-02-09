@@ -1,0 +1,90 @@
+{
+	"id": "E14000953",
+	"title": "South West Surrey",
+	"demographics": {
+		"2015UKIP": 9.88,
+		"age18-29": 10.94,
+		"EUminus": 7.53,
+		"leave": 40.61,
+		"withdegree": 28.04,
+		"religion": {
+			"christian": 64.44,
+			"jewish": 0.19,
+			"muslim": 0.67
+		},
+		"race": {
+			"Arab": 0.15,
+			"Bangladeshi": 0.15,
+			"Black": 0.45,
+			"Chinese": 0.52,
+			"Indian": 0.48,
+			"Mixed": 1.38,
+			"Other": 0.22,
+			"Other Asian": 0.57,
+			"Pakistani": 0.23,
+			"White": 95.84
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 3155,
+				"name": "Jeremy Hunt",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55350076b247335574a42e4a.png"
+			},{
+				"id": 24989,
+				"name": "Paul David Follows",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24989-77a9d313-6583-4c4c-b2e8-a850ebb2f14c.png"
+			},{
+				"id": 67061,
+				"name": "Tim Corry",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67061-dc5fdc2c-db76-415e-a48b-eefec50f9557.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Jeremy Hunt",
+			"party": { "code": "Con" },
+			"electorate": 78042,
+			"turnout": { "pc": 77.6, "value": 60583 },
+			"valid": 60432,
+			"invalid": 151,
+			"majority": 21590,
+			"candidates": [{
+				"name": "Jeremy Hunt",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33683
+			},{
+				"name": "Louise Irvine",
+				"party": { "code": "National Health Action Party", "title": "National Health Action Party" },
+				"votes": 12093
+			},{
+				"name": "David Black",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 7606
+			},{
+				"name": "Ollie Purkiss",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5967
+			},{
+				"name": "Mark Webber",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1083
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Jeremy Hunt",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 77548,
+			"turnout": { "pc":74.0, "value": 57366 },
+			"valid": 57119,
+			"invalid": 247,
+			"majority": 28556
+		}
+	}
+}

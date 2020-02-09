@@ -1,0 +1,136 @@
+{
+	"id": "E14001007",
+	"title": "Uxbridge and South Ruislip",
+	"demographics": {
+		"2015UKIP": 14.16,
+		"age18-29": 21.98,
+		"EUminus": 11.34,
+		"leave": 56.36,
+		"withdegree": 19.04,
+		"religion": {
+			"christian": 54.43,
+			"jewish": 0.28,
+			"muslim": 7.89
+		},
+		"race": {
+			"Arab": 1.19,
+			"Bangladeshi": 1.3,
+			"Black": 5.57,
+			"Chinese": 1.6,
+			"Indian": 8.6,
+			"Mixed": 3.87,
+			"Other": 1.42,
+			"Other Asian": 4.37,
+			"Pakistani": 2.23,
+			"White": 69.84
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 70369,
+			"candidates": [{
+				"id": 4546,
+				"name": "Boris Johnson",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54cd19f4668e142f73d3b4a9.png"
+			},{
+				"id": 7292,
+				"name": "Bobby \"Elmo\" Smith",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/552cf2433d3371cf3592d9d5.png"
+			},{
+				"id": 34481,
+				"name": "Mark Keir",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34481.png"
+			},{
+				"id": 41972,
+				"name": "Jo Humphreys",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41972-5aea1add-b660-493f-b193-c1ad79e0d019.png"
+			},{
+				"id": 47463,
+				"name": "Ali Milani",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47463.png"
+			},{
+				"id": 72363,
+				"name": "Count Binface",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72363-41c603b5-0bc1-4ecc-b3aa-6b3ba7ea5e12.png"
+			},{
+				"id": 72364,
+				"name": "Lord Buckethead",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72364-ffc17485-ad2a-4664-8963-6a1e1291f299.png"
+			},{
+				"id": 72365,
+				"name": "Norma Burke",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72365-50cf795a-fe8b-4604-8bcd-d962456e9853.png"
+			},{
+				"id": 72366,
+				"name": "Geoffrey Courtenay",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72366-9a91a42c-66b3-441e-8ed6-692f4fc71e5c.png"
+			},{
+				"id": 72367,
+				"name": "William John Tobin",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72367-e7309384-46e0-495b-b4bd-3172a3d66f35.png"
+			},{
+				"id": 72368,
+				"name": "Alfie John Utting",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": ""
+			},{
+				"id": 72369,
+				"name": "Yace \"Interplanetary Time Lord\" Yogenstein",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Boris Johnson",
+			"party": { "code": "Con" },
+			"electorate": 69936,
+			"turnout": { "pc": 66.9, "value": 46778 },
+			"valid": 46694,
+			"invalid": 84,
+			"majority": 5034,
+			"candidates": [{
+				"name": "Boris Johnson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23716
+			},{
+				"name": "Vincent Lo",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18682
+			},{
+				"name": "Rosina Robson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1835
+			},{
+				"name": "Elizabeth Kemp",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1577
+			},{
+				"name": "Mark Keir",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 884
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Boris Johnson",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 70631,
+			"turnout": { "pc":63.6, "value": 44914 },
+			"valid": 44811,
+			"invalid": 103,
+			"majority": 10695
+		}
+	}
+}

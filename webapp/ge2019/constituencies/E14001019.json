@@ -1,0 +1,111 @@
+{
+	"id": "E14001019",
+	"title": "Warwick and Leamington",
+	"demographics": {
+		"2015UKIP": 8.27,
+		"age18-29": 19.55,
+		"EUminus": 9.22,
+		"leave": 41.13,
+		"withdegree": 26.47,
+		"religion": {
+			"christian": 55.81,
+			"jewish": 0.22,
+			"muslim": 1.04
+		},
+		"race": {
+			"Arab": 0.18,
+			"Bangladeshi": 0.05,
+			"Black": 0.82,
+			"Chinese": 0.73,
+			"Indian": 6.07,
+			"Mixed": 2.32,
+			"Other": 0.9,
+			"Other Asian": 1.22,
+			"Pakistani": 0.41,
+			"White": 87.3
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 76373,
+			"candidates": [{
+				"id": 5567,
+				"name": "Bob Dhillon",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34924_otUB7Vb.png"
+			},{
+				"id": 28219,
+				"name": "Matt Western",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28219_YqJXnZZ.png"
+			},{
+				"id": 28237,
+				"name": "Louis William McMaster Adam",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28237.png"
+			},{
+				"id": 28239,
+				"name": "Jonathan Chilvers",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28239.png"
+			},{
+				"id": 34489,
+				"name": "Jack Rankin",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34489.png"
+			},{
+				"id": 72139,
+				"name": "Xander Bennett",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72139-59ef20b1-67a0-4de8-b04a-2c412487b011.png"
+			},{
+				"id": 72140,
+				"name": "Tim Griffiths",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72140-784a21a7-83af-4f3c-8fe8-a049b7447f88.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Matt Western",
+			"party": { "code": "Lab" },
+			"electorate": 74237,
+			"turnout": { "pc": 73.0, "value": 54180 },
+			"valid": 54055,
+			"invalid": 125,
+			"majority": 1206,
+			"candidates": [{
+				"name": "Matt Western",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25227
+			},{
+				"name": "Chris White",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24021
+			},{
+				"name": "Nick Solman",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2810
+			},{
+				"name": "Jonathan Chilvers",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1198
+			},{
+				"name": "Bob Dhillon",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 799
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Chris White",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 71578,
+			"turnout": { "pc":71.0, "value": 50794 },
+			"valid": 50581,
+			"invalid": 213,
+			"majority": 6606
+		}
+	}
+}

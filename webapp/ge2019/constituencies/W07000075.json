@@ -1,0 +1,110 @@
+{
+	"id": "W07000075",
+	"title": "Pontypridd",
+	"demographics": {
+		"2015UKIP": 13.42,
+		"age18-29": 16.81,
+		"EUminus": 2.5,
+		"leave": 45.82,
+		"withdegree": 15.33,
+		"religion": {
+			"christian": 51.69,
+			"jewish": 0.05,
+			"muslim": 0.63
+		},
+		"race": {
+			"Arab": 0.11,
+			"Bangladeshi": 0.06,
+			"Black": 0.85,
+			"Chinese": 0.69,
+			"Indian": 0.47,
+			"Mixed": 0.81,
+			"Other": 0.08,
+			"Other Asian": 0.53,
+			"Pakistani": 0.17,
+			"White": 96.23
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 2437,
+				"name": "Mike Powell",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e93eb150e238702c064a.png"
+			},{
+				"id": 5769,
+				"name": "Jonathan Bishop",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c98fd41b868785b1fe676.png"
+			},{
+				"id": 33499,
+				"name": "Sam Trask",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/33499-19cae530-548a-435f-883c-1e58eed60f7d.png"
+			},{
+				"id": 33757,
+				"name": "Alex Davies-Jones",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/33757.png"
+			},{
+				"id": 34427,
+				"name": "Fflur Elin",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34427.png"
+			},{
+				"id": 72615,
+				"name": "Steve Bayliss",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72615-1557914e-2edf-4aa8-ba49-d786b92f2e26.png"
+			},{
+				"id": 72616,
+				"name": "Sue Prior",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72616-7f8af480-62c5-44b0-8e70-3bfce3d63c05.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Owen Smith",
+			"party": { "code": "Lab" },
+			"electorate": 60564,
+			"turnout": { "pc": 66.0, "value": 40000 },
+			"valid": 39894,
+			"invalid": 106,
+			"majority": 11448,
+			"candidates": [{
+				"name": "Owen Smith",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22103
+			},{
+				"name": "Juliette Ash",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10655
+			},{
+				"name": "Fflur Elin",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 4102
+			},{
+				"name": "Michael Powell",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1963
+			},{
+				"name": "Robin Hunter-Clarke",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1071
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Owen Smith",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 58940,
+			"turnout": { "pc":64.4, "value": 37983 },
+			"valid": 37882,
+			"invalid": 101,
+			"majority": 8985
+		}
+	}
+}

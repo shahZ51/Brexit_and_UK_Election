@@ -1,0 +1,103 @@
+{
+	"id": "N06000016",
+	"title": "Strangford",
+	"demographics": {
+
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 66928,
+			"candidates": [{
+				"id": 3066,
+				"name": "Jim Shannon",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5535721f367dc5383f552ccd.png"
+			},{
+				"id": 4590,
+				"name": "Kellie Armstrong",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551b182e13eb34c82843cb4b.png"
+			},{
+				"id": 6814,
+				"name": "Robert Stephenson",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55268b7a59bbc5c063445b73.png"
+			},{
+				"id": 7179,
+				"name": "Joe Boyle",
+				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16576.png"
+			},{
+				"id": 8115,
+				"name": "Philip Smith",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8115.png"
+			},{
+				"id": 49644,
+				"name": "Ryan Carlin",
+				"party": { "code": "SF", "title": "Sinn Féin" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49644.png"
+			},{
+				"id": 69269,
+				"name": "Maurice Macartney",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69269-b8ec041d-b27f-44dd-b14a-a32ce7326f66.png"
+			},{
+				"id": 72077,
+				"name": "Grant Abraham",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72077-b6c3ee2e-5e4c-4a5e-9b35-a850e055d271.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Jim Shannon",
+			"party": { "code": "DUP" },
+			"electorate": 64327,
+			"turnout": { "pc": 60.4, "value": 38826 },
+			"valid": 38749,
+			"invalid": 77,
+			"majority": 18343,
+			"candidates": [{
+				"name": "Jim Shannon",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 24036
+			},{
+				"name": "Kellie Armstrong",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 5693
+			},{
+				"name": "Mike Nesbitt",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 4419
+			},{
+				"name": "Joe Boyle",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 2404
+			},{
+				"name": "Carole Murphy",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 1083
+			},{
+				"name": "Ricky Bamford",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 607
+			},{
+				"name": "Claire Hiscott",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 507
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Jim Shannon",
+			"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+			"electorate": 64289,
+			"turnout": { "pc":53.0, "value": 34104 },
+			"valid": 33924,
+			"invalid": 180,
+			"majority": 10185
+		}
+	}
+}

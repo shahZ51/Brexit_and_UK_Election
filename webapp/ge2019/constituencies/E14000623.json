@@ -1,0 +1,104 @@
+{
+	"id": "E14000623",
+	"title": "Central Devon",
+	"demographics": {
+		"2015UKIP": 13.17,
+		"age18-29": 10.24,
+		"EUminus": 3.99,
+		"leave": 51.18,
+		"withdegree": 18.12,
+		"religion": {
+			"christian": 62.15,
+			"jewish": 0.09,
+			"muslim": 0.15
+		},
+		"race": {
+			"Arab": 0.02,
+			"Bangladeshi": 0.02,
+			"Black": 0.07,
+			"Chinese": 0.17,
+			"Indian": 0.1,
+			"Mixed": 0.75,
+			"Other": 0.06,
+			"Other Asian": 0.21,
+			"Pakistani": 0.01,
+			"White": 98.59
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 82665,
+			"candidates": [{
+				"id": 197,
+				"name": "Mel Stride",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a204f0e9e2c82406ebb1.png"
+			},{
+				"id": 4683,
+				"name": "Andy Williamson",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4683_aMvlDS6.png"
+			},{
+				"id": 24788,
+				"name": "Lisa Robillard Webb",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24788.png"
+			},{
+				"id": 35012,
+				"name": "Alison Eden",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35012.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Mel Stride",
+			"party": { "code": "Con" },
+			"electorate": 74370,
+			"turnout": { "pc": 77.9, "value": 57928 },
+			"valid": 57844,
+			"invalid": 84,
+			"majority": 15680,
+			"candidates": [{
+				"name": "Mel Stride",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31278
+			},{
+				"name": "Lisa Robillard Webb",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15598
+			},{
+				"name": "Alex White",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 6770
+			},{
+				"name": "Andy Williamson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1531
+			},{
+				"name": "Tim Matthews",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1326
+			},{
+				"name": "John Dean",
+				"party": { "code": "National Health Action Party", "title": "National Health Action Party" },
+				"votes": 871
+			},{
+				"name": "Lloyd Knight",
+				"party": { "code": "Lib", "title": "Liberal" },
+				"votes": 470
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Mel Stride",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 72737,
+			"turnout": { "pc":75.1, "value": 54640 },
+			"valid": 54448,
+			"invalid": 192,
+			"majority": 21265
+		}
+	}
+}

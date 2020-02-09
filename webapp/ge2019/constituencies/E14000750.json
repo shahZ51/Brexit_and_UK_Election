@@ -1,0 +1,115 @@
+{
+	"id": "E14000750",
+	"title": "Holborn and St Pancras",
+	"demographics": {
+		"2015UKIP": 4.99,
+		"age18-29": 27.8,
+		"EUminus": 22.16,
+		"leave": 26.66,
+		"withdegree": 39.91,
+		"religion": {
+			"christian": 33.69,
+			"jewish": 1.91,
+			"muslim": 14.12
+		},
+		"race": {
+			"Arab": 1.44,
+			"Bangladeshi": 7.93,
+			"Black": 9.26,
+			"Chinese": 3.4,
+			"Indian": 2.3,
+			"Mixed": 5.67,
+			"Other": 2.15,
+			"Other Asian": 3.63,
+			"Pakistani": 0.58,
+			"White": 63.63
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 87236,
+			"candidates": [{
+				"id": 5077,
+				"name": "Keir Starmer",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55323ec329c5d53959d9e45f.png"
+			},{
+				"id": 6874,
+				"name": "Mohammad Ali Bhatti",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5526945559bbc5c063445bda.png"
+			},{
+				"id": 36698,
+				"name": "Matthew Kirk",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36698.png"
+			},{
+				"id": 41904,
+				"name": "Kirsten De Keyser",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41904.png"
+			},{
+				"id": 47604,
+				"name": "Alexandra Hayward",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47604-a57aece0-5ae4-43c7-aa17-b8c5aea78a28.png"
+			},{
+				"id": 72612,
+				"name": "Hector Birchwood",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72612-b7d0ad17-8972-4758-8dcc-2e2e291d84db.png"
+			},{
+				"id": 72613,
+				"name": "Thomas Scripps",
+				"party": { "code": "", "title": "Socialist Equality Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72613-6f7338ec-cac9-431a-9282-61adf737fb2d.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Keir Starmer",
+			"party": { "code": "Lab" },
+			"electorate": 88088,
+			"turnout": { "pc": 67.2, "value": 59175 },
+			"valid": 58997,
+			"invalid": 178,
+			"majority": 30509,
+			"candidates": [{
+				"name": "Keir Starmer",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 41343
+			},{
+				"name": "Tim Barnes",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10834
+			},{
+				"name": "Stephen Crosher",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4020
+			},{
+				"name": "Sian Berry",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1980
+			},{
+				"name": "Giles Game",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 727
+			},{
+				"name": "Janus Polenceus",
+				"party": { "code": "Eng Dem", "title": "English Democrats" },
+				"votes": 93
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Keir Starmer",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 86764,
+			"turnout": { "pc":63.5, "value": 55136 },
+			"valid": 54917,
+			"invalid": 219,
+			"majority": 17048
+		}
+	}
+}

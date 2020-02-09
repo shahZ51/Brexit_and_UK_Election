@@ -1,0 +1,96 @@
+{
+	"id": "E14001038",
+	"title": "Weston-Super-Mare",
+	"demographics": {
+		"2015UKIP": 17.82,
+		"age18-29": 13.21,
+		"EUminus": 6.58,
+		"leave": 56.66,
+		"withdegree": 10.91,
+		"religion": {
+			"christian": 59.59,
+			"jewish": 0.09,
+			"muslim": 0.54
+		},
+		"race": {
+			"Arab": 0.06,
+			"Bangladeshi": 0.2,
+			"Black": 0.44,
+			"Chinese": 0.38,
+			"Indian": 0.48,
+			"Mixed": 1.05,
+			"Other": 0.17,
+			"Other Asian": 0.31,
+			"Pakistani": 0.04,
+			"White": 96.87
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 82526,
+			"candidates": [{
+				"id": 1329,
+				"name": "John Penrose",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551a6827600f97ed464f28bd.png"
+			},{
+				"id": 1371,
+				"name": "Suneil Basu",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1371.png"
+			},{
+				"id": 4467,
+				"name": "Tim Taylor",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4467.png"
+			},{
+				"id": 53277,
+				"name": "Patrick David Keating",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53277.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "John Penrose",
+			"party": { "code": "Con" },
+			"electorate": 82136,
+			"turnout": { "pc": 68.8, "value": 56512 },
+			"valid": 56415,
+			"invalid": 97,
+			"majority": 11544,
+			"candidates": [{
+				"name": "John Penrose",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29982
+			},{
+				"name": "Timothy Taylor",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18438
+			},{
+				"name": "Mike Bell",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5175
+			},{
+				"name": "Helen Hims",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1932
+			},{
+				"name": "Suneil Basu",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 888
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "John Penrose",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 80309,
+			"turnout": { "pc":65.7, "value": 52783 },
+			"valid": 52552,
+			"invalid": 231,
+			"majority": 15609
+		}
+	}
+}

@@ -1,0 +1,97 @@
+{
+	"id": "E14001044",
+	"title": "Wirral West",
+	"demographics": {
+		"2015UKIP": 6.62,
+		"age18-29": 11,
+		"EUminus": 2.58,
+		"leave": 44.69,
+		"withdegree": 18.66,
+		"religion": {
+			"christian": 72.7,
+			"jewish": 0.11,
+			"muslim": 0.35
+		},
+		"race": {
+			"Arab": 0.09,
+			"Bangladeshi": 0.04,
+			"Black": 0.15,
+			"Chinese": 0.37,
+			"Indian": 0.47,
+			"Mixed": 0.94,
+			"Other": 0.13,
+			"Other Asian": 0.38,
+			"Pakistani": 0.1,
+			"White": 97.33
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 55550,
+			"candidates": [{
+				"id": 4469,
+				"name": "Margaret Greenwood",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e8b8b150e238702c05f2.png"
+			},{
+				"id": 8765,
+				"name": "John Coyne",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8765.png"
+			},{
+				"id": 34872,
+				"name": "Laura Evans",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34872.png"
+			},{
+				"id": 44662,
+				"name": "Andy Corkhill",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44662.png"
+			},{
+				"id": 72265,
+				"name": "John Howard Kelly",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Margaret Greenwood",
+			"party": { "code": "Lab" },
+			"electorate": 55995,
+			"turnout": { "pc": 78.6, "value": 44034 },
+			"valid": 43951,
+			"invalid": 83,
+			"majority": 5365,
+			"candidates": [{
+				"name": "Margaret Greenwood",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 23866
+			},{
+				"name": "Tony Caldeira",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18501
+			},{
+				"name": "Peter  Reisdorf ",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1155
+			},{
+				"name": "John  Coyne",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 429
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Margaret Greenwood",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 55377,
+			"turnout": { "pc":75.9, "value": 42008 },
+			"valid": 41858,
+			"invalid": 150,
+			"majority": 417
+		}
+	}
+}

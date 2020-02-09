@@ -1,0 +1,102 @@
+{
+	"id": "E14000733",
+	"title": "Hartlepool",
+	"demographics": {
+		"2015UKIP": 27.99,
+		"age18-29": 15.24,
+		"EUminus": 2.04,
+		"leave": 69.57,
+		"withdegree": 8.32,
+		"religion": {
+			"christian": 69.92,
+			"jewish": 0.01,
+			"muslim": 0.75
+		},
+		"race": {
+			"Arab": 0.06,
+			"Bangladeshi": 0.23,
+			"Black": 0.19,
+			"Chinese": 0.25,
+			"Indian": 0.29,
+			"Mixed": 0.61,
+			"Other": 0.05,
+			"Other Asian": 0.33,
+			"Pakistani": 0.32,
+			"White": 97.69
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 70855,
+			"candidates": [{
+				"id": 4761,
+				"name": "Mike Hill",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551a5b55600f97ed464f28b7.png"
+			},{
+				"id": 34633,
+				"name": "Andy Hagon",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34633.png"
+			},{
+				"id": 53227,
+				"name": "Kevin Cranney",
+				"party": { "code": "", "title": "Socialist Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53227-1f93ee87-ddaa-4000-a571-b53ec8da8fac.png"
+			},{
+				"id": 57303,
+				"name": "Stefan Richard Houghton",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/57303-53f20e92-cb64-46cd-8122-de7f64fec498.png"
+			},{
+				"id": 70546,
+				"name": "Richard Tice",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70546.png"
+			},{
+				"id": 72489,
+				"name": "Joe Bousfield",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72489-14684003-7d69-4430-91ef-b3025344ade3.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Mike Hill",
+			"party": { "code": "Lab" },
+			"electorate": 70718,
+			"turnout": { "pc": 59.3, "value": 41921 },
+			"valid": 41835,
+			"invalid": 86,
+			"majority": 7650,
+			"candidates": [{
+				"name": "Mike Hill",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21969
+			},{
+				"name": "Carl  Jackson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14319
+			},{
+				"name": "Phillip Broughton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 4801
+			},{
+				"name": "Andy Hagon",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 746
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Iain Wright",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 69947,
+			"turnout": { "pc":56.6, "value": 39602 },
+			"valid": 39490,
+			"invalid": 112,
+			"majority": 3024
+		}
+	}
+}

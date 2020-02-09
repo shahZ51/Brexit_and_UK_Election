@@ -1,0 +1,101 @@
+{
+	"id": "E14000885",
+	"title": "Preston",
+	"demographics": {
+		"2015UKIP": 15.35,
+		"age18-29": 26.23,
+		"EUminus": 9.45,
+		"leave": 56.85,
+		"withdegree": 12.98,
+		"religion": {
+			"christian": 55.43,
+			"jewish": 0.04,
+			"muslim": 13.96
+		},
+		"race": {
+			"Arab": 0.55,
+			"Bangladeshi": 0.31,
+			"Black": 1.47,
+			"Chinese": 1.12,
+			"Indian": 11.91,
+			"Mixed": 2.9,
+			"Other": 0.35,
+			"Other Asian": 1.05,
+			"Pakistani": 4.06,
+			"White": 76.27
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 59672,
+			"candidates": [{
+				"id": 3878,
+				"name": "Mark Hendrick",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3878.png"
+			},{
+				"id": 34595,
+				"name": "Neil Darby",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34595.png"
+			},{
+				"id": 54626,
+				"name": "Michael Welton",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/54626.png"
+			},{
+				"id": 71994,
+				"name": "Rob Sherratt",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71994.png"
+			},{
+				"id": 72456,
+				"name": "Michele Scott",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72456-93b7c4bb-4090-44b5-8002-2f8dfcf6a6cd.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Mark Hendrick",
+			"party": { "code": "Lab" },
+			"electorate": 57791,
+			"turnout": { "pc": 61.7, "value": 35660 },
+			"valid": 35597,
+			"invalid": 63,
+			"majority": 15723,
+			"candidates": [{
+				"name": "Mark Hendrick",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 24210
+			},{
+				"name": "Kevin Beaty",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8487
+			},{
+				"name": "Simon Platt",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1348
+			},{
+				"name": "Neil Darby",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1204
+			},{
+				"name": "Anne Power",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 348
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Mark Hendrick",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
+			"electorate": 59981,
+			"turnout": { "pc":56.0, "value": 33609 },
+			"valid": 33469,
+			"invalid": 140,
+			"majority": 12067
+		}
+	}
+}

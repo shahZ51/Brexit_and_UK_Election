@@ -1,0 +1,105 @@
+{
+	"id": "E14000726",
+	"title": "Hammersmith",
+	"demographics": {
+		"2015UKIP": 4.39,
+		"age18-29": 25.66,
+		"EUminus": 26.65,
+		"leave": 31.04,
+		"withdegree": 40.99,
+		"religion": {
+			"christian": 51.07,
+			"jewish": 0.57,
+			"muslim": 11.84
+		},
+		"race": {
+			"Arab": 3.32,
+			"Bangladeshi": 0.67,
+			"Black": 14.15,
+			"Chinese": 1.88,
+			"Indian": 2.12,
+			"Mixed": 5.87,
+			"Other": 3.03,
+			"Other Asian": 4.61,
+			"Pakistani": 1.03,
+			"White": 63.33
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 74759,
+			"candidates": [{
+				"id": 234,
+				"name": "Andy Slaughter",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/552255ab328bff5d39338a4e.png"
+			},{
+				"id": 5575,
+				"name": "Xingang Wang",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5575-c7dfffda-c99f-42f8-b3f8-e0e29a81cefb.png"
+			},{
+				"id": 34825,
+				"name": "Alex Horn",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34825.png"
+			},{
+				"id": 38730,
+				"name": "Jessie Venegas",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38730.png"
+			},{
+				"id": 71468,
+				"name": "James Keyse",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71468.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Andy Slaughter",
+			"party": { "code": "Lab" },
+			"electorate": 72803,
+			"turnout": { "pc": 72.0, "value": 52383 },
+			"valid": 52252,
+			"invalid": 131,
+			"majority": 18651,
+			"candidates": [{
+				"name": "Andy Slaughter",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 33375
+			},{
+				"name": "Charlie Dewhirst",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14724
+			},{
+				"name": "Joyce Onstad",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2802
+			},{
+				"name": "Alex Horn",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 800
+			},{
+				"name": "Jack Bovill",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 507
+			},{
+				"name": "Jagdeosingh Hauzaree",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 44
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Andy Slaughter",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 72254,
+			"turnout": { "pc":66.6, "value": 48130 },
+			"valid": 47960,
+			"invalid": 170,
+			"majority": 6518
+		}
+	}
+}

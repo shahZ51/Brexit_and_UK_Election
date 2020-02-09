@@ -1,0 +1,101 @@
+{
+	"id": "E14001003",
+	"title": "Truro and Falmouth",
+	"demographics": {
+		"2015UKIP": 11.58,
+		"age18-29": 15.33,
+		"EUminus": 3.85,
+		"leave": 46.22,
+		"withdegree": 18.05,
+		"religion": {
+			"christian": 58.54,
+			"jewish": 0.11,
+			"muslim": 0.26
+		},
+		"race": {
+			"Arab": 0.08,
+			"Bangladeshi": 0.07,
+			"Black": 0.17,
+			"Chinese": 0.28,
+			"Indian": 0.38,
+			"Mixed": 1.03,
+			"Other": 0.14,
+			"Other Asian": 0.27,
+			"Pakistani": 0.05,
+			"White": 97.51
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 76719,
+			"candidates": [{
+				"id": 29444,
+				"name": "Paul William Nicholson",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
+				"img": ""
+			},{
+				"id": 29574,
+				"name": "Tom Scott",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29574.png"
+			},{
+				"id": 36114,
+				"name": "Ruth Gripper",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36114-c81f776c-e547-4642-a372-39ffc78e0f42.png"
+			},{
+				"id": 71701,
+				"name": "Jennifer Forbes",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71701.png"
+			},{
+				"id": 71932,
+				"name": "Cherilyn Mackrory",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71932.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Sarah Newton",
+			"party": { "code": "Con" },
+			"electorate": 74683,
+			"turnout": { "pc": 75.9, "value": 56717 },
+			"valid": 56647,
+			"invalid": 70,
+			"majority": 3792,
+			"candidates": [{
+				"name": "Sarah Newton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25123
+			},{
+				"name": "Jayne Kirkham",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21331
+			},{
+				"name": "Rob Nolan",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 8465
+			},{
+				"name": "Duncan Odgers",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 897
+			},{
+				"name": "Amanda Pennington",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 831
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Sarah Newton",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 73601,
+			"turnout": { "pc":70.1, "value": 51622 },
+			"valid": 51544,
+			"invalid": 78,
+			"majority": 14000
+		}
+	}
+}

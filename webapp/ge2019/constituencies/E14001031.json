@@ -1,0 +1,96 @@
+{
+	"id": "E14001031",
+	"title": "West Dorset",
+	"demographics": {
+		"2015UKIP": 12.5,
+		"age18-29": 9.88,
+		"EUminus": 3.86,
+		"leave": 51,
+		"withdegree": 16.77,
+		"religion": {
+			"christian": 65.25,
+			"jewish": 0.08,
+			"muslim": 0.27
+		},
+		"race": {
+			"Arab": 0.04,
+			"Bangladeshi": 0.09,
+			"Black": 0.17,
+			"Chinese": 0.25,
+			"Indian": 0.25,
+			"Mixed": 0.78,
+			"Other": 0.07,
+			"Other Asian": 0.31,
+			"Pakistani": 0.06,
+			"White": 97.99
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 80963,
+			"candidates": [{
+				"id": 23741,
+				"name": "Kelvin Charles Clayton",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23741.png"
+			},{
+				"id": 30332,
+				"name": "Claudia Catherine Sorin",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30332-8bc062fd-3dbb-4f1a-b4e2-0ce2879c7f2c.png"
+			},{
+				"id": 42151,
+				"name": "Edward Morello",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/42151.png"
+			},{
+				"id": 71727,
+				"name": "Chris Loder",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71727.png"
+			}],
+			"incumbent": {
+				"mp": "Oliver Letwin",
+				"party": { "code": "Ind", "title": "Independent" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Oliver Letwin",
+			"party": { "code": "Con" },
+			"electorate": 79048,
+			"turnout": { "pc": 75.6, "value": 59750 },
+			"valid": 59598,
+			"invalid": 152,
+			"majority": 19091,
+			"candidates": [{
+				"name": "Oliver Letwin",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33081
+			},{
+				"name": "Andy Canning",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 13990
+			},{
+				"name": "Lee Rhodes",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10896
+			},{
+				"name": "Kelvin Clayton",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1631
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Oliver Letwin",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 78000,
+			"turnout": { "pc":72.6, "value": 56643 },
+			"valid": 56458,
+			"invalid": 185,
+			"majority": 16130
+		}
+	}
+}

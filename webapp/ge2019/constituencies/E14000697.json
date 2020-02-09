@@ -1,0 +1,114 @@
+{
+	"id": "E14000697",
+	"title": "Esher and Walton",
+	"demographics": {
+		"2015UKIP": 9.74,
+		"age18-29": 10.47,
+		"EUminus": 10.37,
+		"leave": 41.63,
+		"withdegree": 31.37,
+		"religion": {
+			"christian": 63.99,
+			"jewish": 0.58,
+			"muslim": 1.79
+		},
+		"race": {
+			"Arab": 0.41,
+			"Bangladeshi": 0.41,
+			"Black": 0.78,
+			"Chinese": 0.85,
+			"Indian": 1.88,
+			"Mixed": 2.54,
+			"Other": 0.47,
+			"Other Asian": 1.77,
+			"Pakistani": 0.39,
+			"White": 90.5
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 81184,
+			"candidates": [{
+				"id": 3451,
+				"name": "Dominic Raab",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a4b5f0e9e2c82406ebba.png"
+			},{
+				"id": 34964,
+				"name": "Baron Badger",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34964.png"
+			},{
+				"id": 57261,
+				"name": "Peter Leondard Ashurst",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/57261-c0175e16-11b8-4df5-8017-6d9f5093d3f3.png"
+			},{
+				"id": 71439,
+				"name": "Monica Harding",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71439-bd41d2af-7849-4633-9fa3-dd7a2fa126ca.png"
+			},{
+				"id": 72312,
+				"name": "Kylie Keens",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72312-21879935-7043-4be2-bc28-538749da7a32.png"
+			},{
+				"id": 72313,
+				"name": "Kyle Gregory Taylor",
+				"party": { "code": "", "title": "Advance Together" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Dominic Raab",
+			"party": { "code": "Con" },
+			"electorate": 80938,
+			"turnout": { "pc": 74.0, "value": 59894 },
+			"valid": 59842,
+			"invalid": 52,
+			"majority": 23298,
+			"candidates": [{
+				"name": "Dominic Raab",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35071
+			},{
+				"name": "Lana Hylands",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11773
+			},{
+				"name": "Andrew Davis",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 10374
+			},{
+				"name": "Olivia Palmer",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1074
+			},{
+				"name": "David Ions",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1034
+			},{
+				"name": "Baron Badger",
+				"party": { "code": "MRLP", "title": "Monster Raving Loony Party" },
+				"votes": 318
+			},{
+				"name": "Della Reynolds",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 198
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Dominic Raab",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 79894,
+			"turnout": { "pc":71.6, "value": 57165 },
+			"valid": 56976,
+			"invalid": 189,
+			"majority": 28616
+		}
+	}
+}

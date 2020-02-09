@@ -1,0 +1,105 @@
+{
+	"id": "S14000019",
+	"title": "East Kilbride, Strathaven and Lesmahagow",
+	"demographics": {
+		"2015UKIP": 2.02,
+		"age18-29": 13.73,
+		"EUminus": 2.14,
+		"leave": 38,
+		"religion": {
+			"christian": 57.45,
+			"jewish": 0.11,
+			"muslim": 0.65
+		},
+		"race": {
+			"Arab": 0.08,
+			"Bangladeshi": 0.04,
+			"Black": null,
+			"Chinese": 0.29,
+			"Indian": 0.47,
+			"Mixed": 0,
+			"Other": 0.08,
+			"Other Asian": 0.23,
+			"Pakistani": 0.52,
+			"White": 97.74
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 81224,
+			"candidates": [{
+				"id": 6047,
+				"name": "Lisa Cameron",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fde3b91ccf185f0d8cc4b2.png"
+			},{
+				"id": 20662,
+				"name": "Erica Bradley-Young",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20662-f9b23937-4b8d-497c-b95c-3eb3c6cef798.png"
+			},{
+				"id": 22115,
+				"name": "Gail MacGregor",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22115-2a4aadf6-3603-4e43-95b5-c28750166b78.png"
+			},{
+				"id": 22742,
+				"name": "David MacKay",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22742-270342fc-0ed9-474b-ad54-cdb4dfcf09cf.png"
+			},{
+				"id": 22743,
+				"name": "Monique McAdams",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22743.png"
+			},{
+				"id": 34679,
+				"name": "Ewan McRobert",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34679-5ee0961f-af71-4a2e-b269-dc1c20330275.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Lisa Cameron",
+			"party": { "code": "SNP" },
+			"electorate": 80442,
+			"turnout": { "pc": 67.4, "value": 54183 },
+			"valid": 54102,
+			"invalid": 81,
+			"majority": 3866,
+			"candidates": [{
+				"name": "Lisa Cameron",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 21023
+			},{
+				"name": "Monique McAdams",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17157
+			},{
+				"name": "Mark McGeever",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 13704
+			},{
+				"name": "Paul McGarry",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1590
+			},{
+				"name": "Janice MacKay",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 628
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Lisa Cameron",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
+			"electorate": 83205,
+			"turnout": { "pc":72.8, "value": 60603 },
+			"valid": 60539,
+			"invalid": 64,
+			"majority": 16527
+		}
+	}
+}

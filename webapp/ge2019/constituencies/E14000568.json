@@ -1,0 +1,105 @@
+{
+	"id": "E14000568",
+	"title": "Birmingham, Yardley",
+	"demographics": {
+		"2015UKIP": 16.13,
+		"age18-29": 16.74,
+		"EUminus": 7.49,
+		"leave": 60.09,
+		"withdegree": 9.22,
+		"religion": {
+			"christian": 50.96,
+			"jewish": 0.09,
+			"muslim": 20.6
+		},
+		"race": {
+			"Arab": 0.75,
+			"Bangladeshi": 3.19,
+			"Black": 5.28,
+			"Chinese": 0.4,
+			"Indian": 3.9,
+			"Mixed": 4.1,
+			"Other": 0.54,
+			"Other Asian": 2.33,
+			"Pakistani": 13.87,
+			"White": 65.63
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 74704,
+			"candidates": [{
+				"id": 96,
+				"name": "Roger Harmer",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/96.png"
+			},{
+				"id": 4268,
+				"name": "Jess Phillips",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e7a7b150e238702c0553.png"
+			},{
+				"id": 10055,
+				"name": "Christopher Garghan",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10055.png"
+			},{
+				"id": 72557,
+				"name": "Vincent Robert Pountain Garrington",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72557-908a123b-4309-4688-8b5d-80c0a2bba460.png"
+			},{
+				"id": 72558,
+				"name": "Mary Ann McKenna",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72558-d262d56a-7bcd-4f9b-88fb-8fcb11b6dfbe.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Jess Phillips",
+			"party": { "code": "Lab" },
+			"electorate": 72581,
+			"turnout": { "pc": 61.5, "value": 44605 },
+			"valid": 44502,
+			"invalid": 103,
+			"majority": 16574,
+			"candidates": [{
+				"name": "Jess Phillips",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25398
+			},{
+				"name": "Mohammed  Afzal",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8824
+			},{
+				"name": "John Hemming",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 7984
+			},{
+				"name": "Paul Clayton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1916
+			},{
+				"name": "Christopher Garghan",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 280
+			},{
+				"name": "Abu Nowshed",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 100
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Jess Phillips",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 72146,
+			"turnout": { "pc":57.3, "value": 41313 },
+			"valid": 41151,
+			"invalid": 162,
+			"majority": 6595
+		}
+	}
+}

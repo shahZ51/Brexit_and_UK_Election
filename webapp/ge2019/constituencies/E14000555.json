@@ -1,0 +1,110 @@
+{
+	"id": "E14000555",
+	"title": "Bethnal Green and Bow",
+	"demographics": {
+		"2015UKIP": 6.08,
+		"age18-29": 33.08,
+		"EUminus": 18.03,
+		"leave": 30.93,
+		"withdegree": 35.43,
+		"religion": {
+			"christian": 24.99,
+			"jewish": 0.65,
+			"muslim": 35.43
+		},
+		"race": {
+			"Arab": 0.97,
+			"Bangladeshi": 33.43,
+			"Black": 6.63,
+			"Chinese": 1.81,
+			"Indian": 1.82,
+			"Mixed": 4.17,
+			"Other": 1.27,
+			"Other Asian": 1.97,
+			"Pakistani": 0.99,
+			"White": 46.95
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 88169,
+			"candidates": [{
+				"id": 143,
+				"name": "Rushanara Ali",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5535cf82367dc5383f552cef.png"
+			},{
+				"id": 4870,
+				"name": "Shahrar Ali",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4870.png"
+			},{
+				"id": 7400,
+				"name": "Vanessa Hudson",
+				"party": { "code": "", "title": "Animal Welfare Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7400.png"
+			},{
+				"id": 20737,
+				"name": "Nick Stovold",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": ""
+			},{
+				"id": 71295,
+				"name": "Josh Babarinde",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71295.png"
+			},{
+				"id": 71945,
+				"name": "David Axe",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71945.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Rushanara Ali",
+			"party": { "code": "Lab" },
+			"electorate": 86075,
+			"turnout": { "pc": 69.8, "value": 60100 },
+			"valid": 59825,
+			"invalid": 275,
+			"majority": 35393,
+			"candidates": [{
+				"name": "Rushanara Ali",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 42969
+			},{
+				"name": "Charlotte Chirico",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7576
+			},{
+				"name": "Ajmal Masroor",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 3888
+			},{
+				"name": "William Dyer",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2982
+			},{
+				"name": "Alistair Polson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1516
+			},{
+				"name": "Ian de Wulverton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 894
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Rushanara Ali",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 82727,
+			"turnout": { "pc":64.3, "value": 53187 },
+			"valid": 52924,
+			"invalid": 263,
+			"majority": 24317
+		}
+	}
+}

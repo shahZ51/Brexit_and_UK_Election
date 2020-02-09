@@ -1,0 +1,121 @@
+{
+	"id": "E14000878",
+	"title": "Peterborough",
+	"demographics": {
+		"2015UKIP": 15.9,
+		"age18-29": 17.56,
+		"EUminus": 24.29,
+		"leave": 61.31,
+		"withdegree": 9.47,
+		"religion": {
+			"christian": 54.18,
+			"jewish": 0.08,
+			"muslim": 13.7
+		},
+		"race": {
+			"Arab": 0.31,
+			"Bangladeshi": 0.19,
+			"Black": 2.3,
+			"Chinese": 0.47,
+			"Indian": 3.04,
+			"Mixed": 2.86,
+			"Other": 0.71,
+			"Other Asian": 2.71,
+			"Pakistani": 9.98,
+			"White": 77.45
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 72560,
+			"candidates": [{
+				"id": 1259,
+				"name": "Paul Bristow",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1259.png"
+			},{
+				"id": 4402,
+				"name": "Lisa Forbes",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4402.png"
+			},{
+				"id": 19344,
+				"name": "Beki Sellick",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34886_bW1AfPi.png"
+			},{
+				"id": 19384,
+				"name": "Joseph Wells",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19384.png"
+			},{
+				"id": 70587,
+				"name": "Mike Greene",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70587.png"
+			},{
+				"id": 70589,
+				"name": "Tom Rogers",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70589.png"
+			},{
+				"id": 72442,
+				"name": "Luke Ferguson",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72442-288d3a4d-346b-4004-8617-ce9be22b2ee9.png"
+			},{
+				"id": 72443,
+				"name": "The Very Raving Mr P",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72443-e22be031-316c-437a-9f15-d23ae52bcd56.png"
+			}]
+		},
+		"2019-06-06": {
+			"type": "by",
+			"mp": "Lisa Forbes",
+			"party": { "code": "Lab", "title": "Labour" },
+			"turnout": { "pc": 48.43, "value": 33997 },
+			"valid": 33920,
+			"invalid": 77,
+			"majority": 683
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Fiona Onasanya",
+			"party": { "code": "Lab" },
+			"electorate": 71522,
+			"turnout": { "pc": 66.9, "value": 47883 },
+			"valid": 47738,
+			"invalid": 145,
+			"majority": 607,
+			"candidates": [{
+				"name": "Fiona Onasanya",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22950
+			},{
+				"name": "Stewart Jackson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 22343
+			},{
+				"name": "Beki Sellick",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1597
+			},{
+				"name": "Fiona Radic",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 848
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Stewart Jackson",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 72530,
+			"turnout": { "pc":65.1, "value": 47252 },
+			"valid": 47075,
+			"invalid": 177,
+			"majority": 1925
+		}
+	}
+}

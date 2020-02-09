@@ -1,0 +1,92 @@
+{
+	"id": "W07000057",
+	"title": "Arfon",
+	"demographics": {
+		"2015UKIP": 8.48,
+		"age18-29": 22.3,
+		"EUminus": 3.82,
+		"leave": 34.91,
+		"withdegree": 18.35,
+		"religion": {
+			"christian": 55.63,
+			"jewish": 0.05,
+			"muslim": 1.94
+		},
+		"race": {
+			"Arab": 0.98,
+			"Bangladeshi": 0.23,
+			"Black": 0.35,
+			"Chinese": 1.38,
+			"Indian": 0.63,
+			"Mixed": 0.99,
+			"Other": 0.25,
+			"Other Asian": 0.52,
+			"Pakistani": 0.31,
+			"White": 94.36
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 42215,
+			"candidates": [{
+				"id": 2286,
+				"name": "Hywel Williams",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2286.png"
+			},{
+				"id": 71843,
+				"name": "Gary Gribben",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": ""
+			},{
+				"id": 71929,
+				"name": "Steffie Williams Roberts",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71929.png"
+			},{
+				"id": 72114,
+				"name": "Gonul Daniels",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72114-343d578d-ae4a-4fd0-9d44-8314cd13f282.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Hywel Williams",
+			"party": { "code": "PC" },
+			"electorate": 41367,
+			"turnout": { "pc": 68.4, "value": 28275 },
+			"valid": 28208,
+			"invalid": 67,
+			"majority": 92,
+			"candidates": [{
+				"name": "Hywel Williams",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 11519
+			},{
+				"name": "Mary Griffiths Clarke",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11427
+			},{
+				"name": "Phillippa Parry",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 4614
+			},{
+				"name": "Calum Davies",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 648
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Hywel Williams",
+			"party": { "code": "PC", "title": "Plaid Cymru" },
+			"electorate": 40492,
+			"turnout": { "pc":66.5, "value": 26932 },
+			"valid": 26837,
+			"invalid": 95,
+			"majority": 3668
+		}
+	}
+}

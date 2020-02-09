@@ -1,0 +1,107 @@
+{
+	"id": "N06000018",
+	"title": "West Tyrone",
+	"demographics": {
+
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 66259,
+			"candidates": [{
+				"id": 1871,
+				"name": "Thomas Buchanan",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1871.png"
+			},{
+				"id": 5185,
+				"name": "Daniel McCrossan",
+				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5185_pV4vr24.png"
+			},{
+				"id": 6365,
+				"name": "Stephen Donnelly",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba318a8c0192f732ca8c9.png"
+			},{
+				"id": 36364,
+				"name": "Órfhlaith Begley",
+				"party": { "code": "SF", "title": "Sinn Féin" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36364.png"
+			},{
+				"id": 68878,
+				"name": "Susan Glass",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68878-01cf1536-1758-4957-a404-1792a4a3dda7.png"
+			},{
+				"id": 68899,
+				"name": "Andy McKane",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68899-58657a54-c04c-4c7c-8f2a-13aceec87a33.png"
+			},{
+				"id": 72373,
+				"name": "James Hope",
+				"party": { "code": "", "title": "Aontú" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72373-d59644da-c771-4647-92a1-c4d4e15cd84e.png"
+			}]
+		},
+		"2018-05-03": {
+			"type": "by",
+			"mp": "Órfhlaith Begley",
+			"party": { "code": "SF", "title": "Sinn Féin" },
+			"turnout": { "pc": 55.13, "value": 35334 },
+			"valid": 35029,
+			"invalid": 305,
+			"majority": 7956
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Barry McElduff",
+			"party": { "code": "SF" },
+			"electorate": 64009,
+			"turnout": { "pc": 68.2, "value": 43675 },
+			"valid": 43486,
+			"invalid": 189,
+			"majority": 10342,
+			"candidates": [{
+				"name": "Barry McElduff",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 22060
+			},{
+				"name": "Thomas Buchanan",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 11718
+			},{
+				"name": "Daniel McCrossan",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 5635
+			},{
+				"name": "Alicia Clarke",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 2253
+			},{
+				"name": "Stephen Donnelly",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 1000
+			},{
+				"name": "Ciaran McClean",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 427
+			},{
+				"name": "Barry Brown",
+				"party": { "code": "Citizens Independent Social Thought Alliance", "title": "Citizens Independent Social Thought Alliance" },
+				"votes": 393
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Pat Doherty",
+			"party": { "code": "SF", "title": "Sinn Fein" },
+			"electorate": 63856,
+			"turnout": { "pc":61.1, "value": 39007 },
+			"valid": 38654,
+			"invalid": 353,
+			"majority": 10060
+		}
+	}
+}

@@ -1,0 +1,101 @@
+{
+	"id": "E14000810",
+	"title": "Mansfield",
+	"demographics": {
+		"2015UKIP": 25.11,
+		"age18-29": 15.18,
+		"EUminus": 7.33,
+		"leave": 70.86,
+		"withdegree": 6.76,
+		"religion": {
+			"christian": 61.65,
+			"jewish": 0.03,
+			"muslim": 0.54
+		},
+		"race": {
+			"Arab": 0.04,
+			"Bangladeshi": 0.18,
+			"Black": 0.38,
+			"Chinese": 0.2,
+			"Indian": 0.5,
+			"Mixed": 1.06,
+			"Other": 0.1,
+			"Other Asian": 0.23,
+			"Pakistani": 0.13,
+			"White": 97.18
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 77131,
+			"candidates": [{
+				"id": 6351,
+				"name": "Sid Pepper",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/550bf4684aa4fdc23cc908f3.png"
+			},{
+				"id": 14495,
+				"name": "Sarah Louise Brown",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/14495.png"
+			},{
+				"id": 20405,
+				"name": "Ben Bradley",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20405.png"
+			},{
+				"id": 56101,
+				"name": "Sonya Rose Ward",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/56101.png"
+			},{
+				"id": 64078,
+				"name": "Stephen Leonard Harvey",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64078-aa82075b-c29c-4227-9ee0-57f41ab88110.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Ben Bradley",
+			"party": { "code": "Con" },
+			"electorate": 77811,
+			"turnout": { "pc": 64.6, "value": 50256 },
+			"valid": 50157,
+			"invalid": 99,
+			"majority": 1057,
+			"candidates": [{
+				"name": "Ben Bradley",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23392
+			},{
+				"name": "Alan Meale",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22335
+			},{
+				"name": "Sid Pepper",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2654
+			},{
+				"name": "Philip  Shields",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1079
+			},{
+				"name": "Anita  Prabhakar",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 697
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Alan Meale",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 77534,
+			"turnout": { "pc":61.0, "value": 47329 },
+			"valid": 47193,
+			"invalid": 136,
+			"majority": 5315
+		}
+	}
+}

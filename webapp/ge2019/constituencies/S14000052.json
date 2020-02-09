@@ -1,0 +1,90 @@
+{
+	"id": "S14000052",
+	"title": "Paisley and Renfrewshire North",
+	"demographics": {
+		"age18-29": 14.17,
+		"EUminus": 2.55,
+		"leave": 36.09,
+		"religion": {
+			"christian": 60.1,
+			"jewish": 0.02,
+			"muslim": 0.81
+		},
+		"race": {
+			"Arab": 0.09,
+			"Bangladeshi": 0.01,
+			"Black": null,
+			"Chinese": 0.48,
+			"Indian": 0.71,
+			"Mixed": 0,
+			"Other": 0.07,
+			"Other Asian": 0.16,
+			"Pakistani": 0.69,
+			"White": 97.17
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 72007,
+			"candidates": [{
+				"id": 6054,
+				"name": "Gavin Newlands",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b8c91e6d2cbcd26e36a29.png"
+			},{
+				"id": 34279,
+				"name": "Alison Taylor",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34279.png"
+			},{
+				"id": 71906,
+				"name": "Ross Stalker",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71906.png"
+			},{
+				"id": 72420,
+				"name": "Julie Pirone",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Gavin Newlands",
+			"party": { "code": "SNP" },
+			"electorate": 67436,
+			"turnout": { "pc": 69.2, "value": 46666 },
+			"valid": 46615,
+			"invalid": 51,
+			"majority": 2613,
+			"candidates": [{
+				"name": "Gavin Newlands",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 17455
+			},{
+				"name": "Alison Taylor",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14842
+			},{
+				"name": "David Gardiner",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12842
+			},{
+				"name": "John Boyd",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1476
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Gavin Newlands",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
+			"electorate": 66206,
+			"turnout": { "pc":76.3, "value": 50522 },
+			"valid": 50462,
+			"invalid": 60,
+			"majority": 9076
+		}
+	}
+}

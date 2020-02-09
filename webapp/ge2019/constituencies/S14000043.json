@@ -1,0 +1,106 @@
+{
+	"id": "S14000043",
+	"title": "Linlithgow and East Falkirk",
+	"demographics": {
+		"2015UKIP": 2.73,
+		"age18-29": 14.31,
+		"EUminus": 4.87,
+		"leave": 41.61,
+		"religion": {
+			"christian": 53.26,
+			"jewish": 0.04,
+			"muslim": 0.61
+		},
+		"race": {
+			"Arab": 0.05,
+			"Bangladeshi": 0.01,
+			"Black": null,
+			"Chinese": 0.13,
+			"Indian": 0.17,
+			"Mixed": 0,
+			"Other": 0.05,
+			"Other Asian": 0.15,
+			"Pakistani": 0.5,
+			"White": 98.51
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 87044,
+			"candidates": [{
+				"id": 6053,
+				"name": "Martyn Day",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fde7111ccf185f0d8cc4b8.png"
+			},{
+				"id": 20479,
+				"name": "Gillian Mackay",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20479.png"
+			},{
+				"id": 22418,
+				"name": "Sally Pattle",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22418.png"
+			},{
+				"id": 35114,
+				"name": "Charles John Kennedy",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": ""
+			},{
+				"id": 71517,
+				"name": "Wendy Milne",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71517-ae87936d-e6e4-4df0-8988-0b4134a59463.png"
+			},{
+				"id": 71667,
+				"name": "Marc Bozza",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71667-70052902-f90f-424d-812c-5c580bdbf52e.png"
+			},{
+				"id": 72080,
+				"name": "Mark Andrew Tunnicliff",
+				"party": { "code": "", "title": "Veterans and People’s Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72080.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Martyn Day",
+			"party": { "code": "SNP" },
+			"electorate": 86186,
+			"turnout": { "pc": 65.2, "value": 56186 },
+			"valid": 56094,
+			"invalid": 92,
+			"majority": 2919,
+			"candidates": [{
+				"name": "Martyn Day",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 20388
+			},{
+				"name": "Joan Coombes",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17469
+			},{
+				"name": "Charles Kennedy",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16311
+			},{
+				"name": "Sally Pattle",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1926
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Martyn Day",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
+			"electorate": 86955,
+			"turnout": { "pc":70.9, "value": 61687 },
+			"valid": 61597,
+			"invalid": 90,
+			"majority": 12934
+		}
+	}
+}

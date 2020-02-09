@@ -1,0 +1,119 @@
+{
+	"id": "W07000056",
+	"title": "Newport West",
+	"demographics": {
+		"2015UKIP": 15.2,
+		"age18-29": 15.17,
+		"EUminus": 4.89,
+		"leave": 53.01,
+		"withdegree": 15.64,
+		"religion": {
+			"christian": 58.6,
+			"jewish": 0.09,
+			"muslim": 4.2
+		},
+		"race": {
+			"Arab": 0.83,
+			"Bangladeshi": 1.02,
+			"Black": 1.85,
+			"Chinese": 0.38,
+			"Indian": 0.95,
+			"Mixed": 1.88,
+			"Other": 0.38,
+			"Other Asian": 1,
+			"Pakistani": 1.64,
+			"White": 90.07
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 66657,
+			"candidates": [{
+				"id": 2752,
+				"name": "Jonathan Clark",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2752.png"
+			},{
+				"id": 4383,
+				"name": "Ruth Jones",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4383.png"
+			},{
+				"id": 7460,
+				"name": "Amelia Womack",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7460.png"
+			},{
+				"id": 8468,
+				"name": "Matthew Evans",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8468.png"
+			},{
+				"id": 32833,
+				"name": "Ryan Jones",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/32833.png"
+			},{
+				"id": 72628,
+				"name": "Cameron Owen Edwards",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72628-5f2043bd-0bed-41b8-bf1b-d19d2fd6c67e.png"
+			}]
+		},
+		"2019-04-04": {
+			"type": "by",
+			"mp": "Ruth Jones",
+			"party": { "code": "Lab", "title": "Labour" },
+			"turnout": { "pc": 37.1, "value": 23615 },
+			"valid": 23515,
+			"invalid": 100,
+			"majority": 1951
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Paul Flynn",
+			"party": { "code": "Lab" },
+			"electorate": 64399,
+			"turnout": { "pc": 67.6, "value": 43518 },
+			"valid": 43438,
+			"invalid": 80,
+			"majority": 5658,
+			"candidates": [{
+				"name": "Paul Flynn",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22723
+			},{
+				"name": "Angela Jones-Evans",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17065
+			},{
+				"name": "Stan Edwards",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1100
+			},{
+				"name": "Morgan Bowler-Brown",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 1077
+			},{
+				"name": "Sarah Lockyer",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 976
+			},{
+				"name": "Pippa Bartolotti",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 497
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Paul Flynn",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 62137,
+			"turnout": { "pc":65.1, "value": 40423 },
+			"valid": 40347,
+			"invalid": 76,
+			"majority": 3510
+		}
+	}
+}

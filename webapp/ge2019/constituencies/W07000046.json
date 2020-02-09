@@ -1,0 +1,104 @@
+{
+	"id": "W07000046",
+	"title": "Gower",
+	"demographics": {
+		"2015UKIP": 11.16,
+		"age18-29": 11.96,
+		"EUminus": 2.48,
+		"leave": 50.18,
+		"withdegree": 18.8,
+		"religion": {
+			"christian": 61.95,
+			"jewish": 0.04,
+			"muslim": 0.46
+		},
+		"race": {
+			"Arab": 0.19,
+			"Bangladeshi": 0.07,
+			"Black": 0.17,
+			"Chinese": 0.19,
+			"Indian": 0.3,
+			"Mixed": 0.68,
+			"Other": 0.11,
+			"Other Asian": 0.24,
+			"Pakistani": 0.11,
+			"White": 97.92
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 16833,
+				"name": "Tonia Antoniazzi",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16833_xNRvSG0.png"
+			},{
+				"id": 26849,
+				"name": "Sam Bennett",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26849.png"
+			},{
+				"id": 71458,
+				"name": "Francesca O'Brien",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71458-6034f3a6-8c53-45bb-97e8-132defe49f40.png"
+			},{
+				"id": 71850,
+				"name": "John Davies",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71850-e4b49faf-3f39-499c-bc31-be332bbd14ff.png"
+			},{
+				"id": 72395,
+				"name": "Rob Ross",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72395-45088a04-80d6-405e-aab6-5e7fbf4ee169.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Tonia Antoniazzi",
+			"party": { "code": "Lab" },
+			"electorate": 62163,
+			"turnout": { "pc": 73.4, "value": 45629 },
+			"valid": 45576,
+			"invalid": 53,
+			"majority": 3269,
+			"candidates": [{
+				"name": "Tonia Antoniazzi",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22727
+			},{
+				"name": "Byron Davies",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19458
+			},{
+				"name": "Harri Roberts",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 1669
+			},{
+				"name": "Howard Evans",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 931
+			},{
+				"name": "Ross Ford",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 642
+			},{
+				"name": "Jason Winstanley",
+				"party": { "code": "Pirate", "title": "Pirate Party" },
+				"votes": 149
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Byron Davies",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 61820,
+			"turnout": { "pc":69.3, "value": 42815 },
+			"valid": 42758,
+			"invalid": 57,
+			"majority": 27
+		}
+	}
+}

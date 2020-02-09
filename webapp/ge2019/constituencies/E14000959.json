@@ -1,0 +1,96 @@
+{
+	"id": "E14000959",
+	"title": "Spelthorne",
+	"demographics": {
+		"2015UKIP": 20.85,
+		"age18-29": 13.71,
+		"EUminus": 8.34,
+		"leave": 60.3,
+		"withdegree": 15.88,
+		"religion": {
+			"christian": 63.76,
+			"jewish": 0.22,
+			"muslim": 1.89
+		},
+		"race": {
+			"Arab": 0.34,
+			"Bangladeshi": 0.27,
+			"Black": 1.62,
+			"Chinese": 0.65,
+			"Indian": 4.2,
+			"Mixed": 2.49,
+			"Other": 0.63,
+			"Other Asian": 1.83,
+			"Pakistani": 0.69,
+			"White": 87.3
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 70929,
+			"candidates": [{
+				"id": 3840,
+				"name": "Kwasi Kwarteng",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55323d2c29c5d53959d9e456.png"
+			},{
+				"id": 5734,
+				"name": "Paul Jacobs",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/550bf5884aa4fdc23cc908f5.png"
+			},{
+				"id": 50927,
+				"name": "Pavitar Kaur Mann",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50927-a9f207ef-bead-4e8d-869b-8d1a88714804.png"
+			},{
+				"id": 71658,
+				"name": "David Campanale",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71658.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Kwasi Kwarteng",
+			"party": { "code": "Con" },
+			"electorate": 72641,
+			"turnout": { "pc": 69.1, "value": 50221 },
+			"valid": 50115,
+			"invalid": 106,
+			"majority": 13425,
+			"candidates": [{
+				"name": "Kwasi Kwarteng",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28692
+			},{
+				"name": "Rebecca Geach",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15267
+			},{
+				"name": "Rosamund Shimell",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2755
+			},{
+				"name": "Redvers Cunningham",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2296
+			},{
+				"name": "Paul Jacobs",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1105
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Kwasi Kwarteng",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 71592,
+			"turnout": { "pc":68.8, "value": 49270 },
+			"valid": 49079,
+			"invalid": 191,
+			"majority": 14152
+		}
+	}
+}

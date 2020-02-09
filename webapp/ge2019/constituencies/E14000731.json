@@ -1,0 +1,86 @@
+{
+	"id": "E14000731",
+	"title": "Harrow East",
+	"demographics": {
+		"2015UKIP": 4.76,
+		"age18-29": 17.65,
+		"EUminus": 17.61,
+		"leave": 47.48,
+		"withdegree": 23.56,
+		"religion": {
+			"christian": 33.7,
+			"jewish": 7.28,
+			"muslim": 12.98
+		},
+		"race": {
+			"Arab": 1.74,
+			"Bangladeshi": 0.54,
+			"Black": 8.36,
+			"Chinese": 1.02,
+			"Indian": 31.61,
+			"Mixed": 3.42,
+			"Other": 1.5,
+			"Other Asian": 9.62,
+			"Pakistani": 2.94,
+			"White": 39.23
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 227,
+				"name": "Bob Blackman",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517f466249b917507bee50e.png"
+			},{
+				"id": 34490,
+				"name": "Adam Bernard",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34490.png"
+			},{
+				"id": 48028,
+				"name": "Pamela Fitzpatrick",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48028.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Bob Blackman",
+			"party": { "code": "Con" },
+			"electorate": 71755,
+			"turnout": { "pc": 71.1, "value": 50987 },
+			"valid": 50845,
+			"invalid": 142,
+			"majority": 1757,
+			"candidates": [{
+				"name": "Bob Blackman",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25129
+			},{
+				"name": "Navin Shah",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 23372
+			},{
+				"name": "Adam Bernard",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1573
+			},{
+				"name": "Emma Wallace",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 771
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Bob Blackman",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 70981,
+			"turnout": { "pc":69.2, "value": 49143 },
+			"valid": 49000,
+			"invalid": 143,
+			"majority": 4757
+		}
+	}
+}

@@ -1,0 +1,110 @@
+{
+	"id": "E14000795",
+	"title": "Liverpool, Wavertree",
+	"demographics": {
+		"2015UKIP": 8.24,
+		"age18-29": 22.47,
+		"EUminus": 6.58,
+		"leave": 35.85,
+		"withdegree": 18.56,
+		"religion": {
+			"christian": 68.29,
+			"jewish": 0.99,
+			"muslim": 4.72
+		},
+		"race": {
+			"Arab": 1.72,
+			"Bangladeshi": 0.49,
+			"Black": 4.25,
+			"Chinese": 1.76,
+			"Indian": 1.26,
+			"Mixed": 3.43,
+			"Other": 0.81,
+			"Other Asian": 0.93,
+			"Pakistani": 0.65,
+			"White": 84.71
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 63458,
+			"candidates": [{
+				"id": 6881,
+				"name": "Adam Heatherington",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6881.png"
+			},{
+				"id": 7681,
+				"name": "Richard Kemp",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7681.png"
+			},{
+				"id": 49755,
+				"name": "Kay Inckle",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49755-28c2e3bf-5d5b-41f0-9bac-b9f08a1f8a8b.png"
+			},{
+				"id": 51203,
+				"name": "Mick Coyne",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51203-c12698bc-ab65-4c76-8261-be5a2f436a3c.png"
+			},{
+				"id": 71518,
+				"name": "Paula Barker",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71518.png"
+			},{
+				"id": 72319,
+				"name": "Catherine Mulhern",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72319-fec5de08-b456-4673-813f-77cd0ecc3865.png"
+			}],
+			"incumbent": {
+				"mp": "Luciana Berger",
+				"party": { "code": "Ind", "title": "Independent" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Luciana Berger",
+			"party": { "code": "Lab" },
+			"electorate": 62411,
+			"turnout": { "pc": 70.1, "value": 43759 },
+			"valid": 43640,
+			"invalid": 119,
+			"majority": 29466,
+			"candidates": [{
+				"name": "Luciana Berger",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 34717
+			},{
+				"name": "Denise Haddad",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 5251
+			},{
+				"name": "Richard Kemp",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2858
+			},{
+				"name": "Ted Grant",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 598
+			},{
+				"name": "Adam Heatherington",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 216
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Luciana Berger",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
+			"electorate": 61549,
+			"turnout": { "pc":66.8, "value": 41136 },
+			"valid": 40974,
+			"invalid": 162,
+			"majority": 24303
+		}
+	}
+}

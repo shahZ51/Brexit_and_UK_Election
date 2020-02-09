@@ -1,0 +1,99 @@
+{
+	"id": "E14000665",
+	"title": "Devizes",
+	"demographics": {
+		"2015UKIP": 15.39,
+		"age18-29": 15.8,
+		"EUminus": 7.35,
+		"leave": 51.46,
+		"withdegree": 15.82,
+		"religion": {
+			"christian": 65.47,
+			"jewish": 0.09,
+			"muslim": 0.37
+		},
+		"race": {
+			"Arab": 0.04,
+			"Bangladeshi": 0.11,
+			"Black": 1.28,
+			"Chinese": 0.25,
+			"Indian": 0.33,
+			"Mixed": 1.21,
+			"Other": 0.22,
+			"Other Asian": 0.58,
+			"Pakistani": 0.06,
+			"White": 95.93
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 23922,
+				"name": "Emma Dawnay",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba5f1ec0766d3759c0450.png"
+			},{
+				"id": 71398,
+				"name": "Jo Waltham",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71398.png"
+			},{
+				"id": 72030,
+				"name": "Danny Kruger",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72030.png"
+			},{
+				"id": 72189,
+				"name": "Rachael Katharine Schneider",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72189-ef2b9e56-1abd-46f1-9e0e-aa0bdba16511.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Claire Perry",
+			"party": { "code": "Con" },
+			"electorate": 72184,
+			"turnout": { "pc": 70.2, "value": 50700 },
+			"valid": 50593,
+			"invalid": 107,
+			"majority": 21136,
+			"candidates": [{
+				"name": "Claire Perry",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31744
+			},{
+				"name": "Imtiyaz Shaikh",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10608
+			},{
+				"name": "Christopher Coleman",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4706
+			},{
+				"name": "Timothy Page",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1706
+			},{
+				"name": "Emma Dawnay",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1606
+			},{
+				"name": "Jim Gunter",
+				"party": { "code": "Wessex Reg", "title": "Wessex Regionalist Party" },
+				"votes": 223
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Claire Perry",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 69205,
+			"turnout": { "pc":71.0, "value": 49138 },
+			"valid": 49006,
+			"invalid": 132,
+			"majority": 20751
+		}
+	}
+}

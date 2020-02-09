@@ -1,0 +1,105 @@
+{
+	"id": "E14000550",
+	"title": "Beaconsfield",
+	"demographics": {
+		"2015UKIP": 13.75,
+		"age18-29": 11.4,
+		"EUminus": 7.68,
+		"leave": 49.3,
+		"withdegree": 24.83,
+		"religion": {
+			"christian": 63.01,
+			"jewish": 0.4,
+			"muslim": 1.97
+		},
+		"race": {
+			"Arab": 0.21,
+			"Bangladeshi": 0.22,
+			"Black": 1,
+			"Chinese": 0.62,
+			"Indian": 5.03,
+			"Mixed": 2.28,
+			"Other": 0.55,
+			"Other Asian": 1.37,
+			"Pakistani": 1.15,
+			"White": 87.56
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 77720,
+			"candidates": [{
+				"id": 3739,
+				"name": "Dominic Grieve",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55225696328bff5d39338a54.png"
+			},{
+				"id": 8004,
+				"name": "Joy Morrissey",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8004.png"
+			},{
+				"id": 26136,
+				"name": "Alexa Collins",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26136-81dce033-10ab-4172-ba10-c3376c43d571.png"
+			},{
+				"id": 35311,
+				"name": "Zoe Hatch",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35311.png"
+			},{
+				"id": 72111,
+				"name": "Adam David Cleary",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72111-abb44a01-7eff-4674-afeb-4ed7ccff489a.png"
+			}],
+			"incumbent": {
+				"mp": "Dominic Grieve",
+				"party": { "code": "Ind", "title": "Independent" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Dominic Grieve",
+			"party": { "code": "Con" },
+			"electorate": 77524,
+			"turnout": { "pc": 72.4, "value": 56137 },
+			"valid": 56028,
+			"invalid": 109,
+			"majority": 24543,
+			"candidates": [{
+				"name": "Dominic Grieve",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36559
+			},{
+				"name": "James English",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12016
+			},{
+				"name": "Peter Chapman",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4448
+			},{
+				"name": "Jon Conway",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1609
+			},{
+				"name": "Russell  Secker",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1396
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Dominic Grieve",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 74726,
+			"turnout": { "pc":71.5, "value": 53424 },
+			"valid": 53163,
+			"invalid": 261,
+			"majority": 26311
+		}
+	}
+}

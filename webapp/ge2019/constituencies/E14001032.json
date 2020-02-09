@@ -1,0 +1,115 @@
+{
+	"id": "E14001032",
+	"title": "West Ham",
+	"demographics": {
+		"2015UKIP": 7.48,
+		"age18-29": 27.13,
+		"EUminus": 26.1,
+		"leave": 47.38,
+		"withdegree": 23.27,
+		"religion": {
+			"christian": 46.17,
+			"jewish": 0.12,
+			"muslim": 26.84
+		},
+		"race": {
+			"Arab": 1.24,
+			"Bangladeshi": 11.17,
+			"Black": 23.07,
+			"Chinese": 1.55,
+			"Indian": 9.36,
+			"Mixed": 5.14,
+			"Other": 2.32,
+			"Other Asian": 5.01,
+			"Pakistani": 6.6,
+			"White": 34.54
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 98871,
+			"candidates": [{
+				"id": 2259,
+				"name": "Lyn Brown",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c97dc42c427035c8db3ea.png"
+			},{
+				"id": 38604,
+				"name": "Sara Kumar",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38604-dc862646-ab22-4699-a701-b5c686f71d04.png"
+			},{
+				"id": 40073,
+				"name": "Eimear O'Casey",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40073.png"
+			},{
+				"id": 45608,
+				"name": "Paul Martin Jobson",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
+				"img": ""
+			},{
+				"id": 47743,
+				"name": "Danny Keeling",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47743.png"
+			},{
+				"id": 69792,
+				"name": "Humera Kamran",
+				"party": { "code": "", "title": "Communities United Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69792-2e8bdf60-add1-4644-bbe2-bb7280e698fb.png"
+			},{
+				"id": 71730,
+				"name": "Emma Jane Stockdale",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71730-9f952f6d-2f44-428a-8079-7f8a7f201dfc.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Lyn Brown",
+			"party": { "code": "Lab" },
+			"electorate": 92418,
+			"turnout": { "pc": 65.9, "value": 60869 },
+			"valid": 60708,
+			"invalid": 161,
+			"majority": 36754,
+			"candidates": [{
+				"name": "Lyn Brown",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 46591
+			},{
+				"name": "Patrick Spencer",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9837
+			},{
+				"name": "Paul Reynolds",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1836
+			},{
+				"name": "Rosamund Beattie",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1134
+			},{
+				"name": "Michael Spracklin",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 957
+			},{
+				"name": "Kayode Shedowo",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 353
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Lyn Brown",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 90640,
+			"turnout": { "pc":58.5, "value": 53010 },
+			"valid": 52793,
+			"invalid": 217,
+			"majority": 27986
+		}
+	}
+}

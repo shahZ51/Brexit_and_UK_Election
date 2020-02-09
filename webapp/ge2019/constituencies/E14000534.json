@@ -1,0 +1,100 @@
+{
+	"id": "E14000534",
+	"title": "Arundel and South Downs",
+	"demographics": {
+		"2015UKIP": 14.44,
+		"age18-29": 9.19,
+		"EUminus": 4.56,
+		"leave": 50.69,
+		"withdegree": 18.78,
+		"religion": {
+			"christian": 65.48,
+			"jewish": 0.23,
+			"muslim": 0.31
+		},
+		"race": {
+			"Arab": 0.03,
+			"Bangladeshi": 0.1,
+			"Black": 0.22,
+			"Chinese": 0.2,
+			"Indian": 0.24,
+			"Mixed": 1,
+			"Other": 0.07,
+			"Other Asian": 0.36,
+			"Pakistani": 0.04,
+			"White": 97.75
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 5186,
+				"name": "Isabel Thurston",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54b839e07089b96b50247a2e.png"
+			},{
+				"id": 32071,
+				"name": "Alison Bennett",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/32071.png"
+			},{
+				"id": 54523,
+				"name": "Robert Wheal",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/54523-ae4a09d6-1672-410d-970e-ac824609b25b.png"
+			},{
+				"id": 72040,
+				"name": "Andrew Griffith",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72040-d42ecf80-75be-4ba8-8c3a-33c8514ef2f5.png"
+			},{
+				"id": 72372,
+				"name": "Bella Sankey",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72372-244b9663-4da9-426c-8e84-af0f0ac5d6c5.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Nick Herbert",
+			"party": { "code": "Con" },
+			"electorate": 79478,
+			"turnout": { "pc": 76.0, "value": 60410 },
+			"valid": 60256,
+			"invalid": 154,
+			"majority": 23883,
+			"candidates": [{
+				"name": "Nick Herbert",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 37573
+			},{
+				"name": "Caroline Fife",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13690
+			},{
+				"name": "Shweta  Kapadia",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4783
+			},{
+				"name": "Johanna Prior",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2542
+			},{
+				"name": "John Wallace",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1668
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Nick Herbert",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 77242,
+			"turnout": { "pc":73.4, "value": 56719 },
+			"valid": 56477,
+			"invalid": 242,
+			"majority": 26177
+		}
+	}
+}

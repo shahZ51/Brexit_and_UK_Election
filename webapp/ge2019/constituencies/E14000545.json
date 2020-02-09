@@ -1,0 +1,105 @@
+{
+	"id": "E14000545",
+	"title": "Basingstoke",
+	"demographics": {
+		"2015UKIP": 15.62,
+		"age18-29": 15.92,
+		"EUminus": 8.82,
+		"leave": 53.64,
+		"withdegree": 16.52,
+		"religion": {
+			"christian": 56.44,
+			"jewish": 0.1,
+			"muslim": 1.17
+		},
+		"race": {
+			"Arab": 0.11,
+			"Bangladeshi": 0.26,
+			"Black": 1.59,
+			"Chinese": 1.03,
+			"Indian": 2.11,
+			"Mixed": 2.05,
+			"Other": 0.25,
+			"Other Asian": 1.94,
+			"Pakistani": 0.31,
+			"White": 90.37
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 82926,
+			"candidates": [{
+				"id": 2525,
+				"name": "Maria Miller",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/552105458793cecd721b9bfd.png"
+			},{
+				"id": 9733,
+				"name": "Alan Harvey Stone",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9733-ca659585-d069-4aa3-9fd2-d401e6169880.png"
+			},{
+				"id": 65697,
+				"name": "Sashi Mylvaganam",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65697-4348a755-eafd-4a68-99cb-dcc1f4e81fdc.png"
+			},{
+				"id": 70675,
+				"name": "Kerena Marchant",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70675.png"
+			},{
+				"id": 71900,
+				"name": "Jonathan Edward Jenkin",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Maria Miller",
+			"party": { "code": "Con" },
+			"electorate": 81875,
+			"turnout": { "pc": 68.5, "value": 56098 },
+			"valid": 55960,
+			"invalid": 138,
+			"majority": 9466,
+			"candidates": [{
+				"name": "Maria Miller",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29510
+			},{
+				"name": "Terry Bridgeman",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20044
+			},{
+				"name": "John Shaw",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3406
+			},{
+				"name": "Alan Stone",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1681
+			},{
+				"name": "Richard Winter",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1106
+			},{
+				"name": "Scott Neville",
+				"party": { "code": "Libertaria", "title": "Libertarian Party" },
+				"votes": 213
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Maria Miller",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 79665,
+			"turnout": { "pc":66.9, "value": 53295 },
+			"valid": 53076,
+			"invalid": 219,
+			"majority": 11063
+		}
+	}
+}

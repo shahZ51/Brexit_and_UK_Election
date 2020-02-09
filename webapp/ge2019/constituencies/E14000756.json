@@ -1,0 +1,105 @@
+{
+	"id": "E14000756",
+	"title": "Huddersfield",
+	"demographics": {
+		"2015UKIP": 14.69,
+		"age18-29": 20.13,
+		"EUminus": 7.06,
+		"leave": 51.08,
+		"withdegree": 15.23,
+		"religion": {
+			"christian": 50.35,
+			"jewish": 0.05,
+			"muslim": 13.71
+		},
+		"race": {
+			"Arab": 0.75,
+			"Bangladeshi": 0.2,
+			"Black": 5.64,
+			"Chinese": 0.79,
+			"Indian": 2.58,
+			"Mixed": 4.59,
+			"Other": 0.9,
+			"Other Asian": 1.29,
+			"Pakistani": 11.33,
+			"White": 71.93
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 65525,
+			"candidates": [{
+				"id": 2182,
+				"name": "Andrew Cooper",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69921.png"
+			},{
+				"id": 2183,
+				"name": "Barry Sheerman",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551a0641b989d5e837ae99d6.png"
+			},{
+				"id": 71379,
+				"name": "Stuart Hale",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71379.png"
+			},{
+				"id": 71489,
+				"name": "James Wilkinson",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71489-0dec0b1a-bac3-459f-a752-ccdbab89554c.png"
+			},{
+				"id": 72261,
+				"name": "Ken Davy",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72261-ac57d754-e778-47b1-98d9-540433b388df.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Barry Sheerman",
+			"party": { "code": "Lab" },
+			"electorate": 67037,
+			"turnout": { "pc": 65.6, "value": 43950 },
+			"valid": 43834,
+			"invalid": 116,
+			"majority": 12005,
+			"candidates": [{
+				"name": "Barry Sheerman",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 26470
+			},{
+				"name": "Scott Benton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14465
+			},{
+				"name": "Andrew Cooper",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1395
+			},{
+				"name": "Zulfiqar Ali",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1155
+			},{
+				"name": "Bikatshi Katenga",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 274
+			},{
+				"name": "Marteen Thokkudubiyyapu",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 75
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Barry Sheerman",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
+			"electorate": 65269,
+			"turnout": { "pc":62.3, "value": 40651 },
+			"valid": 40478,
+			"invalid": 173,
+			"majority": 7345
+		}
+	}
+}

@@ -1,0 +1,99 @@
+{
+	"id": "E14001051",
+	"title": "Wolverhampton South West",
+	"demographics": {
+		"2015UKIP": 10.72,
+		"age18-29": 17.42,
+		"EUminus": 7.91,
+		"leave": 54.37,
+		"withdegree": 18.25,
+		"religion": {
+			"christian": 52.9,
+			"jewish": 0.06,
+			"muslim": 6.82
+		},
+		"race": {
+			"Arab": 0.2,
+			"Bangladeshi": 0.27,
+			"Black": 5.97,
+			"Chinese": 0.76,
+			"Indian": 14.41,
+			"Mixed": 4.48,
+			"Other": 2.1,
+			"Other Asian": 3.37,
+			"Pakistani": 3.95,
+			"White": 64.48
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 6542,
+				"name": "Bart Ricketts",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6542-432e788b-6ae6-4665-b77e-d644613962c9.png"
+			},{
+				"id": 34228,
+				"name": "Eleanor Smith",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34228.png"
+			},{
+				"id": 35364,
+				"name": "Stuart Paul Anderson",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35364.png"
+			},{
+				"id": 72208,
+				"name": "Leo Antonio Grandison",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Eleanor Smith",
+			"party": { "code": "Lab" },
+			"electorate": 59971,
+			"turnout": { "pc": 70.8, "value": 42461 },
+			"valid": 42346,
+			"invalid": 115,
+			"majority": 2185,
+			"candidates": [{
+				"name": "Eleanor Smith",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20899
+			},{
+				"name": "Paul Uppal",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18714
+			},{
+				"name": "Rob Jones",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1012
+			},{
+				"name": "Sarah Quarmby",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 784
+			},{
+				"name": "Andrea Cantrill",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 579
+			},{
+				"name": "Jagmeet Singh",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 358
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Rob Marris",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 60368,
+			"turnout": { "pc":66.8, "value": 40348 },
+			"valid": 40209,
+			"invalid": 139,
+			"majority": 801
+		}
+	}
+}

@@ -1,0 +1,94 @@
+{
+	"id": "S14000053",
+	"title": "Paisley and Renfrewshire South",
+	"demographics": {
+		"age18-29": 15.89,
+		"EUminus": 4.1,
+		"leave": 34.19,
+		"religion": {
+			"christian": 57.59,
+			"jewish": 0.05,
+			"muslim": 0.69
+		},
+		"race": {
+			"Arab": 0.13,
+			"Bangladeshi": 0.01,
+			"Black": null,
+			"Chinese": 0.47,
+			"Indian": 0.46,
+			"Mixed": 0,
+			"Other": 0.07,
+			"Other Asian": 0.15,
+			"Pakistani": 0.41,
+			"White": 97.37
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 64385,
+			"candidates": [{
+				"id": 6055,
+				"name": "Mhairi Black",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6055.png"
+			},{
+				"id": 13062,
+				"name": "Moira Ramage",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13062.png"
+			},{
+				"id": 21184,
+				"name": "Mark Dougan",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": ""
+			},{
+				"id": 21923,
+				"name": "Jack Clark",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/21923.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Mhairi Black",
+			"party": { "code": "SNP" },
+			"electorate": 61344,
+			"turnout": { "pc": 68.1, "value": 41771 },
+			"valid": 41712,
+			"invalid": 59,
+			"majority": 2541,
+			"candidates": [{
+				"name": "Mhairi Black",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 16964
+			},{
+				"name": "Alison Dowling",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14423
+			},{
+				"name": "Amy Thomson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8122
+			},{
+				"name": "Eileen McCartin",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1327
+			},{
+				"name": "Paul Mack",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 876
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Mhairi Black",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
+			"electorate": 61281,
+			"turnout": { "pc":75.5, "value": 46295 },
+			"valid": 46226,
+			"invalid": 69,
+			"majority": 5684
+		}
+	}
+}

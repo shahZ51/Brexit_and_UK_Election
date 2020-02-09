@@ -1,0 +1,97 @@
+{
+	"id": "E14000544",
+	"title": "Basildon and Billericay",
+	"demographics": {
+		"2015UKIP": 19.84,
+		"age18-29": 13.88,
+		"EUminus": 4.05,
+		"leave": 66.92,
+		"withdegree": 10.88,
+		"religion": {
+			"christian": 61.02,
+			"jewish": 0.27,
+			"muslim": 0.95
+		},
+		"race": {
+			"Arab": 0.07,
+			"Bangladeshi": 0.23,
+			"Black": 2.56,
+			"Chinese": 0.29,
+			"Indian": 1.25,
+			"Mixed": 1.7,
+			"Other": 0.2,
+			"Other Asian": 0.78,
+			"Pakistani": 0.22,
+			"White": 92.71
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 69906,
+			"candidates": [{
+				"id": 2580,
+				"name": "John Baron",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551b391c13eb34c82843cb57.png"
+			},{
+				"id": 36480,
+				"name": "Edward Sainsbury",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36480.png"
+			},{
+				"id": 71287,
+				"name": "Stewart Goshawk",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71287-66ab71e6-ed03-419c-a545-45c24b45d329.png"
+			},{
+				"id": 71846,
+				"name": "Andrew Gordon",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71846-c13a96bf-a35d-48f2-aeac-16ec9446aa3b.png"
+			},{
+				"id": 72410,
+				"name": "Simon Breedon",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "John Baron",
+			"party": { "code": "Con" },
+			"electorate": 69149,
+			"turnout": { "pc": 65.1, "value": 45039 },
+			"valid": 44918,
+			"invalid": 121,
+			"majority": 13400,
+			"candidates": [{
+				"name": "John Baron",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27381
+			},{
+				"name": "Kayte  Block",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13981
+			},{
+				"name": "Tina Hughes",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2008
+			},{
+				"name": "Antonia  Harrison",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1548
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "John Baron",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 66347,
+			"turnout": { "pc":65.2, "value": 43226 },
+			"valid": 43028,
+			"invalid": 198,
+			"majority": 12482
+		}
+	}
+}

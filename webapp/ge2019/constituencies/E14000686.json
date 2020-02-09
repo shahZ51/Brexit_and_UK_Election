@@ -1,0 +1,109 @@
+{
+	"id": "E14000686",
+	"title": "Eddisbury",
+	"demographics": {
+		"2015UKIP": 12.2,
+		"age18-29": 11.36,
+		"EUminus": 2.59,
+		"leave": 52.23,
+		"withdegree": 17.87,
+		"religion": {
+			"christian": 72.62,
+			"jewish": 0.08,
+			"muslim": 0.26
+		},
+		"race": {
+			"Arab": 0.03,
+			"Bangladeshi": 0.06,
+			"Black": 0.14,
+			"Chinese": 0.2,
+			"Indian": 0.18,
+			"Mixed": 0.67,
+			"Other": 0.03,
+			"Other Asian": 0.15,
+			"Pakistani": 0.06,
+			"White": 98.45
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 73700,
+			"candidates": [{
+				"id": 1104,
+				"name": "Edward Timpson",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551ab29be2ac8b7333e6a27a.png"
+			},{
+				"id": 1904,
+				"name": "Antoinette Sandbach",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551d0d2f570782f7747687cf.png"
+			},{
+				"id": 33603,
+				"name": "Andrea Christabel Allen",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
+				"img": ""
+			},{
+				"id": 53354,
+				"name": "Louise Jewkes",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53354.png"
+			},{
+				"id": 72220,
+				"name": "Terry Savage",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72220-cc535a15-9ae5-4551-9c1b-4abf7ea90a5d.png"
+			}],
+			"incumbent": {
+				"mp": "Antoinette Sandbach",
+				"party": { "code": "Ind", "title": "Independent" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Antoinette Sandbach",
+			"party": { "code": "Con" },
+			"electorate": 70272,
+			"turnout": { "pc": 73.2, "value": 51404 },
+			"valid": 51319,
+			"invalid": 85,
+			"majority": 11942,
+			"candidates": [{
+				"name": "Antoinette Sandbach",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29192
+			},{
+				"name": "Cathy Reynolds",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17250
+			},{
+				"name": "Ian Priestner",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2804
+			},{
+				"name": "John Bickley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1109
+			},{
+				"name": "Mark Green",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 785
+			},{
+				"name": "Morgan Hill",
+				"party": { "code": "Pirate", "title": "Pirate Party" },
+				"votes": 179
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Antoinette Sandbach",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 68569,
+			"turnout": { "pc":69.3, "value": 47530 },
+			"valid": 47352,
+			"invalid": 178,
+			"majority": 12974
+		}
+	}
+}

@@ -1,0 +1,90 @@
+{
+	"id": "E14000637",
+	"title": "Chorley",
+	"demographics": {
+		"2015UKIP": 13.53,
+		"age18-29": 13.55,
+		"EUminus": 3.06,
+		"leave": 56.57,
+		"withdegree": 15.47,
+		"religion": {
+			"christian": 75.16,
+			"jewish": 0.04,
+			"muslim": 1.04
+		},
+		"race": {
+			"Arab": 0.12,
+			"Bangladeshi": 0.1,
+			"Black": 0.33,
+			"Chinese": 0.22,
+			"Indian": 0.61,
+			"Mixed": 0.92,
+			"Other": 0.07,
+			"Other Asian": 0.21,
+			"Pakistani": 0.49,
+			"White": 96.93
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 595,
+				"name": "Lindsay Hoyle",
+				"party": { "code": "Spk", "title": "Speaker seeking re-election" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ab62c78c2688c57905d10.png"
+			},{
+				"id": 5631,
+				"name": "Mark Brexit-Smith",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5631-8da938a4-3567-4348-86ba-b96137838df4.png"
+			},{
+				"id": 63726,
+				"name": "James Fletcher Melling",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63726.png"
+			}],
+			"incumbent": {
+				"mp": "Lindsay Hoyle",
+				"party": { "code": "Spk", "title": "Speaker" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Lindsay Hoyle",
+			"party": { "code": "Lab" },
+			"electorate": 76404,
+			"turnout": { "pc": 73.0, "value": 55768 },
+			"valid": 55634,
+			"invalid": 134,
+			"majority": 7512,
+			"candidates": [{
+				"name": "Lindsay Hoyle",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 30745
+			},{
+				"name": "Caroline Moon",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23233
+			},{
+				"name": "Stephen Fenn",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1126
+			},{
+				"name": "Peter Lageard",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 530
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Lindsay Hoyle",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 74679,
+			"turnout": { "pc":69.4, "value": 51854 },
+			"valid": 51712,
+			"invalid": 142,
+			"majority": 4530
+		}
+	}
+}

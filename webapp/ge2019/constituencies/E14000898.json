@@ -1,0 +1,114 @@
+{
+	"id": "E14000898",
+	"title": "Rochester and Strood",
+	"demographics": {
+		"2015UKIP": 30.48,
+		"age18-29": 16.73,
+		"EUminus": 5.97,
+		"leave": 63.69,
+		"withdegree": 11.05,
+		"religion": {
+			"christian": 58.55,
+			"jewish": 0.1,
+			"muslim": 1.57
+		},
+		"race": {
+			"Arab": 0.2,
+			"Bangladeshi": 0.45,
+			"Black": 2.14,
+			"Chinese": 0.47,
+			"Indian": 2.78,
+			"Mixed": 1.89,
+			"Other": 0.43,
+			"Other Asian": 0.99,
+			"Pakistani": 0.3,
+			"White": 90.35
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 82156,
+			"candidates": [{
+				"id": 57,
+				"name": "Roy Andrew Freshwater",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/57-6e1a61d5-c7e2-4be3-8bf8-4dc5f8eda6f8.png"
+			},{
+				"id": 791,
+				"name": "Teresa Margaret Murray",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/791.png"
+			},{
+				"id": 4224,
+				"name": "Kelly Jane Tolhurst",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4224.png"
+			},{
+				"id": 34370,
+				"name": "Sonia Hyner",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34370-dfa44e6b-d05f-4fe0-b09a-282289fcfdd9.png"
+			},{
+				"id": 68733,
+				"name": "Chris Spalding",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68733-ce492a6d-f1a3-416c-b656-8427e5aee97e.png"
+			},{
+				"id": 69530,
+				"name": "Graham Colley",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69530.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Kelly Tolhurst",
+			"party": { "code": "Con" },
+			"electorate": 82702,
+			"turnout": { "pc": 65.1, "value": 53839 },
+			"valid": 53769,
+			"invalid": 70,
+			"majority": 9850,
+			"candidates": [{
+				"name": "Kelly Tolhurst",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29232
+			},{
+				"name": "Teresa Murray",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19382
+			},{
+				"name": "David Allen",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2893
+			},{
+				"name": "Bart Ricketts",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1189
+			},{
+				"name": "Sonia Hyner",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 781
+			},{
+				"name": "Steve Benson",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 163
+			},{
+				"name": "Primerose Chiguri",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 129
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Kelly Tolhurst",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 77119,
+			"turnout": { "pc":68.3, "value": 52680 },
+			"valid": 52516,
+			"invalid": 164,
+			"majority": 7133
+		}
+	}
+}

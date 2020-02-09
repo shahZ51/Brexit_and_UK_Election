@@ -1,0 +1,100 @@
+{
+	"id": "E14000901",
+	"title": "Romsey and Southampton North",
+	"demographics": {
+		"2015UKIP": 11.39,
+		"age18-29": 18.39,
+		"EUminus": 7.75,
+		"leave": 45.81,
+		"withdegree": 22.05,
+		"religion": {
+			"christian": 60.79,
+			"jewish": 0.12,
+			"muslim": 2.32
+		},
+		"race": {
+			"Arab": 0.46,
+			"Bangladeshi": 0.37,
+			"Black": 0.89,
+			"Chinese": 1.84,
+			"Indian": 2.05,
+			"Mixed": 1.47,
+			"Other": 0.46,
+			"Other Asian": 1.5,
+			"Pakistani": 0.6,
+			"White": 90.36
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 68228,
+			"candidates": [{
+				"id": 1123,
+				"name": "Caroline Nokes",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f024b247335574a42e17.png"
+			},{
+				"id": 49019,
+				"name": "Craig Fletcher",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49019-68381314-6693-476c-a5b1-df8da6f0f286.png"
+			},{
+				"id": 51475,
+				"name": "Geoff Bentley",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51475-b648a39e-629d-4821-b72d-eefdfabb35d9.png"
+			},{
+				"id": 72141,
+				"name": "Claire Ransom",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72141-ee198ac6-c767-403b-b619-825e72bc9fe8.png"
+			}],
+			"incumbent": {
+				"mp": "Caroline Nokes",
+				"party": { "code": "Ind", "title": "Independent" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Caroline Nokes",
+			"party": { "code": "Con" },
+			"electorate": 67186,
+			"turnout": { "pc": 74.8, "value": 50245 },
+			"valid": 50128,
+			"invalid": 117,
+			"majority": 18046,
+			"candidates": [{
+				"name": "Caroline Nokes",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28668
+			},{
+				"name": "Catherine Royce",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 10622
+			},{
+				"name": "Darren Paffey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 9614
+			},{
+				"name": "Ian Callaghan",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 953
+			},{
+				"name": "Don Jerrard",
+				"party": { "code": "JACP", "title": "Justice and Anti-Corruption Party" },
+				"votes": 271
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Caroline Nokes",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 66519,
+			"turnout": { "pc":73.0, "value": 48539 },
+			"valid": 48398,
+			"invalid": 141,
+			"majority": 17712
+		}
+	}
+}

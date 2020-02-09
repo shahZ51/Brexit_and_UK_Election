@@ -1,0 +1,118 @@
+{
+	"id": "E14000589",
+	"title": "Bradford West",
+	"demographics": {
+		"2015UKIP": 7.79,
+		"age18-29": 22.49,
+		"EUminus": 10.75,
+		"leave": 46.74,
+		"withdegree": 13.91,
+		"religion": {
+			"christian": 28.24,
+			"jewish": 0.05,
+			"muslim": 51.3
+		},
+		"race": {
+			"Arab": 1.52,
+			"Bangladeshi": 2.83,
+			"Black": 2.86,
+			"Chinese": 0.78,
+			"Indian": 4.65,
+			"Mixed": 2.75,
+			"Other": 1.26,
+			"Other Asian": 3,
+			"Pakistani": 43.27,
+			"White": 37.09
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 70694,
+			"candidates": [{
+				"id": 6528,
+				"name": "Naz Shah",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bec3810284be476aae8b7.png"
+			},{
+				"id": 8351,
+				"name": "Derrick John Hodgson",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8351.png"
+			},{
+				"id": 13665,
+				"name": "Darren Parkinson",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13665.png"
+			},{
+				"id": 57263,
+				"name": "Mark Alan Christie",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/57263-4484ddcf-9738-45be-b0eb-6c7f2600bce6.png"
+			},{
+				"id": 72393,
+				"name": "Mohammed Afzal",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": ""
+			},{
+				"id": 72394,
+				"name": "Azfar Shah Bukhari",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72394-f99e6b16-3a52-4846-bb8a-b37b8c55fad8.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Naz Shah",
+			"party": { "code": "Lab" },
+			"electorate": 67568,
+			"turnout": { "pc": 67.7, "value": 45749 },
+			"valid": 45528,
+			"invalid": 221,
+			"majority": 21902,
+			"candidates": [{
+				"name": "Naz Shah",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 29444
+			},{
+				"name": "George Grant",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7542
+			},{
+				"name": "Salma Yaqoob",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 6345
+			},{
+				"name": "Derrick Hodgson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 885
+			},{
+				"name": "Alun Griffiths",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 712
+			},{
+				"name": "Celia Hickson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 481
+			},{
+				"name": "Khadim Hussain",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 65
+			},{
+				"name": "Muhammad Hijazi",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 54
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Naz Shah",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 63372,
+			"turnout": { "pc":64.0, "value": 40527 },
+			"valid": 40290,
+			"invalid": 237,
+			"majority": 11420
+		}
+	}
+}

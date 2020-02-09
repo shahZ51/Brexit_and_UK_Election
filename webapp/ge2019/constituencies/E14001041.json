@@ -1,0 +1,103 @@
+{
+	"id": "E14001041",
+	"title": "Winchester",
+	"demographics": {
+		"2015UKIP": 7.45,
+		"age18-29": 14.97,
+		"EUminus": 6.66,
+		"leave": 39.71,
+		"withdegree": 28.16,
+		"religion": {
+			"christian": 62.18,
+			"jewish": 0.16,
+			"muslim": 0.69
+		},
+		"race": {
+			"Arab": 0.19,
+			"Bangladeshi": 0.23,
+			"Black": 0.47,
+			"Chinese": 0.84,
+			"Indian": 1.02,
+			"Mixed": 1.54,
+			"Other": 0.28,
+			"Other Asian": 0.97,
+			"Pakistani": 0.1,
+			"White": 94.36
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+				"id": 1009,
+				"name": "Steve Brine",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34670.png"
+			},{
+				"id": 30269,
+				"name": "Teresa Skelton",
+				"party": { "code": "", "title": "The Justice & Anti-Corruption Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30269.png"
+			},{
+				"id": 68354,
+				"name": "Paula Wendy Ferguson",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68354.png"
+			},{
+				"id": 72178,
+				"name": "George Baker",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72178-afca3f26-a67b-4c43-ba06-d68162407a9c.png"
+			}],
+			"incumbent": {
+				"mp": "Steve Brine",
+				"party": { "code": "Ind", "title": "Independent" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Steve Brine",
+			"party": { "code": "Con" },
+			"electorate": 72497,
+			"turnout": { "pc": 79.0, "value": 57256 },
+			"valid": 57156,
+			"invalid": 100,
+			"majority": 9999,
+			"candidates": [{
+				"name": "Steve Brine",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29729
+			},{
+				"name": "Jackie Porter",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 19730
+			},{
+				"name": "Mark Chaloner",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 6007
+			},{
+				"name": "Andrew Wainwright",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 846
+			},{
+				"name": "Martin Lyon",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 695
+			},{
+				"name": "Teresa Skelton",
+				"party": { "code": "The Justice & Anti-Corruption Party", "title": "The Justice & Anti-Corruption Party" },
+				"votes": 149
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Steve Brine",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 74119,
+			"turnout": { "pc":74.9, "value": 55481 },
+			"valid": 55316,
+			"invalid": 165,
+			"majority": 16914
+		}
+	}
+}

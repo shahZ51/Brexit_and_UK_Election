@@ -1,0 +1,93 @@
+{
+	"id": "E14000834",
+	"title": "Newcastle-under-Lyme",
+	"demographics": {
+		"2015UKIP": 16.87,
+		"age18-29": 18.47,
+		"EUminus": 3.35,
+		"leave": 61.67,
+		"withdegree": 12.99,
+		"religion": {
+			"christian": 64.32,
+			"jewish": 0.06,
+			"muslim": 1.46
+		},
+		"race": {
+			"Arab": 0.14,
+			"Bangladeshi": 0.16,
+			"Black": 0.85,
+			"Chinese": 1.03,
+			"Indian": 0.95,
+			"Mixed": 1.34,
+			"Other": 0.23,
+			"Other Asian": 1,
+			"Pakistani": 0.52,
+			"White": 93.78
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 68209,
+			"candidates": [{
+				"id": 7031,
+				"name": "Nigel Jones",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551a6869600f97ed464f28be.png"
+			},{
+				"id": 34452,
+				"name": "Aaron Bell",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34452.png"
+			},{
+				"id": 71550,
+				"name": "Jason Cooper",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71550.png"
+			},{
+				"id": 71822,
+				"name": "Carl Greatbatch",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71822.png"
+			},{
+				"id": 72488,
+				"name": "Carl Richard Johnson",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72488-8eebdb90-6925-4da0-b3e8-fd8bf0735373.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Paul Farrelly",
+			"party": { "code": "Lab" },
+			"electorate": 65596,
+			"turnout": { "pc": 67.1, "value": 44014 },
+			"valid": 43842,
+			"invalid": 172,
+			"majority": 30,
+			"candidates": [{
+				"name": "Paul Farrelly",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21124
+			},{
+				"name": "Owen Meredith",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21094
+			},{
+				"name": "Nigel Jones",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1624
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Paul Farrelly",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 67619,
+			"turnout": { "pc":63.8, "value": 43122 },
+			"valid": 42997,
+			"invalid": 125,
+			"majority": 650
+		}
+	}
+}

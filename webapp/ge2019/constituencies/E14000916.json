@@ -1,0 +1,107 @@
+{
+	"id": "E14000916",
+	"title": "Sefton Central",
+	"demographics": {
+		"2015UKIP": 9.95,
+		"age18-29": 11.63,
+		"EUminus": 2.32,
+		"leave": 45.13,
+		"withdegree": 16.39,
+		"religion": {
+			"christian": 81.11,
+			"jewish": 0.1,
+			"muslim": 0.19
+		},
+		"race": {
+			"Arab": 0.06,
+			"Bangladeshi": 0.04,
+			"Black": 0.19,
+			"Chinese": 0.29,
+			"Indian": 0.27,
+			"Mixed": 0.79,
+			"Other": 0.06,
+			"Other Asian": 0.14,
+			"Pakistani": 0.04,
+			"White": 98.14
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 69760,
+			"candidates": [{
+				"id": 1961,
+				"name": "Bill Esterson",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553573d6367dc5383f552cd7.png"
+			},{
+				"id": 16186,
+				"name": "Alison Gibbon",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16186.png"
+			},{
+				"id": 39338,
+				"name": "Keith William Cawdron",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39338.png"
+			},{
+				"id": 70543,
+				"name": "Wazz Mughal",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72055.png"
+			},{
+				"id": 71616,
+				"name": "Angela Preston",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71616.png"
+			},{
+				"id": 71657,
+				"name": "Carla Burns",
+				"party": { "code": "", "title": "Renew" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71657.png"
+			},{
+				"id": 72250,
+				"name": "Paul David Lomas",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Bill Esterson",
+			"party": { "code": "Lab" },
+			"electorate": 69019,
+			"turnout": { "pc": 75.6, "value": 52207 },
+			"valid": 52079,
+			"invalid": 128,
+			"majority": 15618,
+			"candidates": [{
+				"name": "Bill Esterson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 32830
+			},{
+				"name": "Jade Marsden",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17212
+			},{
+				"name": "Daniel Lewis",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1381
+			},{
+				"name": "Mike Carter",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 656
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Bill Esterson",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 67744,
+			"turnout": { "pc":72.7, "value": 49221 },
+			"valid": 49021,
+			"invalid": 200,
+			"majority": 11846
+		}
+	}
+}

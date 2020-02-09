@@ -1,0 +1,105 @@
+{
+	"id": "E14000691",
+	"title": "Enfield North",
+	"demographics": {
+		"2015UKIP": 8.96,
+		"age18-29": 16.25,
+		"EUminus": 14.89,
+		"leave": 49.22,
+		"withdegree": 17.49,
+		"religion": {
+			"christian": 56.8,
+			"jewish": 0.77,
+			"muslim": 13.47
+		},
+		"race": {
+			"Arab": 0.46,
+			"Bangladeshi": 1.11,
+			"Black": 15.49,
+			"Chinese": 0.62,
+			"Indian": 2.11,
+			"Mixed": 5.55,
+			"Other": 3.65,
+			"Other Asian": 3.02,
+			"Pakistani": 0.48,
+			"White": 67.51
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 68066,
+			"candidates": [{
+				"id": 8002,
+				"name": "Joanne Louise Laban",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8002.png"
+			},{
+				"id": 40987,
+				"name": "Guy Russo",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40987.png"
+			},{
+				"id": 43070,
+				"name": "Isobel Whittaker",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43070-fa517a95-8418-40ff-8be5-f72786078440.png"
+			},{
+				"id": 71432,
+				"name": "Feryal Clark",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71432.png"
+			},{
+				"id": 72578,
+				"name": "Ike Ijeh",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72578-3f18b13a-ca25-405c-9fc7-801d58f83767.png"
+			}],
+			"incumbent": {
+				"mp": "Joan Ryan",
+				"party": { "code": "Ind", "title": "Independent" }
+			}
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Joan Ryan",
+			"party": { "code": "Lab" },
+			"electorate": 68076,
+			"turnout": { "pc": 71.5, "value": 48690 },
+			"valid": 48565,
+			"invalid": 125,
+			"majority": 10247,
+			"candidates": [{
+				"name": "Joan Ryan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 28177
+			},{
+				"name": "Nick de Bois",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17930
+			},{
+				"name": "Nicholas da Costa",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1036
+			},{
+				"name": "Deborah Cairns",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 848
+			},{
+				"name": "Bill Linton",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 574
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Joan Ryan",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 68118,
+			"turnout": { "pc":67.9, "value": 46254 },
+			"valid": 46137,
+			"invalid": 117,
+			"majority": 1086
+		}
+	}
+}

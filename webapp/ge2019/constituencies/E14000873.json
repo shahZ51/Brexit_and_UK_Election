@@ -1,0 +1,116 @@
+{
+	"id": "E14000873",
+	"title": "Oxford East",
+	"demographics": {
+		"2015UKIP": 6.81,
+		"age18-29": 32.99,
+		"EUminus": 17.09,
+		"leave": 32.31,
+		"withdegree": 31.85,
+		"religion": {
+			"christian": 48.39,
+			"jewish": 0.5,
+			"muslim": 7.65
+		},
+		"race": {
+			"Arab": 0.6,
+			"Bangladeshi": 1.35,
+			"Black": 5.4,
+			"Chinese": 2.17,
+			"Indian": 3.2,
+			"Mixed": 4.13,
+			"Other": 0.71,
+			"Other Asian": 2.88,
+			"Pakistani": 3.73,
+			"White": 75.86
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 77947,
+			"candidates": [{
+				"id": 1037,
+				"name": "Anneliese Dodds",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69979.png"
+			},{
+				"id": 7244,
+				"name": "Chaka Artwell",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553f8378ab2d96380345a59f.png"
+			},{
+				"id": 8786,
+				"name": "David Henwood",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8786.png"
+			},{
+				"id": 25693,
+				"name": "David Williams",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25693.png"
+			},{
+				"id": 71578,
+				"name": "Alistair Fernie",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71578.png"
+			},{
+				"id": 71913,
+				"name": "Phil Taylor",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71913.png"
+			},{
+				"id": 72379,
+				"name": "Roger Carter",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72379-6a81fc30-b68b-4814-ad49-079559d909ef.png"
+			},{
+				"id": 72380,
+				"name": "Louise Mary Staite",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72380-e1f54bf3-a0ab-4bc8-9131-dfc7de88deae.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Anneliese Dodds",
+			"party": { "code": "Lab" },
+			"electorate": 78350,
+			"turnout": { "pc": 68.9, "value": 53986 },
+			"valid": 53896,
+			"invalid": 90,
+			"majority": 23284,
+			"candidates": [{
+				"name": "Anneliese Dodds",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 35118
+			},{
+				"name": "Suzanne Bartington",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11834
+			},{
+				"name": "Kirsten Johnson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4904
+			},{
+				"name": "Larry Sanders",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1785
+			},{
+				"name": "Chaka Artwell",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 255
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Andrew Smith",
+			"party": { "code": "Lab", "title": "Labour" },
+			"electorate": 78978,
+			"turnout": { "pc":64.4, "value": 50854 },
+			"valid": 50689,
+			"invalid": 165,
+			"majority": 15280
+		}
+	}
+}

@@ -1,0 +1,110 @@
+{
+	"id": "E14000796",
+	"title": "Liverpool, West Derby",
+	"demographics": {
+		"2015UKIP": 8.47,
+		"age18-29": 16.37,
+		"EUminus": 3.65,
+		"leave": 50.28,
+		"withdegree": 9.31,
+		"religion": {
+			"christian": 79.63,
+			"jewish": 0.07,
+			"muslim": 1
+		},
+		"race": {
+			"Arab": 0.4,
+			"Bangladeshi": 0.08,
+			"Black": 1.39,
+			"Chinese": 1,
+			"Indian": 0.9,
+			"Mixed": 1.33,
+			"Other": 0.2,
+			"Other Asian": 0.47,
+			"Pakistani": 0.12,
+			"White": 94.09
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 65640,
+			"candidates": [{
+				"id": 2480,
+				"name": "Steve Radford",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551abfb013eb34c82843cb26.png"
+			},{
+				"id": 4627,
+				"name": "William Ward",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/554490cdbb4833ec548efedf.png"
+			},{
+				"id": 34602,
+				"name": "Paul Parr",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34602.png"
+			},{
+				"id": 42810,
+				"name": "Ian Byrne",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/42810.png"
+			},{
+				"id": 55316,
+				"name": "Tom Bradley",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55316-5194003d-8237-4d07-80de-a15525e8ac2a.png"
+			},{
+				"id": 72516,
+				"name": "Ray Pearson",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": ""
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Stephen Twigg",
+			"party": { "code": "Lab" },
+			"electorate": 65164,
+			"turnout": { "pc": 69.5, "value": 45275 },
+			"valid": 45163,
+			"invalid": 112,
+			"majority": 32908,
+			"candidates": [{
+				"name": "Stephen Twigg",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 37371
+			},{
+				"name": "Paul Richardson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 4463
+			},{
+				"name": "Steve Radford",
+				"party": { "code": "Lib", "title": "Liberal" },
+				"votes": 2150
+			},{
+				"name": "Paul Parr",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 545
+			},{
+				"name": "Will Ward",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 329
+			},{
+				"name": "Graham Hughes",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 305
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Stephen Twigg",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
+			"electorate": 63651,
+			"turnout": { "pc":64.7, "value": 41163 },
+			"valid": 41031,
+			"invalid": 132,
+			"majority": 27367
+		}
+	}
+}

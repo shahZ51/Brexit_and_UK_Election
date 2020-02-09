@@ -1,0 +1,114 @@
+{
+	"id": "W07000080",
+	"title": "Cardiff South and Penarth",
+	"demographics": {
+		"2015UKIP": 13.76,
+		"age18-29": 19.32,
+		"EUminus": 6.9,
+		"leave": 44.94,
+		"withdegree": 21.17,
+		"religion": {
+			"christian": 50.95,
+			"jewish": 0.09,
+			"muslim": 8.1
+		},
+		"race": {
+			"Arab": 1.56,
+			"Bangladeshi": 1.24,
+			"Black": 3.88,
+			"Chinese": 0.81,
+			"Indian": 2.03,
+			"Mixed": 3.32,
+			"Other": 0.63,
+			"Other Asian": 1.28,
+			"Pakistani": 1.9,
+			"White": 83.36
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 78837,
+			"candidates": [{
+				"id": 5374,
+				"name": "Ken Barker",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54bd7e71ead6762e54811afa.png"
+			},{
+				"id": 5546,
+				"name": "Stephen Doughty",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b984410284be476aae87e.png"
+			},{
+				"id": 9434,
+				"name": "Tim Price",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9434-e1c62113-9225-4efb-9adc-e7be6d54e3f2.png"
+			},{
+				"id": 23385,
+				"name": "Dan Schmeising",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23385.png"
+			},{
+				"id": 28723,
+				"name": "Nasir Adam",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28723.png"
+			},{
+				"id": 72338,
+				"name": "Philippa Broom",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72338-98092e02-cbcb-4f0a-b81b-4966c5a93d5b.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Stephen Doughty",
+			"party": { "code": "Lab" },
+			"electorate": 76499,
+			"turnout": { "pc": 66.5, "value": 50843 },
+			"valid": 50736,
+			"invalid": 107,
+			"majority": 14864,
+			"candidates": [{
+				"name": "Stephen Doughty",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 30182
+			},{
+				"name": "Bill Rees",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15318
+			},{
+				"name": "Ian Titherington",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 2162
+			},{
+				"name": "Emma Sands",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1430
+			},{
+				"name": "Andrew Bevan",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 942
+			},{
+				"name": "Anthony Slaughter",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 532
+			},{
+				"name": "Jeb Hedges",
+				"party": { "code": "Pirate", "title": "Pirate Party" },
+				"votes": 170
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Stephen Doughty",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
+			"electorate": 76006,
+			"turnout": { "pc":61.6, "value": 46788 },
+			"valid": 46667,
+			"invalid": 121,
+			"majority": 7453
+		}
+	}
+}

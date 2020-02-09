@@ -1,0 +1,105 @@
+{
+	"id": "E14000736",
+	"title": "Havant",
+	"demographics": {
+		"2015UKIP": 20.61,
+		"age18-29": 13.39,
+		"EUminus": 4.05,
+		"leave": 62.45,
+		"withdegree": 10.78,
+		"religion": {
+			"christian": 58.64,
+			"jewish": 0.07,
+			"muslim": 0.39
+		},
+		"race": {
+			"Arab": 0.06,
+			"Bangladeshi": 0.13,
+			"Black": 0.35,
+			"Chinese": 0.24,
+			"Indian": 0.42,
+			"Mixed": 1.28,
+			"Other": 0.11,
+			"Other Asian": 0.32,
+			"Pakistani": 0.04,
+			"White": 97.07
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 72130,
+			"candidates": [{
+				"id": 5017,
+				"name": "Alan Mak",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/550a93bf3676900a02e1642c.png"
+			},{
+				"id": 13180,
+				"name": "Paul Gray",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13180.png"
+			},{
+				"id": 42734,
+				"name": "John Colman",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/42734-3d7e83b9-5228-4c5a-a05e-193ee6246301.png"
+			},{
+				"id": 64982,
+				"name": "Rosamund Knight",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64982-4538a18a-549c-44fd-b0c3-30cf4e9ce901.png"
+			},{
+				"id": 72426,
+				"name": "Alan Sinclair Black",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72426-2888def7-c080-41e0-8960-bc94168f11ec.png"
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Alan Mak",
+			"party": { "code": "Con" },
+			"electorate": 72470,
+			"turnout": { "pc": 64.0, "value": 46390 },
+			"valid": 46314,
+			"invalid": 76,
+			"majority": 15956,
+			"candidates": [{
+				"name": "Alan Mak",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27676
+			},{
+				"name": "Graham Giles",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11720
+			},{
+				"name": "Paul Gray",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2801
+			},{
+				"name": "John Perry",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2011
+			},{
+				"name": "Tim Dawes",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1122
+			},{
+				"name": "Ann Buckley",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 984
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Alan Mak",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 70573,
+			"turnout": { "pc":63.7, "value": 44976 },
+			"valid": 44828,
+			"invalid": 148,
+			"majority": 13920
+		}
+	}
+}

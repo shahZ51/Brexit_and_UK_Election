@@ -1,0 +1,110 @@
+{
+	"id": "W07000068",
+	"title": "Brecon and Radnorshire",
+	"demographics": {
+		"2015UKIP": 8.33,
+		"age18-29": 11.03,
+		"EUminus": 3.5,
+		"leave": 51.72,
+		"withdegree": 15,
+		"religion": {
+			"christian": 61.62,
+			"jewish": 0.07,
+			"muslim": 0.17
+		},
+		"race": {
+			"Arab": 0.02,
+			"Bangladeshi": 0.04,
+			"Black": 0.1,
+			"Chinese": 0.18,
+			"Indian": 0.13,
+			"Mixed": 0.59,
+			"Other": 0.08,
+			"Other Asian": 0.9,
+			"Pakistani": 0.01,
+			"White": 97.95
+		}
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"electorate": 55490,
+			"candidates": [{
+				"id": 4515,
+				"name": "Jane Dodds",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/550e991e9253711a232cfb91.png"
+			},{
+				"id": 6892,
+				"name": "Jeff Green",
+				"party": { "code": "Christian", "title": "Christian Party \"Proclaiming Christ's Lordship\"" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72387-dffe9d58-b268-4cc8-a215-657c6838f1a9.png"
+			},{
+				"id": 8247,
+				"name": "Lady Lily the Pink",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8247.png"
+			},{
+				"id": 70555,
+				"name": "Fay Alicia Jones",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70555.png"
+			},{
+				"id": 70652,
+				"name": "Tom Davies",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70652.png"
+			}]
+		},
+		"2019-08-01": {
+			"type": "by",
+			"mp": "Jane Dodds",
+			"party": { "code": "LD", "title": "Liberal Democrat" },
+			"turnout": { "pc": 59.6, "value": 31887 },
+			"valid": 31814,
+			"invalid": 73,
+			"majority": 1425
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Chris Davies",
+			"party": { "code": "Con" },
+			"electorate": 56010,
+			"turnout": { "pc": 73.9, "value": 41397 },
+			"valid": 41334,
+			"invalid": 63,
+			"majority": 8038,
+			"candidates": [{
+				"name": "Chris Davies",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 20081
+			},{
+				"name": "James Gibson-Watt",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 12043
+			},{
+				"name": "Dan Lodge",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 7335
+			},{
+				"name": "Kate Heneghan",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 1299
+			},{
+				"name": "Peter Gilbert",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 576
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": "Chris Davies",
+			"party": { "code": "Con", "title": "Conservative" },
+			"electorate": 54441,
+			"turnout": { "pc":73.7, "value": 40145 },
+			"valid": 40074,
+			"invalid": 71,
+			"majority": 5102
+		}
+	}
+}
