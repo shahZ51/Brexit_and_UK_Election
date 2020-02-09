@@ -1,10 +1,5 @@
-function renderSummary(objReportData){
-    //console.log("Render Summary " + reportElemID);
-    
-    
-    ///console.log(reportData);
-    //console.log(dataRegions);
-    //console.log(dataConstituencies);
+function renderSummary(objReportBrexit, objReportNatlElec, filterRegion){
+    console.log("Render Summary");
     
     
     //console.log(dataConstituencies);
