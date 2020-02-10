@@ -1,28 +1,24 @@
-.elsummary{
+
+#elsample_1, #elsample_2{
 	height: 300px;
 	background-color: #e9ecef;
 	margin-bottom: 1em;
 }
 
-.elmap{
+#elsummary_1, #elsummary_2{
 	height: 300px;
 	background-color: #e9ecef;
 	margin-bottom: 1em;
 }
 
-.eldetails{
+
+#eldetails_1, #eldetails_2{
 	height: 300px;
 	background-color: #e9ecef;
 	margin-bottom: 1em;
 }
 
-.elcompare{
-	height: 400px;
-	background-color: #e9ecef;
-	margin-bottom: 1em;
-}
-
-.elcompare2{
+#elcompare_1, #elcompare_2{
 	height: 400px;
 	background-color: #e9ecef;
 	margin-bottom: 1em;
