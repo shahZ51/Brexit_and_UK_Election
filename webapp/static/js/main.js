@@ -28,44 +28,43 @@ function initDashboard(){
 	//Get UK Regions 
 	d3.csv("./static/data/ukregions.csv").then(function(data){
 		dataRegions = data;
-		console.log(dataRegions);		
-
+		
 		//Get UK Constituencies
 		d3.csv("./static/data/ukconstituencies.csv").then(function(data){
 			dataConstituencies = data;
-			console.log(dataConstituencies);
-			
+						
 			//Get UK National Election Results By Const
 			d3.csv("./static/data/ukelectionresults_byconst.csv").then(function(data){
-				dataNatlElecResultsByConst = data;
-				console.log(dataNatlElecResultsByConst);	
+				dataNatlElecResultsByConst = data;				
 				
 				//Get UK Brexit Results By Const
 				d3.csv("./static/data/ukbrexitresults_byconst.csv").then(function(data){
-
 					dataBrexitResultsByConst = data;
-					console.log(dataBrexitResultsByConst);		
-
+					
 					//Get UK National Results By Region
 					d3.csv("./static/data/ukelectionresults_byregion.csv").then(function(data){
 						dataNatlElecResultsByRegion = data;
-						console.log(dataNatlElecResultsByRegion);	
-
+						
 						//Get UK Brexit Results By Region
 						d3.csv("./static/data/ukbrexitresults_byregion.csv").then(function(data){
-
-							dataBrexitResultsByRegion = data;
-							console.log(dataBrexitResultsByRegion);	
-
+							
+							console.log("Initialize Report");
+							dataBrexitResultsByRegion = data;					
+							
+							//latest National Election Results
+							var latestNatlElecResultsByRegion = dataNatlElecResultsByRegion.filter(function(d){return d.year == 2019;});
+			
 							//By Default 
-
-							brexitElecReport.reportData = dataNatlElecResultsByRegion;
-							natlElecReport.reportData = dataBrexitResultsByRegion;
+							brexitElecReport.reportData = dataBrexitResultsByRegion;
+							natlElecReport.reportData = latestNatlElecResultsByRegion ;
 						
 							//Initialize Report
 							renderReport(brexitElecReport);
-							renderReport(natlElecReport);
+							renderReport(natlElecReport);							
 							renderComparison(brexitElecReport,natlElecReport);
+
+							natlElecReport.reportData = dataNatlElecResultsByRegion ;
+							renderComparison2(brexitElecReport,natlElecReport);
 
 						}).catch(function(error) {
 							console.log(error); 
@@ -90,16 +89,16 @@ function initDashboard(){
 }
 
 //Render the report by election
-function renderReport(objReport){
-	renderRptHeader(objReport.reportElemID, objReport.reportName, objReport.reportSubtitle);
-	renderSummary(objReport.reportElemID, objReport.reportData);
-	renderMap(objReport.reportElemID, objReport.reportData);
-	renderDetails(objReport.reportElemID, objReport.reportData);
+function renderReport(objReportData){
+	renderRptHeader(objReportData);
+	renderSummary(objReportData);
+	renderDetails(objReportData);
 }
 
 //Set report title/subtitles
-function renderRptHeader(reportElemID, reportTitle, reportSubTitle){
-	d3.select(reportElemID).select(".elname").text(reportTitle);
-	d3.select(reportElemID).select(".elsubtitle").text(reportSubTitle);
+function renderRptHeader(objReportData){
+	console.log("Report Header");	
+	d3.select(objReportData.reportElemID).select(".elname").text(objReportData.reportName);
+	d3.select(objReportData.reportElemID).select(".elsubtitle").text(objReportData.reportSubtitle);
 }
 
