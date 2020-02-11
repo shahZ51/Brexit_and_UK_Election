@@ -1,3 +1,6 @@
 function renderComparison(objReportBrexit, objReportNatlElec, filterRegion){
-    console.log("Render Comparison");  
+    console.log("Render Comparison");
+        
+    
+
 }
