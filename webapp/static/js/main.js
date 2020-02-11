@@ -25,8 +25,20 @@ var natlElecReport = {
 	reportDataConst:[]
 };
 
+function openNav() {
+	document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+function closeNav() {
+	document.getElementById("mySidenav").style.width = "0";
+}
+
 //Initialize data and call for rendering of reports 
-function initDashboard(){	
+function initDashboard(){
+	
+	//Hide map
+	d3.select("#sec_map").classed("hide_section",true);
+
 	//Get UK Regions 
 	d3.csv("./static/data/ukregions.csv").then(function(data){
 		dataRegions = data;		
@@ -61,7 +73,6 @@ function initDashboard(){
 
 								natlElecReport.reportDataRegional = dataNatlElecResultsByRegion ;
 								natlElecReport.reportDataConst = dataNatlElecResultsByConst;
-								
 
 								let overallNalElecResults = filterElection(3, natlElecReport, dataRegions, dataConstituencies, dataParties );
 
@@ -78,34 +89,44 @@ function initDashboard(){
 										region_name:"ALL REGIONS"
 									}; 
 
-								d3.select('#sel_region')
-								.on('change', function() {	
-									
-									var region_name = this.value == "ALL"? "ALL REGIONS":dataRegions.filter(item => item.region_code == this.value)[0].region_name;
-									filterRegion = {
-										region_code : this.value,
-										region_name : region_name
-									} ;
+								initMenuSelection(dataRegions, overallNalElecResults[0].top_parties.parties);
 
-									renderReport(overallBrexitResults, overallNalElecResults, filterRegion);										
+								d3.select(".sel_region").selectAll("a").on("click",function(){
+									d3.selectAll(".sel_party input").property("checked",false);
+									filterRegion = {
+										region_code : d3.select(this).attr("region_code"),
+										region_name :d3.select(this).text()
+									} ;
+									renderReport(overallBrexitResults, overallNalElecResults, filterRegion);	
+								});
+
+								d3.select("#mnu_home").on("click",function(){									
+									d3.select("#sec_map").classed("hide_section",true).classed("show_section",false);
+									d3.select("#sec_charts").classed("hide_section",false).classed("show_section",true);
+								});
+
+								d3.select("#mnu_map").on("click",function(){									
+									d3.select("#sec_map").classed("hide_section",false).classed("show_section",true);
+									d3.select("#sec_charts").classed("hide_section",true).classed("show_section",false);
 								});
 
 								renderReport(overallBrexitResults, overallNalElecResults, filterRegion);	
+								
 
 							}).catch(function(error) {
 								console.log(error); 
 							});
 
 						}).catch(function(error) {
-							//console.log(error); 
+							console.log(error); 
 						});
 
 					}).catch(function(error) {
-						//console.log(error); 
+						console.log(error); 
 					});
 
 				}).catch(function(error) {
-					//console.log(error); 
+					console.log(error); 
 				});				
 			}).catch(function(error) {
 				console.log(error); 
@@ -118,6 +139,24 @@ function initDashboard(){
 	});
 }
 
+//Populate menu selection
+function initMenuSelection(regions, parties)
+{
+	d3.select(".sel_region").append("a")
+		.text("ALL REGIONS")
+		.attr("region_code","ALL")
+		.attr("href","#");	
+
+	d3.select(".sel_region").selectAll("a")
+		.data(regions)
+		.enter()    
+		.append("a")	
+		.text(d =>d.region_name)    
+		.attr("region_code",d=>d.region_code)
+		.attr("href","#");
+}
+
+
 //Render the report by election
 function renderReport(objReportBrexit, objReportNatlElec, filterRegion){
 
@@ -127,6 +166,7 @@ function renderReport(objReportBrexit, objReportNatlElec, filterRegion){
 	renderDetails(objReportBrexit, objReportNatlElec, filterRegion);
 	renderComparison(objReportBrexit, objReportNatlElec, filterRegion);
 	renderComparison2(objReportBrexit, objReportNatlElec, filterRegion);
+	initMap(objReportBrexit,objReportNatlElec,filterRegion);
 }
 
 //Set report title/subtitles
@@ -475,4 +515,111 @@ function compareValues(key, order = 'asc') {
 		(order === 'desc') ? (comparison * -1) : comparison
 	  );
 	};
+  }
+
+
+  function initMap(objReportBrexit, objReportNatlElec, filterRegion){
+	
+	d3.select("#elmap").html("");
+
+ 	var client = new XMLHttpRequest();
+	client.open('GET', './static/data/map.svg');
+	client.onreadystatechange = function() {
+	  //console.log(client.responseText);
+	  d3.select("#elmap").html(client.responseText);
+
+	  //Get Election years
+		var arrYear = objReportNatlElec.sort(compareValues("year","desc")).map(item => item.year);
+
+		//Get parties
+		var arrParties = objReportNatlElec[0].top_parties.parties;
+		
+		applyMapForBrexit(objReportBrexit, filterRegion);
+		
+		d3.selectAll(".sel_party input").on("click",function(){
+			var selParty = d3.select(this).attr("party_code");
+			var isChecked = d3.select(this).property("checked");	
+
+			applyMapForElection(objReportNatlElec,selParty,isChecked);
+		});
+	}
+	client.send(); 
+
+  }
+
+
+  function applyMapForBrexit(objReportBrexit,filterRegion){
+	
+	var svg = d3.select("#elmap").select("svg");
+	d3.select("#sec_map").select("h2").text(filterRegion.region_name);	
+	svg.selectAll("path").classed("hide_const",true);
+	svg.selectAll("text").classed("hide_const",true);
+
+	
+	var regional_consts = [];
+	if(filterRegion.region_code == "ALL")
+	{
+		regional_consts = objReportBrexit.regional_constituencies;
+	}else{
+		regional_consts = objReportBrexit.regional_constituencies.filter(item => item.region_code == filterRegion.region_code );
+	}
+	
+	regional_consts.forEach(function(r_const){
+		r_const.constituency_votes.const_codes.forEach(function(const_code,indx){
+			var path_const = svg.selectAll(`path[data-regions = ${const_code}`);
+			path_const.classed("hide_const",false).classed("show_const",true);
+
+			if(r_const.constituency_votes.const_percent[indx][0] >= r_const.constituency_votes.const_percent[indx][1] ){  //this means leave
+				path_const.style("fill-opacity","0.5");					
+					
+			}else{
+				path_const.style("fill-opacity","0.1");	
+			}
+		});
+
+	});
+
+  }
+
+
+  function applyMapForElection(objReportNatlElec,selParty,isChecked)
+  {
+	  var svg = d3.select("#elmap").select("svg");
+
+	  var arrYear = objReportNatlElec.sort(compareValues("year","desc")).map(item => item.year);
+	  var elecData = objReportNatlElec.filter(item => item.year == arrYear[0])[0];
+	    
+	  //Get selected party index
+	  console.log(elecData);
+	  var partyIndx = 0;
+	  elecData.top_parties.parties.forEach(function(d,i){
+		if(d == selParty){
+			partyIndx = i;
+		}
+	  });
+	  console.log(partyIndx); 
+
+	  elecData.regional_constituencies.forEach(function(r_const){
+		r_const.constituency_votes.const_codes.forEach(function(const_code,indx){
+
+			//Get const_percent value
+			var const_sel_party_vote = r_const.constituency_votes.const_percent[indx][partyIndx];			
+			
+			//Get the maximum votes 
+			var arrVotes = r_const.constituency_votes.const_percent[indx].slice();
+
+			var max_party_votes = arrVotes.sort().reverse()[0];
+			
+			if(const_sel_party_vote == max_party_votes ){  
+				
+				
+				svg.selectAll(`path[data-regions = ${const_code}`)
+					.classed("tagged_vote",isChecked);
+			}else{
+
+			}
+		});
+
+	});
+	  
   }
