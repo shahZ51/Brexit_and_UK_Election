@@ -20,53 +20,72 @@
 	
   </head>
   <body>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="#" id="mnu_home">Home</a>
+		<h2>REGIONS</h2>
+		<div class="sel_region">	
+		</div>
+		<h2>--------------</h2>
+		<div>
+			<a href="#" id="mnu_map">Show Map</a>			
+		</div>
+	</div>
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 	<div id="content" class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<select id="sel_region">
-					<option value="ALL" >ALL REGIONS </option>
-					<option value="E12000004">East Midlands</option>
-					<option value="E12000005">West Midlands</option>
-				</select>
-			</div>
-			<div id="election_1" class="col-sm-6">
-				<div class="eltitle jumbotron text-center">
-				  <h1 class="elname">Election</h1>
-				  <p class="elsubtitle">Region</p> 
+		<div id="sec_charts" class="col-sm-12"> 
+			<div class="row">
+			
+				<div id="election_1" class="col-sm-6">
+					<div class="eltitle jumbotron text-center">
+					<h1 class="elname">Election</h1>
+					<p class="elsubtitle">Region</p> 
+					</div>
+					<div id="elsample_1" class="col-sm-12">					
+					</div>
+					<div id="elsummary_1" class="col-sm-12">
+						<span>election summary (PIE CHART)</span>
+					</div>
+					<div id="eldetails_1" class="col-sm-12">
+						<span>election details (HBAR CHART)</span>
+					</div>
 				</div>
-				<div id="elsample_1" class="col-sm-12">					
-				</div>
-				<div id="elsummary_1" class="col-sm-12">
-					<span>election summary (PIE CHART)</span>
-				</div>
-				<div id="eldetails_1" class="col-sm-12">
-					<span>election details (HBAR CHART)</span>
-				</div>
-			</div>
-			<div id="election_2" class="col-sm-6">
-				<div class="eltitle jumbotron text-center">
-				  <h1  class="elname">Election</h1>
-				  <p class="elsubtitle">Region</p> 
-				</div>
-				<div id="elsample_2" class="col-sm-12">					
-				</div>				
-				<div id="elsummary_2" class="col-sm-12">
-					<span>election summary(PIE CHART)</span>
-				</div>
-				<div id="eldetails_2" class="col-sm-12">
-					<span>election details (HBAR CHART)</span>
-				</div>
-			</div>		
-			<div id="election_4" class="col-sm-12">
-				<div id="elcompare_1" class="col-sm-12">
-				<span>election result comparison (VBAR CHART)</span>
+				<div id="election_2" class="col-sm-6">
+					<div class="eltitle jumbotron text-center">
+					<h1  class="elname">Election</h1>
+					<p class="elsubtitle">Region</p> 
+					</div>
+					<div id="elsample_2" class="col-sm-12">					
+					</div>				
+					<div id="elsummary_2" class="col-sm-12">
+						<span>election summary(PIE CHART)</span>
+					</div>
+					<div id="eldetails_2" class="col-sm-12">
+						<span>election details (HBAR CHART)</span>
+					</div>
+				</div>		
+			
+				<div id="election_4" class="col-sm-12">
+					<div id="elcompare_1" class="col-sm-12">
+					<span>election result comparison (VBAR CHART)</span>
+					</div>
+				</div>	
+				<div id="election_5" class="col-sm-12">					
+					<div id="elcompare_2" class="col-sm-12">					
+						<span>election result comparison (Line Graph)</span>
+					</div>
 				</div>
 			</div>	
-			<div id="election_5" class="col-sm-12">
-				<div id="elcompare_2" class="col-sm-12">
-				<span>election result comparison (Line Graph)</span>
-				</div>
-			</div>			
+		</div>
+		<div id="sec_map" class="col-sm-12">
+			<h2>REGION NAME</h2>	
+			<div class="sel_party"><input type=checkbox party_code = "CON">CON &nbsp; &nbsp; 
+				<input type=checkbox party_code = "LAB">LAB &nbsp; &nbsp; 
+				<input type=checkbox party_code = "LD">LD &nbsp; &nbsp; 
+				<input type=checkbox party_code = "Others">Others &nbsp; &nbsp; 
+			</div>
+			<div id="elmap" class="col-sm-12">
+			</div>
 		</div>
 	</div>   
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
