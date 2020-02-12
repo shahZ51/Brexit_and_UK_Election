@@ -77,12 +77,12 @@ function initDashboard(){
 								let overallNalElecResults = filterElection(3, natlElecReport, dataRegions, dataConstituencies, dataParties );
 
 								console.log("National Election Stats");
-								console.log(overallNalElecResults);
+								//console.log(overallNalElecResults);
 
 								let overallBrexitResults = filterBrexit(brexitElecReport,  dataRegions, dataConstituencies);
 
 								console.log("Brexit Stats");
-								console.log(overallBrexitResults);
+								//console.log(overallBrexitResults);
 
 								//By Default select ALL REgion
 								filterRegion = {region_code:"ALL",
@@ -160,12 +160,13 @@ function initMenuSelection(regions, parties)
 //Render the report by election
 function renderReport(objReportBrexit, objReportNatlElec, filterRegion){
 
-	renderSample(objReportBrexit, objReportNatlElec,filterRegion);
+	
 	renderRptHeader(objReportBrexit, objReportNatlElec, filterRegion);
 	renderSummary(objReportBrexit, objReportNatlElec, filterRegion);
-	renderDetails(objReportBrexit, objReportNatlElec, filterRegion);
+	//renderDetails(objReportBrexit, objReportNatlElec, filterRegion);
+	renderSample(objReportBrexit, objReportNatlElec,filterRegion);
 	renderComparison(objReportBrexit, objReportNatlElec, filterRegion);
-	renderComparison2(objReportBrexit, objReportNatlElec, filterRegion);
+	//renderComparison2(objReportBrexit, objReportNatlElec, filterRegion);
 	initMap(objReportBrexit,objReportNatlElec,filterRegion);
 }
 
@@ -590,14 +591,14 @@ function compareValues(key, order = 'asc') {
 	  var elecData = objReportNatlElec.filter(item => item.year == arrYear[0])[0];
 	    
 	  //Get selected party index
-	  console.log(elecData);
+	  //console.log(elecData);
 	  var partyIndx = 0;
 	  elecData.top_parties.parties.forEach(function(d,i){
 		if(d == selParty){
 			partyIndx = i;
 		}
 	  });
-	  console.log(partyIndx); 
+	  //console.log(partyIndx); 
 
 	  elecData.regional_constituencies.forEach(function(r_const){
 		r_const.constituency_votes.const_codes.forEach(function(const_code,indx){

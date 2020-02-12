@@ -32,7 +32,7 @@ function renderSummary(objReportBrexit, objReportNatlElec, filterRegion){
    var arrValues2 = [];
    var arrLabels2 = objReportNatlElec[0].top_parties.parties;
 
-   console.log(objReportNatlElec);
+   //console.log(objReportNatlElec);
    if(filterRegion.region_code == "ALL"){
         arrValues2 = objReportNatlElec[0].top_parties.parties_percent;
         
