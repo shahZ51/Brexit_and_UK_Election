@@ -553,6 +553,7 @@ function compareValues(key, order = 'asc') {
 	
 	var svg = d3.select("#elmap").select("svg");
 	d3.select("#sec_map").select("h2").text(filterRegion.region_name);	
+
 	svg.selectAll("path").classed("hide_const",true);
 	svg.selectAll("text").classed("hide_const",true);
 
@@ -574,7 +575,7 @@ function compareValues(key, order = 'asc') {
 				path_const.style("fill-opacity","0.5");					
 					
 			}else{
-				path_const.style("fill-opacity","0.1");	
+				path_const.style("fill-opacity","0.2");					
 			}
 		});
 
@@ -612,8 +613,6 @@ function compareValues(key, order = 'asc') {
 			var max_party_votes = arrVotes.sort().reverse()[0];
 			
 			if(const_sel_party_vote == max_party_votes ){  
-				
-				
 				svg.selectAll(`path[data-regions = ${const_code}`)
 					.classed("tagged_vote",isChecked);
 			}else{

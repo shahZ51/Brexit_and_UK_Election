@@ -70,5 +70,18 @@ function renderDetails(objReportBrexit, objReportNatlElec, filterRegion){
 	
 	var layout2 = {barmode: 'stack'};
 	
-	Plotly.newPlot('eldetails_2', data2, layout2);
+	var img_jpg2= d3.select('#eldetails_2').select(".img_export");
+	Plotly.newPlot('eldetails_2', data2, layout2).then(
+        function(gd)
+         {
+          Plotly.toImage(gd,{height:600,width:1000})
+             .then(
+                 function(url)
+             {
+                 img_jpg2.attr("src", url);
+                 return Plotly.toImage(gd,{format:'png',height:600,width:1000});
+             }
+             )
+        });    
+	d3.select('#eldetails_2').select(".plot-container").remove();
 }

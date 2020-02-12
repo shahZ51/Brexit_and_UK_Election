@@ -30,9 +30,23 @@ function renderSample(objReportBrexit, objReportNatlElec, filterRegion){
 			  
 	var data1 = arrTrace1;
 	
-	var layout1 = {barmode: 'stack'};
+	var layout1 = {barmode: 'stack', title:"BREXIT - " + filterRegion.region_name};
 	
-	Plotly.newPlot('elsample_1', data1, layout1);
+	var img_jpg1= d3.select('#elsample_1').select(".img_export");
+	Plotly.newPlot('elsample_1_svg', data1, layout1).then(
+		function(gd)
+		 {
+		  Plotly.toImage(gd,{height:600,width:1000})
+			 .then(
+				 function(url)
+			 {
+				 img_jpg1.attr("src", url);
+				 return Plotly.toImage(gd,{format:'png',height:600,width:1000});
+			 }
+			 )
+		});    
+	//d3.select('#elsample_1').select(".plot-container").remove();
+  
 
 
 	//------------------------ Render National Election -------------------------------------------------------------------
@@ -66,8 +80,22 @@ function renderSample(objReportBrexit, objReportNatlElec, filterRegion){
 			  
 	var data2 = arrTrace2;
 	
-	var layout2 = {barmode: 'stack'};
+	var layout2 = {barmode: 'stack', title:"UK Election Details - " + filterRegion.region_name};
 	
-	Plotly.newPlot('elsample_2', data2, layout2);
+	var img_jpg2= d3.select('#elsample_2').select(".img_export");
+	Plotly.newPlot('elsample_2_svg', data2, layout2).then(
+		function(gd)
+		 {
+		  Plotly.toImage(gd,{height:600,width:1000})
+			 .then(
+				 function(url)
+			 {
+				 img_jpg2.attr("src", url);
+				 return Plotly.toImage(gd,{format:'png',height:600,width:1000});
+			 }
+			 )
+		});
+	
+	//d3.select('#elsample_2').select(".plot-container").remove();
 
 }

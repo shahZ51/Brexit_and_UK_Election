@@ -49,20 +49,29 @@ function renderComparison(objReportBrexit, objReportNatlElec, filterRegion){
         name: 'Top 3 Parties',
         type: 'bar'
     };
-
-    
     
     arrTrace.push(traceElection2);
-	
 			  
 	var data = arrTrace;
 	
     var layout = {barmode: 'group',
             title:`Brexit-YES vs Top 3 Parties in UK Election (${filterRegion.region_name})`
         };
-	
-	Plotly.newPlot('elcompare_1', data, layout);        
     
+    var img_jpg1= d3.select('#elcompare_1').select(".img_export");
+    Plotly.newPlot('elcompare_1_svg', data, layout).then(
+        function(gd)
+         {
+          Plotly.toImage(gd,{height:600,width:1000})
+             .then(
+                 function(url)
+             {
+                 img_jpg1.attr("src", url);
+                 return Plotly.toImage(gd,{format:'png',height:600,width:1000});
+             }
+             )
+        });    
+     //d3.select('#elcompare_1').select(".plot-container").remove();  
 
 }
 
