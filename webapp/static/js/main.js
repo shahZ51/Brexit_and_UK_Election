@@ -77,12 +77,12 @@ function initDashboard(){
 								let overallNalElecResults = filterElection(3, natlElecReport, dataRegions, dataConstituencies, dataParties );
 
 								console.log("National Election Stats");
-								//console.log(overallNalElecResults);
+								console.log(overallNalElecResults);
 
 								let overallBrexitResults = filterBrexit(brexitElecReport,  dataRegions, dataConstituencies);
 
 								console.log("Brexit Stats");
-								//console.log(overallBrexitResults);
+								console.log(overallBrexitResults);
 
 								//By Default select ALL REgion
 								filterRegion = {region_code:"ALL",
@@ -553,7 +553,7 @@ function compareValues(key, order = 'asc') {
 	
 	var svg = d3.select("#elmap").select("svg");
 	d3.select("#sec_map").select("h2").text(filterRegion.region_name);	
-
+	
 	svg.selectAll("path").classed("hide_const",true);
 	svg.selectAll("text").classed("hide_const",true);
 
