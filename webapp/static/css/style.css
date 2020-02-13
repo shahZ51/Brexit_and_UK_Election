@@ -3,25 +3,44 @@
 	height: 300px;
 	background-color: #e9ecef;
 	margin-bottom: 1em;
+	padding:10px;
 }
 
 #elsummary_1, #elsummary_2{
 	height: 300px;
 	background-color: #e9ecef;
 	margin-bottom: 1em;
+	padding: 10px;
 }
+
 
 
 #eldetails_1, #eldetails_2{
 	height: 300px;
 	background-color: #e9ecef;
 	margin-bottom: 1em;
+	padding: 10px;
 }
 
+#elsummary_1:hover, #elsummary_2:hover,
+#eldetails_1:hover, #eldetails_2:hover,
+#elsample_1:hover, #elsample_2:hover,#elcompare_1:hover	{
+	box-shadow: 10px 10px 5px grey;
+    background-color: cadetblue;
+}
+
+
+
 #elcompare_1, #elcompare_2{
-	height: 400px;
+	height: 600px;
 	background-color: #e9ecef;
 	margin-bottom: 1em;
+	padding:10px;
+}
+
+.img_export{
+	width: 100%;
+	height: 100%;
 }
 
 

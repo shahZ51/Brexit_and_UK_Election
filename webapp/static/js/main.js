@@ -77,12 +77,12 @@ function initDashboard(){
 								let overallNalElecResults = filterElection(3, natlElecReport, dataRegions, dataConstituencies, dataParties );
 
 								console.log("National Election Stats");
-								console.log(overallNalElecResults);
+								//console.log(overallNalElecResults);
 
 								let overallBrexitResults = filterBrexit(brexitElecReport,  dataRegions, dataConstituencies);
 
 								console.log("Brexit Stats");
-								console.log(overallBrexitResults);
+								//console.log(overallBrexitResults);
 
 								//By Default select ALL REgion
 								filterRegion = {region_code:"ALL",
@@ -160,12 +160,13 @@ function initMenuSelection(regions, parties)
 //Render the report by election
 function renderReport(objReportBrexit, objReportNatlElec, filterRegion){
 
-	renderSample(objReportBrexit, objReportNatlElec,filterRegion);
+	
 	renderRptHeader(objReportBrexit, objReportNatlElec, filterRegion);
 	renderSummary(objReportBrexit, objReportNatlElec, filterRegion);
-	renderDetails(objReportBrexit, objReportNatlElec, filterRegion);
+	//renderDetails(objReportBrexit, objReportNatlElec, filterRegion);
+	renderSample(objReportBrexit, objReportNatlElec,filterRegion);
 	renderComparison(objReportBrexit, objReportNatlElec, filterRegion);
-	renderComparison2(objReportBrexit, objReportNatlElec, filterRegion);
+	//renderComparison2(objReportBrexit, objReportNatlElec, filterRegion);
 	initMap(objReportBrexit,objReportNatlElec,filterRegion);
 }
 
@@ -552,6 +553,7 @@ function compareValues(key, order = 'asc') {
 	
 	var svg = d3.select("#elmap").select("svg");
 	d3.select("#sec_map").select("h2").text(filterRegion.region_name);	
+
 	svg.selectAll("path").classed("hide_const",true);
 	svg.selectAll("text").classed("hide_const",true);
 
@@ -573,7 +575,7 @@ function compareValues(key, order = 'asc') {
 				path_const.style("fill-opacity","0.5");					
 					
 			}else{
-				path_const.style("fill-opacity","0.1");	
+				path_const.style("fill-opacity","0.2");					
 			}
 		});
 
@@ -590,14 +592,14 @@ function compareValues(key, order = 'asc') {
 	  var elecData = objReportNatlElec.filter(item => item.year == arrYear[0])[0];
 	    
 	  //Get selected party index
-	  console.log(elecData);
+	  //console.log(elecData);
 	  var partyIndx = 0;
 	  elecData.top_parties.parties.forEach(function(d,i){
 		if(d == selParty){
 			partyIndx = i;
 		}
 	  });
-	  console.log(partyIndx); 
+	  //console.log(partyIndx); 
 
 	  elecData.regional_constituencies.forEach(function(r_const){
 		r_const.constituency_votes.const_codes.forEach(function(const_code,indx){
@@ -611,8 +613,6 @@ function compareValues(key, order = 'asc') {
 			var max_party_votes = arrVotes.sort().reverse()[0];
 			
 			if(const_sel_party_vote == max_party_votes ){  
-				
-				
 				svg.selectAll(`path[data-regions = ${const_code}`)
 					.classed("tagged_vote",isChecked);
 			}else{
