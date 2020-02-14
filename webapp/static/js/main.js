@@ -160,13 +160,10 @@ function initMenuSelection(regions, parties)
 //Render the report by election
 function renderReport(objReportBrexit, objReportNatlElec, filterRegion){
 
-	
 	renderRptHeader(objReportBrexit, objReportNatlElec, filterRegion);
-	renderSummary(objReportBrexit, objReportNatlElec, filterRegion);
-	//renderDetails(objReportBrexit, objReportNatlElec, filterRegion);
+	renderSummary(objReportBrexit, objReportNatlElec, filterRegion);	
 	renderSample(objReportBrexit, objReportNatlElec,filterRegion);
-	renderComparison(objReportBrexit, objReportNatlElec, filterRegion);
-	//renderComparison2(objReportBrexit, objReportNatlElec, filterRegion);
+	renderComparison(objReportBrexit, objReportNatlElec, filterRegion);	
 	initMap(objReportBrexit,objReportNatlElec,filterRegion);
 }
 
